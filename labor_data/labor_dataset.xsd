@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="labor_dataset" targetNamespace="http://tempuri.org/labor_dataset.xsd" xmlns:mstns="http://tempuri.org/labor_dataset.xsd" xmlns="http://tempuri.org/labor_dataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="5" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="rms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="rms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.rms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.dms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ddms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ddms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.ddms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ddms_dbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ddms_dbConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.ddms_dbConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="mydms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="mydms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.mydms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="mydms_dbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="mydms_dbConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.mydms_dbConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="labor_data_tbTableAdapter" GeneratorDataComponentClassName="labor_data_tbTableAdapter" Name="labor_data_tb" UserDataComponentName="labor_data_tbTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mydms_dbConnectionString1 (Settings)" DbObjectName="dbo.labor_data_tb" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [labor_data_tb] ([annual_gross_revenue], [annual_operating_days], [daily_operating_hrs], [annual_operating_hrs], [am_no_labor], [am_daily_hrs_worked], [am_annual_days_worked], [am_hourly_wages], [am_annual_wages], [crew_no_labor], [crew_daily_hrs_worked], [crew_annual_days_worked], [crew_hourly_wages], [crew_annual_wages], [gm_no_labor], [gm_daily_hrs_worked], [gm_annual_days_worked], [gm_hourly_wages], [gm_annual_wages], [total_annual_wages]) VALUES (@annual_gross_revenue, @annual_operating_days, @daily_operating_hrs, @annual_operating_hrs, @am_no_labor, @am_daily_hrs_worked, @am_annual_days_worked, @am_hourly_wages, @am_annual_wages, @crew_no_labor, @crew_daily_hrs_worked, @crew_annual_days_worked, @crew_hourly_wages, @crew_annual_wages, @gm_no_labor, @gm_daily_hrs_worked, @gm_annual_days_worked, @gm_hourly_wages, @gm_annual_wages, @total_annual_wages)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@annual_gross_revenue" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="annual_gross_revenue" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@annual_operating_days" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="annual_operating_days" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@daily_operating_hrs" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="daily_operating_hrs" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@annual_operating_hrs" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="annual_operating_hrs" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@am_no_labor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="am_no_labor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@am_daily_hrs_worked" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="am_daily_hrs_worked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@am_annual_days_worked" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="am_annual_days_worked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@am_hourly_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="am_hourly_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@am_annual_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="am_annual_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@crew_no_labor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="crew_no_labor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@crew_daily_hrs_worked" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="crew_daily_hrs_worked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@crew_annual_days_worked" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="crew_annual_days_worked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@crew_hourly_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="crew_hourly_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@crew_annual_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="crew_annual_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gm_no_labor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gm_no_labor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gm_daily_hrs_worked" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gm_daily_hrs_worked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gm_annual_days_worked" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gm_annual_days_worked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gm_hourly_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gm_hourly_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gm_annual_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gm_annual_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@total_annual_wages" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="total_annual_wages" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TOP (1) id, annual_gross_revenue, annual_operating_days, daily_operating_hrs, annual_operating_hrs, am_no_labor, am_daily_hrs_worked, am_annual_days_worked, am_hourly_wages, am_annual_wages, crew_no_labor, 
+                         crew_daily_hrs_worked, crew_annual_days_worked, crew_hourly_wages, crew_annual_wages, gm_no_labor, gm_daily_hrs_worked, gm_annual_days_worked, gm_hourly_wages, gm_annual_wages, total_annual_wages
+FROM            labor_data_tb
+ORDER BY id DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="annual_gross_revenue" DataSetColumn="annual_gross_revenue" />
+              <Mapping SourceColumn="annual_operating_days" DataSetColumn="annual_operating_days" />
+              <Mapping SourceColumn="daily_operating_hrs" DataSetColumn="daily_operating_hrs" />
+              <Mapping SourceColumn="annual_operating_hrs" DataSetColumn="annual_operating_hrs" />
+              <Mapping SourceColumn="am_no_labor" DataSetColumn="am_no_labor" />
+              <Mapping SourceColumn="am_daily_hrs_worked" DataSetColumn="am_daily_hrs_worked" />
+              <Mapping SourceColumn="am_annual_days_worked" DataSetColumn="am_annual_days_worked" />
+              <Mapping SourceColumn="am_hourly_wages" DataSetColumn="am_hourly_wages" />
+              <Mapping SourceColumn="am_annual_wages" DataSetColumn="am_annual_wages" />
+              <Mapping SourceColumn="crew_no_labor" DataSetColumn="crew_no_labor" />
+              <Mapping SourceColumn="crew_daily_hrs_worked" DataSetColumn="crew_daily_hrs_worked" />
+              <Mapping SourceColumn="crew_annual_days_worked" DataSetColumn="crew_annual_days_worked" />
+              <Mapping SourceColumn="crew_hourly_wages" DataSetColumn="crew_hourly_wages" />
+              <Mapping SourceColumn="crew_annual_wages" DataSetColumn="crew_annual_wages" />
+              <Mapping SourceColumn="gm_no_labor" DataSetColumn="gm_no_labor" />
+              <Mapping SourceColumn="gm_daily_hrs_worked" DataSetColumn="gm_daily_hrs_worked" />
+              <Mapping SourceColumn="gm_annual_days_worked" DataSetColumn="gm_annual_days_worked" />
+              <Mapping SourceColumn="gm_hourly_wages" DataSetColumn="gm_hourly_wages" />
+              <Mapping SourceColumn="gm_annual_wages" DataSetColumn="gm_annual_wages" />
+              <Mapping SourceColumn="total_annual_wages" DataSetColumn="total_annual_wages" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="labor_dataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="labor_dataset" msprop:Generator_UserDSName="labor_dataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="labor_data_tb" msprop:Generator_TableClassName="labor_data_tbDataTable" msprop:Generator_TableVarName="tablelabor_data_tb" msprop:Generator_TablePropName="labor_data_tb" msprop:Generator_RowDeletingName="labor_data_tbRowDeleting" msprop:Generator_RowChangingName="labor_data_tbRowChanging" msprop:Generator_RowEvHandlerName="labor_data_tbRowChangeEventHandler" msprop:Generator_RowDeletedName="labor_data_tbRowDeleted" msprop:Generator_UserTableName="labor_data_tb" msprop:Generator_RowChangedName="labor_data_tbRowChanged" msprop:Generator_RowEvArgName="labor_data_tbRowChangeEvent" msprop:Generator_RowClassName="labor_data_tbRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="annual_gross_revenue" msprop:Generator_ColumnVarNameInTable="columnannual_gross_revenue" msprop:Generator_ColumnPropNameInRow="annual_gross_revenue" msprop:Generator_ColumnPropNameInTable="annual_gross_revenueColumn" msprop:Generator_UserColumnName="annual_gross_revenue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="annual_operating_days" msprop:Generator_ColumnVarNameInTable="columnannual_operating_days" msprop:Generator_ColumnPropNameInRow="annual_operating_days" msprop:Generator_ColumnPropNameInTable="annual_operating_daysColumn" msprop:Generator_UserColumnName="annual_operating_days" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="daily_operating_hrs" msprop:Generator_ColumnVarNameInTable="columndaily_operating_hrs" msprop:Generator_ColumnPropNameInRow="daily_operating_hrs" msprop:Generator_ColumnPropNameInTable="daily_operating_hrsColumn" msprop:Generator_UserColumnName="daily_operating_hrs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="annual_operating_hrs" msprop:Generator_ColumnVarNameInTable="columnannual_operating_hrs" msprop:Generator_ColumnPropNameInRow="annual_operating_hrs" msprop:Generator_ColumnPropNameInTable="annual_operating_hrsColumn" msprop:Generator_UserColumnName="annual_operating_hrs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="am_no_labor" msprop:Generator_ColumnVarNameInTable="columnam_no_labor" msprop:Generator_ColumnPropNameInRow="am_no_labor" msprop:Generator_ColumnPropNameInTable="am_no_laborColumn" msprop:Generator_UserColumnName="am_no_labor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="am_daily_hrs_worked" msprop:Generator_ColumnVarNameInTable="columnam_daily_hrs_worked" msprop:Generator_ColumnPropNameInRow="am_daily_hrs_worked" msprop:Generator_ColumnPropNameInTable="am_daily_hrs_workedColumn" msprop:Generator_UserColumnName="am_daily_hrs_worked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="am_annual_days_worked" msprop:Generator_ColumnVarNameInTable="columnam_annual_days_worked" msprop:Generator_ColumnPropNameInRow="am_annual_days_worked" msprop:Generator_ColumnPropNameInTable="am_annual_days_workedColumn" msprop:Generator_UserColumnName="am_annual_days_worked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="am_hourly_wages" msprop:Generator_ColumnVarNameInTable="columnam_hourly_wages" msprop:Generator_ColumnPropNameInRow="am_hourly_wages" msprop:Generator_ColumnPropNameInTable="am_hourly_wagesColumn" msprop:Generator_UserColumnName="am_hourly_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="am_annual_wages" msprop:Generator_ColumnVarNameInTable="columnam_annual_wages" msprop:Generator_ColumnPropNameInRow="am_annual_wages" msprop:Generator_ColumnPropNameInTable="am_annual_wagesColumn" msprop:Generator_UserColumnName="am_annual_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="crew_no_labor" msprop:Generator_ColumnVarNameInTable="columncrew_no_labor" msprop:Generator_ColumnPropNameInRow="crew_no_labor" msprop:Generator_ColumnPropNameInTable="crew_no_laborColumn" msprop:Generator_UserColumnName="crew_no_labor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="crew_daily_hrs_worked" msprop:Generator_ColumnVarNameInTable="columncrew_daily_hrs_worked" msprop:Generator_ColumnPropNameInRow="crew_daily_hrs_worked" msprop:Generator_ColumnPropNameInTable="crew_daily_hrs_workedColumn" msprop:Generator_UserColumnName="crew_daily_hrs_worked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="crew_annual_days_worked" msprop:Generator_ColumnVarNameInTable="columncrew_annual_days_worked" msprop:Generator_ColumnPropNameInRow="crew_annual_days_worked" msprop:Generator_ColumnPropNameInTable="crew_annual_days_workedColumn" msprop:Generator_UserColumnName="crew_annual_days_worked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="crew_hourly_wages" msprop:Generator_ColumnVarNameInTable="columncrew_hourly_wages" msprop:Generator_ColumnPropNameInRow="crew_hourly_wages" msprop:Generator_ColumnPropNameInTable="crew_hourly_wagesColumn" msprop:Generator_UserColumnName="crew_hourly_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="crew_annual_wages" msprop:Generator_ColumnVarNameInTable="columncrew_annual_wages" msprop:Generator_ColumnPropNameInRow="crew_annual_wages" msprop:Generator_ColumnPropNameInTable="crew_annual_wagesColumn" msprop:Generator_UserColumnName="crew_annual_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gm_no_labor" msprop:Generator_ColumnVarNameInTable="columngm_no_labor" msprop:Generator_ColumnPropNameInRow="gm_no_labor" msprop:Generator_ColumnPropNameInTable="gm_no_laborColumn" msprop:Generator_UserColumnName="gm_no_labor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gm_daily_hrs_worked" msprop:Generator_ColumnVarNameInTable="columngm_daily_hrs_worked" msprop:Generator_ColumnPropNameInRow="gm_daily_hrs_worked" msprop:Generator_ColumnPropNameInTable="gm_daily_hrs_workedColumn" msprop:Generator_UserColumnName="gm_daily_hrs_worked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gm_annual_days_worked" msprop:Generator_ColumnVarNameInTable="columngm_annual_days_worked" msprop:Generator_ColumnPropNameInRow="gm_annual_days_worked" msprop:Generator_ColumnPropNameInTable="gm_annual_days_workedColumn" msprop:Generator_UserColumnName="gm_annual_days_worked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gm_hourly_wages" msprop:Generator_ColumnVarNameInTable="columngm_hourly_wages" msprop:Generator_ColumnPropNameInRow="gm_hourly_wages" msprop:Generator_ColumnPropNameInTable="gm_hourly_wagesColumn" msprop:Generator_UserColumnName="gm_hourly_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gm_annual_wages" msprop:Generator_ColumnVarNameInTable="columngm_annual_wages" msprop:Generator_ColumnPropNameInRow="gm_annual_wages" msprop:Generator_ColumnPropNameInTable="gm_annual_wagesColumn" msprop:Generator_UserColumnName="gm_annual_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="total_annual_wages" msprop:Generator_ColumnVarNameInTable="columntotal_annual_wages" msprop:Generator_ColumnPropNameInRow="total_annual_wages" msprop:Generator_ColumnPropNameInTable="total_annual_wagesColumn" msprop:Generator_UserColumnName="total_annual_wages" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

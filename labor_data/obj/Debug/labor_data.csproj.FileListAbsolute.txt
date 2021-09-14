@@ -1,0 +1,804 @@
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\labor_data.exe.config
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\labor_data.exe
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\labor_data.pdb
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\EnvDTE.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\stdole.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.DMS.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.report.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\RdlCompile.cache
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\RdlCompile.compiled
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.exe
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.pdb
+C:\Users\Abbasi\source\repos\labor_data\labor_data\obj\Debug\labor_data.csprojAssemblyReference.cache
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\labor_data.exe.config
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\labor_data.exe
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\labor_data.pdb
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\EnvDTE.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\stdole.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\EnvDTE80.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\VSLangProj.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\VSLangProj80.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\VSLangProj2.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.csprojAssemblyReference.cache
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.exe.config
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.DMS.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.report.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.exe
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\obj\Debug\labor_data.pdb
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+C:\Users\Muhammad Saif\Downloads\gh\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+F:\FiverrProject\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+F:\FiverrProject\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+F:\FiverrProject\labor_data\labor_data\bin\Debug\labor_data.exe.config
+F:\FiverrProject\labor_data\labor_data\bin\Debug\labor_data.exe
+F:\FiverrProject\labor_data\labor_data\bin\Debug\labor_data.pdb
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\EnvDTE.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\stdole.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.csproj.AssemblyReference.cache
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.DMS.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.report.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.exe
+F:\FiverrProject\labor_data\labor_data\obj\Debug\labor_data.pdb
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.exe.config
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.exe
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.pdb
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\EnvDTE.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\stdole.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.DMS.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.report.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.exe
+F:\FiverrProject\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.pdb
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.exe.config
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.exe
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.pdb
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\EnvDTE.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\stdole.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\EnvDTE80.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\VSLangProj.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\VSLangProj80.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\VSLangProj2.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csprojAssemblyReference.cache
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.exe.config
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.DMS.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.report.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.exe
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.pdb
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+C:\Users\Muhammad Saif\Music\DMS AuG 16\DMS PROJECT August\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.exe.config
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.exe
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\labor_data.pdb
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\EnvDTE.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\stdole.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.AssemblyReference.cache
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.report.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.exe
+F:\FiverrProject\DMS AuG 17\DMS PROJECT August\labor_data\labor_data\obj\Debug\labor_data.pdb
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\labor_data.exe.config
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\labor_data.exe
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\labor_data.pdb
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\EnvDTE.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\stdole.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.AssemblyReference.cache
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.report.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.exe
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.pdb
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form3.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form4.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form5.resources
+F:\FiverrProject\DMS AuG 17\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form6.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\labor_data.exe.config
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\labor_data.exe
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\labor_data.pdb
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\EnvDTE.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\stdole.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.AssemblyReference.cache
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form3.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form4.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form5.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form6.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.report.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.exe
+C:\Users\fc\Desktop\DMS PROJECT September\labor_data\labor_data\obj\Debug\labor_data.pdb
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\labor_data.exe.config
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\labor_data.exe
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\labor_data.pdb
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\EnvDTE.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\stdole.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\Microsoft.MSXML.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.csproj.AssemblyReference.cache
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.dollar_f_vals.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.dollar_j_vals.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.dollar_t_vals.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.DropDown_menu.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form1.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form2.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form3.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form4.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form5.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form6.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Profit_Loss_Calculations.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form8.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Form9.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.profit_loss_Report.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.Properties.Resources.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.report.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.sales_volume_report.resources
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.csproj.GenerateResource.cache
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.csproj.CoreCompileInputs.cache
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.csproj.CopyComplete
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.exe
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\obj\Debug\labor_data.pdb
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\data\mydms_db.mdf
+F:\FiverrProject\DMS PROJECT September-18\labor_data\labor_data\bin\Debug\data\mydms_db_log.ldf

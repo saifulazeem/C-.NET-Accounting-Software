@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="profit_loss_data" targetNamespace="http://tempuri.org/profit_loss_data.xsd" xmlns:mstns="http://tempuri.org/profit_loss_data.xsd" xmlns="http://tempuri.org/profit_loss_data.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="5" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="rms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="rms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.rms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.dms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ddms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ddms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.ddms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ddms_dbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ddms_dbConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.ddms_dbConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="mydms_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="mydms_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.mydms_dbConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="mydms_dbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="mydms_dbConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.labor_data.Properties.Settings.GlobalReference.Default.mydms_dbConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="profit_loss_tbTableAdapter" GeneratorDataComponentClassName="profit_loss_tbTableAdapter" Name="profit_loss_tb" UserDataComponentName="profit_loss_tbTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mydms_dbConnectionString1 (Settings)" DbObjectName="dbo.profit_loss_tb" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [profit_loss_tb] ([sale_rev_gross_sale], [sale_rev_cash_sale], [sale_rev_non_cash_sale], [cash_sale_b_percent], [non_cash_sale_c_percent], [gross_sale_dollar_d], [gross_sale_percent_e], [cost_of_good_gross_sale], [cost_of_good_gross_sale_g_percent], [cog_dollar_ff], [cog_percent_gg], [cog_dollar_h], [cog_percent_I], [labor_exp_dollar_j], [labor_k_percent], [dollar_l], [percent_m], [x_percent], [dollar_n], [o_percent], [xx_percent], [dollar_p], [q_percent], [dollar_r], [percent_s], [dollar_t], [u_percent], [v_percent], [new_dollar_t], [new_u_percent], [dollar_tt], [percent_uu], [dollar_v], [percent_w], [dollar_z], [dollar_vv], [percent_ww]) VALUES (@sale_rev_gross_sale, @sale_rev_cash_sale, @sale_rev_non_cash_sale, @cash_sale_b_percent, @non_cash_sale_c_percent, @gross_sale_dollar_d, @gross_sale_percent_e, @cost_of_good_gross_sale, @cost_of_good_gross_sale_g_percent, @cog_dollar_ff, @cog_percent_gg, @cog_dollar_h, @cog_percent_I, @labor_exp_dollar_j, @labor_k_percent, @dollar_l, @percent_m, @x_percent, @dollar_n, @o_percent, @xx_percent, @dollar_p, @q_percent, @dollar_r, @percent_s, @dollar_t, @u_percent, @v_percent, @new_dollar_t, @new_u_percent, @dollar_tt, @percent_uu, @dollar_v, @percent_w, @dollar_z, @dollar_vv, @percent_ww)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@sale_rev_gross_sale" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="sale_rev_gross_sale" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@sale_rev_cash_sale" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="sale_rev_cash_sale" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@sale_rev_non_cash_sale" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="sale_rev_non_cash_sale" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cash_sale_b_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cash_sale_b_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@non_cash_sale_c_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="non_cash_sale_c_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gross_sale_dollar_d" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gross_sale_dollar_d" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@gross_sale_percent_e" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="gross_sale_percent_e" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cost_of_good_gross_sale" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cost_of_good_gross_sale" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cost_of_good_gross_sale_g_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cost_of_good_gross_sale_g_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cog_dollar_ff" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cog_dollar_ff" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cog_percent_gg" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cog_percent_gg" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cog_dollar_h" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cog_dollar_h" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@cog_percent_I" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="cog_percent_I" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@labor_exp_dollar_j" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="labor_exp_dollar_j" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@labor_k_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="labor_k_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_l" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_l" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@percent_m" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="percent_m" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@x_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="x_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_n" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_n" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@o_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="o_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@xx_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="xx_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_p" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_p" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@q_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="q_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_r" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_r" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@percent_s" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="percent_s" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_t" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_t" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@u_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="u_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@v_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="v_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@new_dollar_t" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="new_dollar_t" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@new_u_percent" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="new_u_percent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_tt" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_tt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@percent_uu" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="percent_uu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_v" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_v" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@percent_w" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="percent_w" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_z" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_z" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@dollar_vv" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="dollar_vv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@percent_ww" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="percent_ww" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        TOP (1) tb_id, sale_rev_gross_sale, sale_rev_cash_sale, sale_rev_non_cash_sale, cash_sale_b_percent, non_cash_sale_c_percent, gross_sale_dollar_d, gross_sale_percent_e, cost_of_good_gross_sale, 
+                         cost_of_good_gross_sale_g_percent, cog_dollar_ff, cog_percent_gg, cog_dollar_h, cog_percent_I, labor_exp_dollar_j, labor_k_percent, dollar_l, percent_m, x_percent, dollar_n, o_percent, xx_percent, dollar_p, q_percent, 
+                         dollar_r, percent_s, dollar_t, u_percent, v_percent, new_dollar_t, new_u_percent, dollar_tt, percent_uu, dollar_v, percent_w, dollar_z, dollar_vv, percent_ww
+FROM            profit_loss_tb
+ORDER BY tb_id DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tb_id" DataSetColumn="tb_id" />
+              <Mapping SourceColumn="sale_rev_gross_sale" DataSetColumn="sale_rev_gross_sale" />
+              <Mapping SourceColumn="sale_rev_cash_sale" DataSetColumn="sale_rev_cash_sale" />
+              <Mapping SourceColumn="sale_rev_non_cash_sale" DataSetColumn="sale_rev_non_cash_sale" />
+              <Mapping SourceColumn="cash_sale_b_percent" DataSetColumn="cash_sale_b_percent" />
+              <Mapping SourceColumn="non_cash_sale_c_percent" DataSetColumn="non_cash_sale_c_percent" />
+              <Mapping SourceColumn="gross_sale_dollar_d" DataSetColumn="gross_sale_dollar_d" />
+              <Mapping SourceColumn="gross_sale_percent_e" DataSetColumn="gross_sale_percent_e" />
+              <Mapping SourceColumn="cost_of_good_gross_sale" DataSetColumn="cost_of_good_gross_sale" />
+              <Mapping SourceColumn="cost_of_good_gross_sale_g_percent" DataSetColumn="cost_of_good_gross_sale_g_percent" />
+              <Mapping SourceColumn="cog_dollar_ff" DataSetColumn="cog_dollar_ff" />
+              <Mapping SourceColumn="cog_percent_gg" DataSetColumn="cog_percent_gg" />
+              <Mapping SourceColumn="cog_dollar_h" DataSetColumn="cog_dollar_h" />
+              <Mapping SourceColumn="cog_percent_I" DataSetColumn="cog_percent_I" />
+              <Mapping SourceColumn="labor_exp_dollar_j" DataSetColumn="labor_exp_dollar_j" />
+              <Mapping SourceColumn="labor_k_percent" DataSetColumn="labor_k_percent" />
+              <Mapping SourceColumn="dollar_l" DataSetColumn="dollar_l" />
+              <Mapping SourceColumn="percent_m" DataSetColumn="percent_m" />
+              <Mapping SourceColumn="x_percent" DataSetColumn="x_percent" />
+              <Mapping SourceColumn="dollar_n" DataSetColumn="dollar_n" />
+              <Mapping SourceColumn="o_percent" DataSetColumn="o_percent" />
+              <Mapping SourceColumn="xx_percent" DataSetColumn="xx_percent" />
+              <Mapping SourceColumn="dollar_p" DataSetColumn="dollar_p" />
+              <Mapping SourceColumn="q_percent" DataSetColumn="q_percent" />
+              <Mapping SourceColumn="dollar_r" DataSetColumn="dollar_r" />
+              <Mapping SourceColumn="percent_s" DataSetColumn="percent_s" />
+              <Mapping SourceColumn="dollar_t" DataSetColumn="dollar_t" />
+              <Mapping SourceColumn="u_percent" DataSetColumn="u_percent" />
+              <Mapping SourceColumn="v_percent" DataSetColumn="v_percent" />
+              <Mapping SourceColumn="new_dollar_t" DataSetColumn="new_dollar_t" />
+              <Mapping SourceColumn="new_u_percent" DataSetColumn="new_u_percent" />
+              <Mapping SourceColumn="dollar_tt" DataSetColumn="dollar_tt" />
+              <Mapping SourceColumn="percent_uu" DataSetColumn="percent_uu" />
+              <Mapping SourceColumn="dollar_v" DataSetColumn="dollar_v" />
+              <Mapping SourceColumn="percent_w" DataSetColumn="percent_w" />
+              <Mapping SourceColumn="dollar_z" DataSetColumn="dollar_z" />
+              <Mapping SourceColumn="dollar_vv" DataSetColumn="dollar_vv" />
+              <Mapping SourceColumn="percent_ww" DataSetColumn="percent_ww" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="profit_loss_data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="profit_loss_data" msprop:Generator_UserDSName="profit_loss_data">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="profit_loss_tb" msprop:Generator_TableClassName="profit_loss_tbDataTable" msprop:Generator_TableVarName="tableprofit_loss_tb" msprop:Generator_TablePropName="profit_loss_tb" msprop:Generator_RowDeletingName="profit_loss_tbRowDeleting" msprop:Generator_RowChangingName="profit_loss_tbRowChanging" msprop:Generator_RowEvHandlerName="profit_loss_tbRowChangeEventHandler" msprop:Generator_RowDeletedName="profit_loss_tbRowDeleted" msprop:Generator_UserTableName="profit_loss_tb" msprop:Generator_RowChangedName="profit_loss_tbRowChanged" msprop:Generator_RowEvArgName="profit_loss_tbRowChangeEvent" msprop:Generator_RowClassName="profit_loss_tbRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tb_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columntb_id" msprop:Generator_ColumnPropNameInRow="tb_id" msprop:Generator_ColumnPropNameInTable="tb_idColumn" msprop:Generator_UserColumnName="tb_id" type="xs:int" />
+              <xs:element name="sale_rev_gross_sale" msprop:Generator_ColumnVarNameInTable="columnsale_rev_gross_sale" msprop:Generator_ColumnPropNameInRow="sale_rev_gross_sale" msprop:Generator_ColumnPropNameInTable="sale_rev_gross_saleColumn" msprop:Generator_UserColumnName="sale_rev_gross_sale" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sale_rev_cash_sale" msprop:Generator_ColumnVarNameInTable="columnsale_rev_cash_sale" msprop:Generator_ColumnPropNameInRow="sale_rev_cash_sale" msprop:Generator_ColumnPropNameInTable="sale_rev_cash_saleColumn" msprop:Generator_UserColumnName="sale_rev_cash_sale" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sale_rev_non_cash_sale" msprop:Generator_ColumnVarNameInTable="columnsale_rev_non_cash_sale" msprop:Generator_ColumnPropNameInRow="sale_rev_non_cash_sale" msprop:Generator_ColumnPropNameInTable="sale_rev_non_cash_saleColumn" msprop:Generator_UserColumnName="sale_rev_non_cash_sale" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cash_sale_b_percent" msprop:Generator_ColumnVarNameInTable="columncash_sale_b_percent" msprop:Generator_ColumnPropNameInRow="cash_sale_b_percent" msprop:Generator_ColumnPropNameInTable="cash_sale_b_percentColumn" msprop:Generator_UserColumnName="cash_sale_b_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="non_cash_sale_c_percent" msprop:Generator_ColumnVarNameInTable="columnnon_cash_sale_c_percent" msprop:Generator_ColumnPropNameInRow="non_cash_sale_c_percent" msprop:Generator_ColumnPropNameInTable="non_cash_sale_c_percentColumn" msprop:Generator_UserColumnName="non_cash_sale_c_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gross_sale_dollar_d" msprop:Generator_ColumnVarNameInTable="columngross_sale_dollar_d" msprop:Generator_ColumnPropNameInRow="gross_sale_dollar_d" msprop:Generator_ColumnPropNameInTable="gross_sale_dollar_dColumn" msprop:Generator_UserColumnName="gross_sale_dollar_d" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gross_sale_percent_e" msprop:Generator_ColumnVarNameInTable="columngross_sale_percent_e" msprop:Generator_ColumnPropNameInRow="gross_sale_percent_e" msprop:Generator_ColumnPropNameInTable="gross_sale_percent_eColumn" msprop:Generator_UserColumnName="gross_sale_percent_e" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cost_of_good_gross_sale" msprop:Generator_ColumnVarNameInTable="columncost_of_good_gross_sale" msprop:Generator_ColumnPropNameInRow="cost_of_good_gross_sale" msprop:Generator_ColumnPropNameInTable="cost_of_good_gross_saleColumn" msprop:Generator_UserColumnName="cost_of_good_gross_sale" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cost_of_good_gross_sale_g_percent" msprop:Generator_ColumnVarNameInTable="columncost_of_good_gross_sale_g_percent" msprop:Generator_ColumnPropNameInRow="cost_of_good_gross_sale_g_percent" msprop:Generator_ColumnPropNameInTable="cost_of_good_gross_sale_g_percentColumn" msprop:Generator_UserColumnName="cost_of_good_gross_sale_g_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cog_dollar_ff" msprop:Generator_ColumnVarNameInTable="columncog_dollar_ff" msprop:Generator_ColumnPropNameInRow="cog_dollar_ff" msprop:Generator_ColumnPropNameInTable="cog_dollar_ffColumn" msprop:Generator_UserColumnName="cog_dollar_ff" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cog_percent_gg" msprop:Generator_ColumnVarNameInTable="columncog_percent_gg" msprop:Generator_ColumnPropNameInRow="cog_percent_gg" msprop:Generator_ColumnPropNameInTable="cog_percent_ggColumn" msprop:Generator_UserColumnName="cog_percent_gg" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cog_dollar_h" msprop:Generator_ColumnVarNameInTable="columncog_dollar_h" msprop:Generator_ColumnPropNameInRow="cog_dollar_h" msprop:Generator_ColumnPropNameInTable="cog_dollar_hColumn" msprop:Generator_UserColumnName="cog_dollar_h" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cog_percent_I" msprop:Generator_ColumnVarNameInTable="columncog_percent_I" msprop:Generator_ColumnPropNameInRow="cog_percent_I" msprop:Generator_ColumnPropNameInTable="cog_percent_IColumn" msprop:Generator_UserColumnName="cog_percent_I" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="labor_exp_dollar_j" msprop:Generator_ColumnVarNameInTable="columnlabor_exp_dollar_j" msprop:Generator_ColumnPropNameInRow="labor_exp_dollar_j" msprop:Generator_ColumnPropNameInTable="labor_exp_dollar_jColumn" msprop:Generator_UserColumnName="labor_exp_dollar_j" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="labor_k_percent" msprop:Generator_ColumnVarNameInTable="columnlabor_k_percent" msprop:Generator_ColumnPropNameInRow="labor_k_percent" msprop:Generator_ColumnPropNameInTable="labor_k_percentColumn" msprop:Generator_UserColumnName="labor_k_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_l" msprop:Generator_ColumnVarNameInTable="columndollar_l" msprop:Generator_ColumnPropNameInRow="dollar_l" msprop:Generator_ColumnPropNameInTable="dollar_lColumn" msprop:Generator_UserColumnName="dollar_l" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="percent_m" msprop:Generator_ColumnVarNameInTable="columnpercent_m" msprop:Generator_ColumnPropNameInRow="percent_m" msprop:Generator_ColumnPropNameInTable="percent_mColumn" msprop:Generator_UserColumnName="percent_m" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="x_percent" msprop:Generator_ColumnVarNameInTable="columnx_percent" msprop:Generator_ColumnPropNameInRow="x_percent" msprop:Generator_ColumnPropNameInTable="x_percentColumn" msprop:Generator_UserColumnName="x_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_n" msprop:Generator_ColumnVarNameInTable="columndollar_n" msprop:Generator_ColumnPropNameInRow="dollar_n" msprop:Generator_ColumnPropNameInTable="dollar_nColumn" msprop:Generator_UserColumnName="dollar_n" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="o_percent" msprop:Generator_ColumnVarNameInTable="columno_percent" msprop:Generator_ColumnPropNameInRow="o_percent" msprop:Generator_ColumnPropNameInTable="o_percentColumn" msprop:Generator_UserColumnName="o_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="xx_percent" msprop:Generator_ColumnVarNameInTable="columnxx_percent" msprop:Generator_ColumnPropNameInRow="xx_percent" msprop:Generator_ColumnPropNameInTable="xx_percentColumn" msprop:Generator_UserColumnName="xx_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_p" msprop:Generator_ColumnVarNameInTable="columndollar_p" msprop:Generator_ColumnPropNameInRow="dollar_p" msprop:Generator_ColumnPropNameInTable="dollar_pColumn" msprop:Generator_UserColumnName="dollar_p" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="q_percent" msprop:Generator_ColumnVarNameInTable="columnq_percent" msprop:Generator_ColumnPropNameInRow="q_percent" msprop:Generator_ColumnPropNameInTable="q_percentColumn" msprop:Generator_UserColumnName="q_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_r" msprop:Generator_ColumnVarNameInTable="columndollar_r" msprop:Generator_ColumnPropNameInRow="dollar_r" msprop:Generator_ColumnPropNameInTable="dollar_rColumn" msprop:Generator_UserColumnName="dollar_r" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="percent_s" msprop:Generator_ColumnVarNameInTable="columnpercent_s" msprop:Generator_ColumnPropNameInRow="percent_s" msprop:Generator_ColumnPropNameInTable="percent_sColumn" msprop:Generator_UserColumnName="percent_s" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_t" msprop:Generator_ColumnVarNameInTable="columndollar_t" msprop:Generator_ColumnPropNameInRow="dollar_t" msprop:Generator_ColumnPropNameInTable="dollar_tColumn" msprop:Generator_UserColumnName="dollar_t" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="u_percent" msprop:Generator_ColumnVarNameInTable="columnu_percent" msprop:Generator_ColumnPropNameInRow="u_percent" msprop:Generator_ColumnPropNameInTable="u_percentColumn" msprop:Generator_UserColumnName="u_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="v_percent" msprop:Generator_ColumnVarNameInTable="columnv_percent" msprop:Generator_ColumnPropNameInRow="v_percent" msprop:Generator_ColumnPropNameInTable="v_percentColumn" msprop:Generator_UserColumnName="v_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="new_dollar_t" msprop:Generator_ColumnVarNameInTable="columnnew_dollar_t" msprop:Generator_ColumnPropNameInRow="new_dollar_t" msprop:Generator_ColumnPropNameInTable="new_dollar_tColumn" msprop:Generator_UserColumnName="new_dollar_t" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="new_u_percent" msprop:Generator_ColumnVarNameInTable="columnnew_u_percent" msprop:Generator_ColumnPropNameInRow="new_u_percent" msprop:Generator_ColumnPropNameInTable="new_u_percentColumn" msprop:Generator_UserColumnName="new_u_percent" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_tt" msprop:Generator_ColumnVarNameInTable="columndollar_tt" msprop:Generator_ColumnPropNameInRow="dollar_tt" msprop:Generator_ColumnPropNameInTable="dollar_ttColumn" msprop:Generator_UserColumnName="dollar_tt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="percent_uu" msprop:Generator_ColumnVarNameInTable="columnpercent_uu" msprop:Generator_ColumnPropNameInRow="percent_uu" msprop:Generator_ColumnPropNameInTable="percent_uuColumn" msprop:Generator_UserColumnName="percent_uu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_v" msprop:Generator_ColumnVarNameInTable="columndollar_v" msprop:Generator_ColumnPropNameInRow="dollar_v" msprop:Generator_ColumnPropNameInTable="dollar_vColumn" msprop:Generator_UserColumnName="dollar_v" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="percent_w" msprop:Generator_ColumnVarNameInTable="columnpercent_w" msprop:Generator_ColumnPropNameInRow="percent_w" msprop:Generator_ColumnPropNameInTable="percent_wColumn" msprop:Generator_UserColumnName="percent_w" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_z" msprop:Generator_ColumnVarNameInTable="columndollar_z" msprop:Generator_ColumnPropNameInRow="dollar_z" msprop:Generator_ColumnPropNameInTable="dollar_zColumn" msprop:Generator_UserColumnName="dollar_z" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dollar_vv" msprop:Generator_ColumnVarNameInTable="columndollar_vv" msprop:Generator_ColumnPropNameInRow="dollar_vv" msprop:Generator_ColumnPropNameInTable="dollar_vvColumn" msprop:Generator_UserColumnName="dollar_vv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="percent_ww" msprop:Generator_ColumnVarNameInTable="columnpercent_ww" msprop:Generator_ColumnPropNameInRow="percent_ww" msprop:Generator_ColumnPropNameInTable="percent_wwColumn" msprop:Generator_UserColumnName="percent_ww" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
