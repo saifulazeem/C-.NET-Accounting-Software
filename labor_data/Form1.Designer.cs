@@ -104,7 +104,7 @@
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(99, 21);
-            this.comboBox1.TabIndex = 1;
+            this.comboBox1.TabIndex = 2;
             this.comboBox1.Text = "B";
             // 
             // textBox21
@@ -422,7 +422,7 @@
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 31);
-            this.button5.TabIndex = 41;
+            this.button5.TabIndex = 23;
             this.button5.Text = "Reset All";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -442,7 +442,7 @@
             this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 28);
-            this.button8.TabIndex = 45;
+            this.button8.TabIndex = 21;
             this.button8.Text = "Tools 2";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
@@ -453,7 +453,7 @@
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 28);
-            this.button9.TabIndex = 46;
+            this.button9.TabIndex = 22;
             this.button9.Text = "Tool 3";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
@@ -502,7 +502,7 @@
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 48);
-            this.button2.TabIndex = 50;
+            this.button2.TabIndex = 26;
             this.button2.Text = "Define Dropdown";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
@@ -519,7 +519,7 @@
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(146, 21);
-            this.comboBox2.TabIndex = 51;
+            this.comboBox2.TabIndex = 1;
             this.comboBox2.Text = "Please Select Range...";
             // 
             // button3
@@ -528,7 +528,7 @@
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 31);
-            this.button3.TabIndex = 52;
+            this.button3.TabIndex = 24;
             this.button3.Text = "Open";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -539,7 +539,7 @@
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 31);
-            this.button4.TabIndex = 53;
+            this.button4.TabIndex = 25;
             this.button4.Text = "Save File";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);

@@ -255,7 +255,7 @@
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
-            this.button1.TabIndex = 18;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -266,7 +266,7 @@
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 34);
-            this.button2.TabIndex = 19;
+            this.button2.TabIndex = 10;
             this.button2.Text = "Reset All";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -277,7 +277,7 @@
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(83, 34);
-            this.button5.TabIndex = 22;
+            this.button5.TabIndex = 7;
             this.button5.Text = "Tool 3";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -288,7 +288,7 @@
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(83, 34);
-            this.button6.TabIndex = 23;
+            this.button6.TabIndex = 6;
             this.button6.Text = "Tool 1";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -344,7 +344,7 @@
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(83, 34);
-            this.button3.TabIndex = 50;
+            this.button3.TabIndex = 8;
             this.button3.Text = "Open";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -355,7 +355,7 @@
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(83, 34);
-            this.button4.TabIndex = 51;
+            this.button4.TabIndex = 9;
             this.button4.Text = "Save File";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
@@ -395,7 +395,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
-            this.Text = "Sales Volume Form";
+            this.Text = " ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.Load += new System.EventHandler(this.Form2_Load);

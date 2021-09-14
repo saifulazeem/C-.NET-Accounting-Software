@@ -44,8 +44,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -77,6 +75,7 @@
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label33 = new System.Windows.Forms.Label();
@@ -88,7 +87,6 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -97,7 +95,6 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label53 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.label68 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
@@ -122,6 +119,7 @@
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.label70 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
@@ -179,7 +177,7 @@
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 27);
-            this.button1.TabIndex = 16;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -206,7 +204,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(58, 200);
+            this.label7.Location = new System.Drawing.Point(95, 183);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(16, 13);
@@ -239,8 +237,9 @@
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(76, 19);
-            this.textBox3.TabIndex = 7;
+            this.textBox3.TabIndex = 4;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox2
             // 
@@ -248,7 +247,8 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(76, 19);
-            this.textBox2.TabIndex = 6;
+            this.textBox2.TabIndex = 3;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // textBox1
             // 
@@ -256,13 +256,14 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(76, 19);
-            this.textBox1.TabIndex = 5;
+            this.textBox1.TabIndex = 2;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 176);
+            this.label4.Location = new System.Drawing.Point(5, 166);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 13);
@@ -306,12 +307,10 @@
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(154, 21);
-            this.comboBox1.TabIndex = 0;
+            this.comboBox1.TabIndex = 1;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label49);
-            this.groupBox2.Controls.Add(this.label48);
             this.groupBox2.Controls.Add(this.label47);
             this.groupBox2.Controls.Add(this.button13);
             this.groupBox2.Controls.Add(this.button2);
@@ -328,48 +327,28 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(261, 255);
-            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cost of Goods Sold";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(18, 131);
-            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(34, 13);
-            this.label49.TabIndex = 26;
-            this.label49.Text = "GG%:";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(24, 151);
-            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(28, 13);
-            this.label48.TabIndex = 25;
-            this.label48.Text = "$FF:";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
             this.label47.ForeColor = System.Drawing.Color.Red;
-            this.label47.Location = new System.Drawing.Point(4, 91);
+            this.label47.Location = new System.Drawing.Point(0, 74);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(235, 13);
+            this.label47.Size = new System.Drawing.Size(253, 13);
             this.label47.TabIndex = 24;
-            this.label47.Text = "Note * Click + Button to Add Multiple ($F) Values";
+            this.label47.Text = "Note * Click + Button to Add Multiple (COGS) Values";
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(11, 44);
+            this.button13.Location = new System.Drawing.Point(59, 26);
             this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(29, 28);
-            this.button13.TabIndex = 23;
+            this.button13.TabIndex = 7;
             this.button13.Text = "+";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
@@ -380,7 +359,7 @@
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(67, 27);
-            this.button2.TabIndex = 17;
+            this.button2.TabIndex = 8;
             this.button2.Text = "Calculate";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -398,7 +377,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(56, 131);
+            this.label19.Location = new System.Drawing.Point(223, 14);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(16, 13);
@@ -408,7 +387,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(56, 151);
+            this.label16.Location = new System.Drawing.Point(69, 124);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(16, 13);
@@ -450,12 +429,12 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(4, 24);
+            this.label13.Location = new System.Drawing.Point(4, 34);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 13);
+            this.label13.Size = new System.Drawing.Size(43, 13);
             this.label13.TabIndex = 17;
-            this.label13.Text = "Gross Sales ($F) :";
+            this.label13.Text = "COGS :";
             // 
             // groupBox3
             // 
@@ -480,7 +459,7 @@
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(597, 370);
-            this.groupBox3.TabIndex = 23;
+            this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Labor Expenses";
             // 
@@ -521,7 +500,7 @@
             this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(29, 28);
-            this.button14.TabIndex = 27;
+            this.button14.TabIndex = 11;
             this.button14.Text = "+";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
@@ -595,7 +574,7 @@
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox5.Size = new System.Drawing.Size(291, 205);
-            this.groupBox5.TabIndex = 28;
+            this.groupBox5.TabIndex = 14;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "PayRoll Tax";
             // 
@@ -606,7 +585,7 @@
             this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(82, 17);
-            this.checkBox2.TabIndex = 29;
+            this.checkBox2.TabIndex = 16;
             this.checkBox2.Text = "Override $P";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -667,7 +646,7 @@
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(76, 20);
-            this.textBox7.TabIndex = 25;
+            this.textBox7.TabIndex = 17;
             // 
             // label36
             // 
@@ -699,6 +678,17 @@
             this.label38.TabIndex = 25;
             this.label38.Text = "Null";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(155, 159);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(118, 28);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Calculate";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.checkBox1);
@@ -716,7 +706,7 @@
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(270, 205);
-            this.groupBox4.TabIndex = 24;
+            this.groupBox4.TabIndex = 12;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Insurance";
             // 
@@ -727,7 +717,7 @@
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(83, 17);
-            this.checkBox1.TabIndex = 28;
+            this.checkBox1.TabIndex = 13;
             this.checkBox1.Text = "Override $N";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -788,7 +778,7 @@
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(76, 20);
-            this.textBox6.TabIndex = 25;
+            this.textBox6.TabIndex = 14;
             // 
             // label28
             // 
@@ -819,17 +809,6 @@
             this.label26.Size = new System.Drawing.Size(25, 13);
             this.label26.TabIndex = 25;
             this.label26.Text = "Null";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(155, 159);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 28);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Calculate";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label11
             // 
@@ -879,7 +858,7 @@
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(154, 21);
-            this.comboBox3.TabIndex = 17;
+            this.comboBox3.TabIndex = 10;
             // 
             // groupBox6
             // 
@@ -898,7 +877,7 @@
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox6.Size = new System.Drawing.Size(271, 630);
-            this.groupBox6.TabIndex = 24;
+            this.groupBox6.TabIndex = 19;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Operating Expenses";
             this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
@@ -920,21 +899,10 @@
             this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(29, 28);
-            this.button15.TabIndex = 32;
+            this.button15.TabIndex = 20;
             this.button15.Text = "+";
             this.button15.UseVisualStyleBackColor = true;
             this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(58, 250);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 28);
-            this.button4.TabIndex = 32;
-            this.button4.Text = "Calculate";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label68
             // 
@@ -1004,7 +972,7 @@
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox7.Size = new System.Drawing.Size(240, 169);
-            this.groupBox7.TabIndex = 30;
+            this.groupBox7.TabIndex = 21;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "U%";
             // 
@@ -1015,7 +983,7 @@
             this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(82, 17);
-            this.checkBox3.TabIndex = 29;
+            this.checkBox3.TabIndex = 22;
             this.checkBox3.Text = "Override $T";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
@@ -1076,7 +1044,7 @@
             this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(76, 20);
-            this.textBox9.TabIndex = 25;
+            this.textBox9.TabIndex = 23;
             // 
             // label61
             // 
@@ -1120,7 +1088,7 @@
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox8.Size = new System.Drawing.Size(255, 296);
-            this.groupBox8.TabIndex = 25;
+            this.groupBox8.TabIndex = 62;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "CashFlow (EBITDA)";
             // 
@@ -1136,7 +1104,7 @@
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox9.Size = new System.Drawing.Size(234, 146);
-            this.groupBox9.TabIndex = 31;
+            this.groupBox9.TabIndex = 63;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "$VV & WW%";
             // 
@@ -1201,6 +1169,17 @@
             this.label71.TabIndex = 30;
             this.label71.Text = "W% :---";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(58, 250);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(118, 28);
+            this.button4.TabIndex = 24;
+            this.button4.Text = "Calculate";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // label70
             // 
             this.label70.AutoSize = true;
@@ -1239,7 +1218,7 @@
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(275, 520);
-            this.richTextBox1.TabIndex = 26;
+            this.richTextBox1.TabIndex = 34;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
@@ -1249,7 +1228,7 @@
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(118, 46);
-            this.button5.TabIndex = 41;
+            this.button5.TabIndex = 26;
             this.button5.Text = "Tool 1";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -1260,7 +1239,7 @@
             this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(275, 54);
-            this.button8.TabIndex = 44;
+            this.button8.TabIndex = 25;
             this.button8.Text = "Calculate";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
@@ -1271,7 +1250,7 @@
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(118, 46);
-            this.button6.TabIndex = 45;
+            this.button6.TabIndex = 27;
             this.button6.Text = "Tool 2";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -1282,7 +1261,7 @@
             this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(118, 46);
-            this.button7.TabIndex = 46;
+            this.button7.TabIndex = 28;
             this.button7.Text = "Tool 3";
             this.button7.UseVisualStyleBackColor = true;
             // 
@@ -1292,7 +1271,7 @@
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(118, 46);
-            this.button9.TabIndex = 47;
+            this.button9.TabIndex = 29;
             this.button9.Text = "Print / Save";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
@@ -1303,7 +1282,7 @@
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(118, 46);
-            this.button10.TabIndex = 48;
+            this.button10.TabIndex = 30;
             this.button10.Text = "Save To Database";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
@@ -1325,7 +1304,7 @@
             this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(118, 47);
-            this.button11.TabIndex = 49;
+            this.button11.TabIndex = 33;
             this.button11.Text = "Rest All";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
@@ -1336,7 +1315,7 @@
             this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(118, 46);
-            this.button12.TabIndex = 50;
+            this.button12.TabIndex = 31;
             this.button12.Text = "Defined Values (%X,%XX,%V,$Z)";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
@@ -1347,7 +1326,7 @@
             this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(118, 46);
-            this.button16.TabIndex = 51;
+            this.button16.TabIndex = 32;
             this.button16.Text = "Defined Dropdown Values";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
@@ -1491,8 +1470,6 @@
         public System.Windows.Forms.Label label19;
         public System.Windows.Forms.Label label16;
         public System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.Label label49;
-        public System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Button button14;
         public System.Windows.Forms.Label label11;

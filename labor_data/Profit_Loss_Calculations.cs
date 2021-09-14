@@ -16,8 +16,9 @@ namespace labor_data
 {
     public partial class Profit_Loss_Calculations : Form
     {
-        public static String gross_sale, cash_sale, non_cash_sale,f_val, refskey;
+        public static String gross_sale, cash_sale, non_cash_sale,f_val, refskey,tbx1,tbx2,tbx3;
         public static int ctk, ctk2;
+        
 
         int input;
         //percent_x,percent_xx,percent_v
@@ -49,8 +50,18 @@ namespace labor_data
             textBox7.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             //textBox8.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             textBox9.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
-            
+            comboBox1.KeyDown += new KeyEventHandler(tb_KeyDown);
+            comboBox3.KeyDown += new KeyEventHandler(tb_KeyDown);
 
+        }
+
+        static void tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //enter key is down
+                SendKeys.Send("{TAB}");
+            }
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -1541,6 +1552,10 @@ namespace labor_data
                 MessageBox.Show(message, title);
                 input = 0;
             }
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                SendKeys.Send("{TAB}");
+            }
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -2521,6 +2536,97 @@ namespace labor_data
            label19.Text = dolsff.ToString();
             label16.Text = dolsff.ToString();
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                string name = textBox1.Text;
+                string str2 = "";
+                string result = name.Replace("$", str2);
+                result = result.Replace(",", str2);
+                //result = result.Replace(".", str2);
+                if (result.Contains("."))
+                {
+                    string[] tokens = result.Split('.');
+                    textBox1.Text = tokens[0];
+                }
+                else
+                {
+                    textBox1.Text = result;
+                }
+
+                e.Handled = !char.IsDigit(e.KeyChar) && e.KeyChar != (char)8;
+                if (e.KeyChar == (char)13)
+                {
+                    //tbx1 = textBox1.Text;
+                    textBox1.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(textBox1.Text));
+                    //SendKeys.Send("{TAB}");
+                }
+            
+            }
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (textBox2.Text != "")
+            {
+                string name = textBox2.Text;
+                string str2 = "";
+                string result = name.Replace("$", str2);
+                result = result.Replace(",", str2);
+                //result = result.Replace(".", str2);
+                if (result.Contains("."))
+                {
+                    string[] tokens = result.Split('.');
+                    textBox2.Text = tokens[0];
+                }
+                else
+                {
+                    textBox2.Text = result;
+                }
+
+                e.Handled = !char.IsDigit(e.KeyChar) && e.KeyChar != (char)8;
+                if (e.KeyChar == (char)13)
+                {
+                    //tbx2 = textBox2.Text;
+                    textBox2.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(textBox2.Text));
+                    //SendKeys.Send("{TAB}");
+                }
+
+            }
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (textBox3.Text != "")
+            {
+                string name = textBox3.Text;
+                string str2 = "";
+                string result = name.Replace("$", str2);
+                result = result.Replace(",", str2);
+                //result = result.Replace(".", str2);
+                if (result.Contains("."))
+                {
+                    string[] tokens = result.Split('.');
+                    textBox3.Text = tokens[0];
+                }
+                else
+                {
+                    textBox3.Text = result;
+                }
+
+                e.Handled = !char.IsDigit(e.KeyChar) && e.KeyChar != (char)8;
+                if (e.KeyChar == (char)13)
+                {
+                    //tbx3 = textBox3.Text;
+                    textBox3.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(textBox3.Text));
+                    //SendKeys.Send("{TAB}");
+                }
+
+            }
+        }
+
         public static void fill_combox()
         {
             string qry = "select * From dropdowns_tb WHERE dropdown1 IS NOT NULL";
@@ -2575,25 +2681,6 @@ namespace labor_data
 
         }
 
-        //public static void fill_combox5()
-        //{
-        //    string qry = "select * From dropdowns_tb WHERE dropdown5 IS NOT NULL";
-        //    cmd.CommandText = qry;
-        //    cmd.Connection = db_conect;
-        //    adopt = new SqlDataAdapter(cmd);
-        //    adopt.Fill(combox_5_dt);
-
-        //}
-
-        //public static void fill_combox2()
-        //{
-        //    string qry = "select * From dropdowns_tb WHERE dropdown2 IS NOT NULL";
-        //    cmd.CommandText = qry;
-        //    cmd.Connection = db_conect;
-        //    adopt = new SqlDataAdapter(cmd);
-        //    adopt.Fill(combox_2_dt);
-
-        //}
 
         public static void fill_combox3()
         {
@@ -2605,15 +2692,6 @@ namespace labor_data
 
         }
 
-        //public static void fill_combox4()
-        //{
-        //    string qry = "select * From dropdowns_tb WHERE dropdown4 IS NOT NULL";
-        //    cmd.CommandText = qry;
-        //    cmd.Connection = db_conect;
-        //    adopt = new SqlDataAdapter(cmd);
-        //    adopt.Fill(combox_4_dt);
-
-        //}
 
 
         private void Form7_Load(object sender, EventArgs e)
@@ -2649,26 +2727,6 @@ namespace labor_data
             comboBox3.Text = "Select Labor Type...";
 
 
-            //comboBox4.DataSource = combox_4_dt;
-            //comboBox4.DisplayMember = "dropdown4";
-            //comboBox4.Text = "Please Select...";
-
-            //comboBox5.DataSource = combox_5_dt;
-            //comboBox5.DisplayMember = "dropdown5";
-            //comboBox5.Text = "Please Select...";
-
-
-            //dol_fval();
-            //DataTable tempDT = new DataTable();
-            //tempDT = reused_val_data.DefaultView.ToTable(true, "dollars_f", "percent_g");
-            //dataGridView1.DataSource = tempDT;
-            //dataGridView1.Columns[0].HeaderCell.Value = "$F Values";
-            //dataGridView1.Columns[1].HeaderCell.Value = "%G Values";
-
-
-
-
-
             string qry = "select * From free_values WHERE v_id=1";
             cmd.CommandText = qry;
             cmd.Connection = db_conect;
@@ -2688,40 +2746,7 @@ namespace labor_data
                 label79.Text = ddollar_z;
             }
 
-            //percent_x = 50;
-            //percent_xx = 150;
-            //percent_v = 45;
-            //dollar_z = 15000;
-            //comboBox1.Items.Clear();
-            //comboBox2.Items.Clear();
-            //comboBox3.Items.Clear();
-            //comboBox4.Items.Clear();
-            //comboBox5.Items.Clear();
-            //comboBox1.Items.Add("A");
-            //comboBox1.Items.Add("B");
-            //comboBox1.Items.Add("C");
-            //comboBox1.Items.Add("D");
-            //comboBox2.Items.Add("A");
-            //comboBox2.Items.Add("B");
-            //comboBox2.Items.Add("C");
-            //comboBox2.Items.Add("D");
-            //comboBox3.Text="Select Labor Model";
-            //comboBox3.Items.Add("AM");
-            //comboBox3.Items.Add("GM");
-            //comboBox3.Items.Add("CREW");
-            ////comboBox3.Items.Add("D");
-            //comboBox4.Items.Add("A");
-            //comboBox4.Items.Add("B");
-            //comboBox4.Items.Add("C");
-            //comboBox4.Items.Add("D");
-            //comboBox5.Items.Add("A");
-            //comboBox5.Items.Add("B");
-            //comboBox5.Items.Add("C");
-            //comboBox5.Items.Add("D");
-            //label26.Text = percent_x.ToString();
-            //label38.Text = percent_xx.ToString();
-            //label63.Text = percent_v.ToString();
-            //label79.Text = dollar_z.ToString();
+    
             button7.Enabled = false;
             
         }
@@ -2746,9 +2771,31 @@ namespace labor_data
             }
             else
             {
-                gross_sale = textBox1.Text;
-                cash_sale = textBox2.Text;
-                non_cash_sale = textBox3.Text;
+                //gross_sale = textBox1.Text;
+                //cash_sale = textBox2.Text;
+                //non_cash_sale = textBox3.Text;
+
+        
+                string str2 = "";
+                tbx1 = textBox1.Text;
+                tbx1 = tbx1.Replace("$", str2);
+                tbx1 = tbx1.Replace(",", str2);
+                tbx1 = tbx1.Replace(".", str2);
+
+                tbx2 = textBox2.Text;
+                tbx2 = tbx2.Replace("$", str2);
+                tbx2 = tbx2.Replace(",", str2);
+                tbx2 = tbx2.Replace(".", str2);
+
+                tbx3 = textBox3.Text;
+                tbx3 = tbx3.Replace("$", str2);
+                tbx3 = tbx3.Replace(",", str2);
+                tbx3 = tbx3.Replace(".", str2);
+
+
+                gross_sale = tbx1;
+                cash_sale = tbx2;
+                non_cash_sale = tbx3;
                 //bool gross_sale_isNumber = int.TryParse(gross_sale, out int g_sale);
                 //bool cash_sale_isNumber = int.TryParse(cash_sale, out int c_sale);
                 //bool non_cash_sale_isNumber = int.TryParse(non_cash_sale, out int n_c_sale);
@@ -2757,47 +2804,94 @@ namespace labor_data
                 bool non_cash_isFlost = double.TryParse(non_cash_sale, out double n_c_sale);
 
 
+                //double csh_sale = c_sale / g_sale; on14 sep
+                //double n_csh_sale = n_c_sale / g_sale;on14 sep
+                //double grs_sale = c_sale + n_csh_sale;on14 sep
+
                 double csh_sale = c_sale / g_sale;
                 double n_csh_sale = n_c_sale / g_sale;
-                double grs_sale = c_sale + n_csh_sale;
+                double grs_sale = c_sale + n_c_sale;
+                double eper = n_csh_sale + csh_sale;
 
                 bool csh_sale_negative = csh_sale < 0;
                 bool n_csh_sale_negative = n_csh_sale < 0;
                 bool grs_csh_sale_negative = grs_sale < 0;
-                if(csh_sale_negative == false && n_csh_sale_negative == false && grs_csh_sale_negative == false )
+                bool e_negative = eper < 0;
+
+                if (csh_sale_negative == false && n_csh_sale_negative == false && grs_csh_sale_negative == false && e_negative==false)
                 {
-                    label5.Text = "B% : " + csh_sale + "%".ToString();
-                    label6.Text = "C% : " + n_csh_sale + "%".ToString();
-                    label7.Text = "$D : " + grs_sale + "$".ToString();
-                    label8.Text = "E% : " + grs_sale + "%".ToString();
-                   
+                    label5.Text = csh_sale.ToString();
+                    label6.Text = n_csh_sale .ToString();
+                    string dds = grs_sale.ToString();
+                    string eps= eper.ToString();
+                    label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                    label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                    dds= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                    eps= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                    label7.Text = dds + "    |    " + eps;
+
                 }
 
                 else
                 {
                     if(csh_sale_negative== true)
                     {
-                        label5.Text = "B% : " + csh_sale + "%".ToString();
+                        label5.Text = csh_sale.ToString();
                         label5.BackColor = System.Drawing.Color.Red;
-                        label6.Text = "C% : " + n_csh_sale + "%".ToString();
-                        label7.Text = "$D : " + grs_sale + "$".ToString();
-                        label8.Text = "E% : " + grs_sale + "%".ToString();
+                        label6.Text = n_csh_sale.ToString();
+                        string dds = grs_sale.ToString();
+                        string eps = eper.ToString();
+                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                        label7.Text = dds + "  -  " + eps;
+
                     }
                     if (n_csh_sale_negative == true)
                     {
-                        label5.Text = "B% : " + csh_sale + "%".ToString();
-                        label6.Text = "C% : " + n_csh_sale + "%".ToString();
+
+                        label5.Text = csh_sale.ToString();
+                        label6.Text = n_csh_sale.ToString();
                         label6.BackColor = System.Drawing.Color.Red;
-                        label7.Text = "$D : " + grs_sale + "$".ToString();
-                        label8.Text = "E% : " + grs_sale + "%".ToString();
+                        string dds = grs_sale.ToString();
+                        string eps = eper.ToString();
+                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                        label7.Text = dds + "  -  " + eps;
+
+
+
                     }
                     if (grs_csh_sale_negative == true)
                     {
-                        label5.Text = "B% : " + csh_sale + "%".ToString();
-                        label6.Text = "C% : " + n_csh_sale + "%".ToString();
-                        label7.Text = "$D : " + grs_sale + "$".ToString();
-                        label8.Text = "E% : " + grs_sale + "%".ToString();
-                        label8.BackColor = System.Drawing.Color.Red;
+                        
+                        label5.Text = csh_sale.ToString();
+                        label6.Text = n_csh_sale.ToString();
+                        string dds = grs_sale.ToString();
+                        string eps = eper.ToString();
+                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                        label7.Text = dds + "  -  " + eps;
+                        label7.BackColor = System.Drawing.Color.Red;
+
+                    }
+                    if (e_negative == true)
+                    {
+
+                        label5.Text = csh_sale.ToString();
+                        label6.Text = n_csh_sale.ToString();
+                        string dds = grs_sale.ToString();
+                        string eps = eper.ToString();
+                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                        label7.Text = dds + "  -  " + eps;
                         label7.BackColor = System.Drawing.Color.Red;
                     }
                 }

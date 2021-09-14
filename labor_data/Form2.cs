@@ -27,6 +27,7 @@ namespace labor_data
             textBox2.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             textBox3.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             textBox4.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
+           
         }
         SqlCommand cmd = new SqlCommand();
        public static SqlConnection db_conect = new SqlConnection();
@@ -42,6 +43,7 @@ namespace labor_data
             {
                 //e.Handled = false; //Do not reject the input
                 input = 1;
+             
 
             }
             else
@@ -52,6 +54,11 @@ namespace labor_data
                 MessageBox.Show(message, title);
                 input = 0;
             }
+            if(e.KeyChar == (char)Keys.Enter)
+            {
+                SendKeys.Send("{TAB}");
+            }
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -454,7 +461,13 @@ namespace labor_data
                 if (e.KeyChar == (char)13)
                 {
                     textBox1.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(textBox1.Text));
+                    //SendKeys.Send("{TAB}");
                 }
+                //if(e.KeyChar == (char)Keys.Tab)
+                //{
+                //    textBox1.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(textBox1.Text));
+
+                //}
             }
         }
 
@@ -478,9 +491,10 @@ namespace labor_data
                 }
 
                 e.Handled = !char.IsDigit(e.KeyChar) && e.KeyChar != (char)8;
-                if (e.KeyChar == (char)13)
+                if (e.KeyChar == (char)13 || e.KeyChar == (char)Keys.Tab)
                 {
                     textBox4.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(textBox4.Text));
+                    //SendKeys.Send("{TAB}");
                 }
             }
         }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Globalization;
 
 namespace labor_data
 {
@@ -20,7 +21,7 @@ namespace labor_data
         public static int pointXX, pointX, pointY, txtno;
         public static int pointYY, point_XX, point_YY;
         public static double g_per, gg_per, dol_ff, f_dols;
-        public static String gs,cbxitem;
+        public static String gs,cbxitem,tb1, pgg;
 
         public static SqlCommand cmd = new SqlCommand();
         public static SqlConnection db_conect = new SqlConnection();
@@ -33,25 +34,87 @@ namespace labor_data
         //string con_str = "Data Source =DESKTOP-D8I8EQJ;Initial Catalog=rms_db;Integrated Security=True";
         public static string con_str => ConfigurationManager.ConnectionStrings["con_str"].ConnectionString;
 
+        private void txt1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (txt1.Text != "")
+            {
+                string name = txt1.Text;
+                string str2 = "";
+                string result = name.Replace("$", str2);
+                result = result.Replace(",", str2);
+                //result = result.Replace(".", str2);
+                if (result.Contains("."))
+                {
+                    string[] tokens = result.Split('.');
+                    txt1.Text = tokens[0];
+                }
+                else
+                {
+                    txt1.Text = result;
+                }
+
+                e.Handled = !char.IsDigit(e.KeyChar) && e.KeyChar != (char)8;
+                if (e.KeyChar == (char)13)
+                {
+                   //tb1 = txt1.Text;
+                    txt1.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(txt1.Text));
+                    //SendKeys.Send("{TAB}");
+                }
+            }
+        }
         Profit_Loss_Calculations profss;
 
         private void dollar_f_vals_FormClosing(object sender, FormClosingEventArgs e)
         {
             //database
+            //cmd.Parameters.Clear();
+            //string qry = "UPDATE reused_values_tb SET key_status='5' WHERE key_status='0'";
+            //cmd.CommandText = qry;
+            //cmd.Connection = db_conect;
+            //int rows = cmd.ExecuteNonQuery();
+
+            //Update
+            dol_ff = Math.Round(dol_ff, 0, MidpointRounding.AwayFromZero);
+            bool dol_f_negative = dol_ff < 0;
+            if (dol_f_negative == false)
+            {
+                string dfss = dol_ff.ToString();
+                string pergss = gg_per.ToString();
+                dfss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dfss));
+                pergss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(pergss));
+                profss.label16.Text = dfss + "   |   " + pergss;
+                //profss.label19.Text = dol_ff.ToString();
+                profss.label16.BackColor = System.Drawing.Color.Transparent;
+                //profss.label19.BackColor = System.Drawing.Color.Transparent;
+            }
+            else
+            {
+                string dfss = dol_ff.ToString();
+                string pergss = gg_per.ToString();
+                dfss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dfss));
+                pergss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(pergss));
+                profss.label16.Text = dfss + "   |   " + pergss;
+                //profss.label19.Text = dol_ff.ToString();
+                // profss.label19.Text = dol_ff.ToString();
+                profss.label16.BackColor = System.Drawing.Color.Red;
+                //profss.label19.BackColor = System.Drawing.Color.Red;
+            }
+            //profss.textBox4.Enabled = false;
+
+            //database
             cmd.Parameters.Clear();
-            string qry = "UPDATE reused_values_tb SET key_status='5' WHERE key_status='0'";
+            string qry = "UPDATE reused_values_tb SET key_status='1' WHERE key_status='0'";
             cmd.CommandText = qry;
             cmd.Connection = db_conect;
             int rows = cmd.ExecuteNonQuery();
-          
-            //Update
+            this.Hide();
 
         }
 
         public dollar_f_vals(Profit_Loss_Calculations prof)
         {
             InitializeComponent();
-            textBox1.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
+            //textBox1.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             txt1.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             profss = prof;
             button2.Click += new EventHandler(button2_Click_1);
@@ -60,20 +123,30 @@ namespace labor_data
         private void button2_Click_1(object sender, EventArgs e)
         {
             dol_ff = Math.Round(dol_ff, 0, MidpointRounding.AwayFromZero);
+          
             bool dol_f_negative = dol_ff < 0;
             if (dol_f_negative == false)
             {
-                profss.label16.Text = dol_ff.ToString();
-                profss.label19.Text = dol_ff.ToString();
+                string dfss = dol_ff.ToString();
+                string pergss = gg_per.ToString();
+                dfss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dfss));
+                pergss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(pergss));
+                profss.label16.Text = dfss + "   |   " + pergss;
+                //profss.label19.Text = dol_ff.ToString();
                 profss.label16.BackColor = System.Drawing.Color.Transparent;
-                profss.label19.BackColor = System.Drawing.Color.Transparent;
+                //profss.label19.BackColor = System.Drawing.Color.Transparent;
             }
             else
             {
-                profss.label16.Text = dol_ff.ToString();
-                profss.label19.Text = dol_ff.ToString();
+                string dfss = dol_ff.ToString();
+                string pergss = gg_per.ToString();
+                dfss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dfss));
+                pergss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(pergss));
+                profss.label16.Text = dfss + "   |   " + pergss;
+                //profss.label19.Text = dol_ff.ToString();
+                // profss.label19.Text = dol_ff.ToString();
                 profss.label16.BackColor = System.Drawing.Color.Red;
-                profss.label19.BackColor = System.Drawing.Color.Red;
+                //profss.label19.BackColor = System.Drawing.Color.Red;
             }
             //profss.textBox4.Enabled = false;
 
@@ -123,31 +196,39 @@ namespace labor_data
 
 
 
-                    gs = textBox1.Text;
+                    //gs = textBox1.Text;
                     cbxitem = comboBox2.Text;
-                    if(gs =="" || cbxitem== "Choose Item" || cbxitem == "")
+                    if(gs =="" || cbxitem== "Item name" || cbxitem == "" || gs == null)
                     {
-                        MessageBox.Show("Some Required Field is Missing");
+                        MessageBox.Show("Missing Item Name OR Gross Sale Value From Sales Revenue ","Alert",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                         //mylab.Text = "G% : ----";
                     }
                     else
                     {
+                        tb1 = txt1.Text;
+                        string str2 = "";
+                        tb1 = tb1.Replace("$", str2);
+                        tb1 = tb1.Replace(",", str2);
+                        tb1 = tb1.Replace(".", str2);
                         a.Text = txt1.Text;
                         a.Enabled = false;
                         cbxlabel.Text = cbxitem;
                         bool gs_isFlost = double.TryParse(gs, out double gs_val);
-                        bool textbx_isFlost = double.TryParse(txt1.Text, out  f_dols);
+                        bool textbx_isFlost = double.TryParse(tb1, out  f_dols);
                         g_per = f_dols / gs_val;
-                        g_per = Math.Round(g_per, 0, MidpointRounding.AwayFromZero);
+                       g_per = g_per*100;
+                        //g_per = Math.Round(g_per, 0, MidpointRounding.AwayFromZero);
                         bool percent_g_negative = g_per < 0;
 
                         if(percent_g_negative == false)
                         {
                             mylab.Text = g_per.ToString();
+                            //mylab.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(mylab.Text));
                         }
                         else
                         {
                             mylab.Text = g_per.ToString();
+                            //mylab.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(mylab.Text));
                             mylab.BackColor = System.Drawing.Color.Red;
                         }
 
@@ -172,9 +253,9 @@ namespace labor_data
                         }
                         //save
 
-                        mylab.Location = new Point(pointXX, pointYY);
-                        a.Location = new Point(pointX, pointY);
-                        cbxlabel.Location = new Point(point_XX, point_YY);
+                        mylab.Location = new Point(point_XX, point_YY);
+                        a.Location = new Point(pointXX, pointYY);
+                        cbxlabel.Location = new Point(pointX, pointY);
                         //mygval = mylab.Text;
                         panel1.Controls.Add(a);
                         panel1.Controls.Add(mylab);
@@ -187,43 +268,82 @@ namespace labor_data
                         //gg_per = g_per + f_dols;
                         if (z == 1)
                         {
-                            dol_ff = g_per + f_dols;
+                            dol_ff = f_dols;
+                            gg_per = g_per;
                             dol_ff = Math.Round(dol_ff, 0, MidpointRounding.AwayFromZero);
                             bool dol_f_negative = dol_ff < 0;
                             if (dol_f_negative == false)
                             {
-                                label5.Text = "$FF : " + dol_ff.ToString();
-                                label6.Text = "GG% : " + dol_ff.ToString();
+                                //label5.Text = dol_ff.ToString();
+                                //label6.Text = gg_per.ToString();
+                                //label5.BackColor = System.Drawing.Color.Transparent;
+                                //label6.BackColor = System.Drawing.Color.Transparent;
+                                //label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label5.Text));
+                                //label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+
+                                string f1 = dol_ff.ToString();
+                                string g1 = gg_per.ToString();
                                 label5.BackColor = System.Drawing.Color.Transparent;
-                                label6.BackColor = System.Drawing.Color.Transparent;
+                                f1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(f1));
+                                g1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(g1));
+                                label5.Text = f1 + "   |   " + g1;
+
                             }
                             else
                             {
-                                label5.Text = "$FF : " + dol_ff.ToString();
-                                label6.Text = "GG% : " + dol_ff.ToString();
-                                label5.BackColor = System.Drawing.Color.Red;
-                                label6.BackColor = System.Drawing.Color.Red;
+                                //label5.Text = dol_ff.ToString();
+                                //label6.Text = gg_per.ToString();
+                                //label5.BackColor = System.Drawing.Color.Red;
+                                //label6.BackColor = System.Drawing.Color.Red;
+                                //label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label5.Text));
+                                //label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+
+                                string f1 = dol_ff.ToString();
+                                string g1 = gg_per.ToString();
+                                label5.BackColor = System.Drawing.Color.Transparent;
+                                f1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(f1));
+                                g1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(g1));
+                                label5.Text = f1 + "   |   " + g1;
                             }
 
                         }
                         else
                         {
-                            dol_ff = g_per + f_dols + dol_ff;
+                            dol_ff = f_dols + dol_ff;
+                            gg_per = g_per+gg_per;
                             dol_ff = Math.Round(dol_ff, 0, MidpointRounding.AwayFromZero);
                             bool dol_f_negative = dol_ff < 0;
                             if (dol_f_negative == false)
                             {
-                                label5.Text = "$FF : " + dol_ff.ToString();
-                                label6.Text = "GG% : " + dol_ff.ToString();
+                                //label5.Text = dol_ff.ToString();
+                                //label6.Text = gg_per.ToString();
+                                //label5.BackColor = System.Drawing.Color.Transparent;
+                                //label6.BackColor = System.Drawing.Color.Transparent;
+                                //label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label5.Text));
+                                //label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+
+                                string f1 = dol_ff.ToString();
+                                string g1 = gg_per.ToString();
                                 label5.BackColor = System.Drawing.Color.Transparent;
-                                label6.BackColor = System.Drawing.Color.Transparent;
+                                f1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(f1));
+                                g1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(g1));
+                                label5.Text = f1 + "   |   " + g1;
                             }
                             else
                             {
-                                label5.Text = "$FF : " + dol_ff.ToString();
-                                label6.Text = "GG% : " + dol_ff.ToString();
-                                label5.BackColor = System.Drawing.Color.Red;
-                                label6.BackColor = System.Drawing.Color.Red;
+                                //label5.Text = dol_ff.ToString();
+                                //label6.Text = gg_per.ToString();
+                                //label5.BackColor = System.Drawing.Color.Red;
+                                //label6.BackColor = System.Drawing.Color.Red;
+                                //label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label5.Text));
+                                //label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+
+                                string f1 = dol_ff.ToString();
+                                string g1 = gg_per.ToString();
+                                label5.BackColor = System.Drawing.Color.Transparent;
+                                f1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(f1));
+                                g1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(g1));
+                                label5.Text = f1 + "   |   " + g1;
                             }
 
                         }
@@ -303,104 +423,22 @@ namespace labor_data
             fill_combox2();
             comboBox2.DataSource = cbx_data;
             comboBox2.DisplayMember = "dropdown2";
-            comboBox2.Text = "Choose Item";
+            comboBox2.Text = "Item name";
 
 
-            pointX = 30;
-            pointY = 40;
-            pointXX = 215;
+            pointX = 60;
+            pointY = 48;
+            pointXX = 200;
             pointYY = 45;
             point_XX = 379;
-            point_YY = 45;
+            point_YY = 47;
           
             
-            textBox1.Text = profss.textBox1.Text;
-            //txt1.Text = profss.textBox4.Text;
-
-            //if(textBox1.Text !="" && txt1.Text !="")
-            //{
-            //    TextBox a = new TextBox();
-            //    Label mylab = new Label();
-               
-            //    a.Text = txt1.Text;
-               
-            //    //gs = textBox1.Text;
-            //    if (textBox1.Text == "" || txt1.Text == "")
-            //    {
-            //        MessageBox.Show("Gross Sale Value $A OR $F is Missing");
-            //        mylab.Text = "G% : ----";
-            //    }
-            //    else
-            //    {
-            //        bool gs_isdbl = double.TryParse(textBox1.Text, out double gs_val);
-            //        bool textbx_idbl = double.TryParse(txt1.Text, out f_dols);
-            //        g_per = f_dols / gs_val;
-            //        g_per = Math.Round(g_per, 0, MidpointRounding.AwayFromZero);
-            //        bool percent_g_negative = g_per < 0;
-
-            //        if (percent_g_negative == false)
-            //        {
-            //            mylab.Text = g_per.ToString();
-            //        }
-            //        else
-            //        {
-            //            mylab.Text = g_per.ToString();
-            //            mylab.BackColor = System.Drawing.Color.Red;
-            //        }
-            //        //database
-            //        cmd.Parameters.Clear();
-            //        string qry = "INSERT INTO reused_values_tb (dollars_f,percent_g) VALUES (@dol_f,@percent_g) ";
-            //        cmd.CommandText = qry;
-            //        cmd.Connection = db_conect;
-            //        //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-            //        cmd.Parameters.Add("@dol_f", txt1.Text);
-            //        cmd.Parameters.Add("@percent_g", mylab.Text);
-            //        int rows = cmd.ExecuteNonQuery();
-            //        if (rows > 0)
-            //        {
-            //           // MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
-            //        }
-            //        else
-            //        {
-            //            MessageBox.Show("Failed to Save Data");
-            //        }
-            //        //save
-            //        mylab.Location = new Point(pointXX, pointYY);
-            //        a.Location = new Point(pointX, pointY);
-            //        //mygval = mylab.Text;
-            //        panel1.Controls.Add(a);
-            //        panel1.Controls.Add(mylab);
-            //        panel1.Show();
-
-            //        dol_ff = g_per + f_dols;
-            //        dol_ff = Math.Round(dol_ff, 0, MidpointRounding.AwayFromZero);
-            //        bool dol_f_negative = dol_ff < 0;
-            //        if (dol_f_negative == false)
-            //        {
-            //            label5.Text = "$FF : " + dol_ff.ToString();
-            //            label6.Text = "GG% : " + dol_ff.ToString();
-            //            label5.BackColor = System.Drawing.Color.Transparent;
-            //            label6.BackColor = System.Drawing.Color.Transparent;
-            //        }
-            //        else
-            //        {
-            //            label5.Text = "$FF : " + dol_ff.ToString();
-            //            label6.Text = "GG% : " + dol_ff.ToString();
-            //            label5.BackColor = System.Drawing.Color.Red;
-            //            label6.BackColor = System.Drawing.Color.Red;
-            //        }
-            //    }
-            //        pointY += 25;
-            //        pointYY += 25;
-            //        z =2;
-
-                
-            //}
-            //else
-            //{
-               
-            //    MessageBox.Show("Gross Sale Value $A OR $F is Missing");
-            //}
+            gs = profss.textBox1.Text;
+            string str2 = "";
+            gs = gs.Replace("$", str2);
+            gs = gs.Replace(",", str2);
+ 
 
             cmd.Parameters.Clear();
             string qqry = "SELECT * FROM reused_values_tb  WHERE key_status='1'";
@@ -437,9 +475,9 @@ namespace labor_data
                     mylab.BackColor = System.Drawing.Color.Red;
                 }
 
-                mylab.Location = new Point(pointXX, pointYY);
-                a.Location = new Point(pointX, pointY);
-                cbxlabel.Location = new Point(point_XX, point_YY);
+                mylab.Location = new Point(point_XX, point_YY);
+                a.Location = new Point(pointXX, pointYY);
+                cbxlabel.Location = new Point(pointX, pointY);
                 //mygval = mylab.Text;
                 panel1.Controls.Add(a);
                 panel1.Controls.Add(mylab);
@@ -447,23 +485,41 @@ namespace labor_data
                 panel1.Show();
 
                 string dff= profss.label16.Text;
+              
+                //string str21 = " ";
+                //dff = dff.Replace("", str21);
+                if (dff.Contains("|"))
+                {
+                    string[] tokens1 = dff.Split('|');
+                    dff = tokens1[0];
+                    pgg = tokens1[1];
+                }
+                string str21 = "";
+               dff = dff.Replace("$", str21);
+               dff = dff.Replace(",", str21);
+               dff = dff.Replace(".", str21);
+
                 //string pgg = profss.label19.Text;
                 double.TryParse(dff, out  dol_ff);
 
                 bool dol_f_negative = dol_ff < 0;
                 if (dol_f_negative == false)
                 {
-                       label5.Text = "$FF : " + dol_ff.ToString();
-                       label6.Text = "GG% : " + dol_ff.ToString();
-                       label5.BackColor = System.Drawing.Color.Transparent;
-                       label6.BackColor = System.Drawing.Color.Transparent;
-                 }
+                    string f1 = dol_ff.ToString();
+                    label5.BackColor = System.Drawing.Color.Transparent;
+                    f1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(f1));
+                    label5.Text = f1 + "   |" + pgg;
+                    //label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                }
                  else
                  {
-                        label5.Text = "$FF : " + dol_ff.ToString();
-                        label6.Text = "GG% : " + dol_ff.ToString();
-                        label5.BackColor = System.Drawing.Color.Red;
-                        label6.BackColor = System.Drawing.Color.Red;
+                    string f1 = dol_ff.ToString();
+                    label5.BackColor = System.Drawing.Color.Transparent;
+                    //label6.BackColor = System.Drawing.Color.Transparent;
+                    f1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(f1));
+                    label5.Text = f1 + "   |   " + pgg;
+                    label5.BackColor = System.Drawing.Color.Red;
+                        //label6.BackColor = System.Drawing.Color.Red;
                  }
                 pointY += 25;
                 pointYY += 25;

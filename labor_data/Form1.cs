@@ -298,12 +298,25 @@ namespace labor_data
             textBox10.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             textBox11.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
             textBox12.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
-            //textBox14.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
-            //textBox15.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
-            //textBox16.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
-            
+            textBox14.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
+            textBox15.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
+            textBox16.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
+            comboBox1.KeyDown += new KeyEventHandler(tb_KeyDown);
+            comboBox2.KeyDown += new KeyEventHandler(tb_KeyDown);
+
+
         }
 
+
+
+        static void tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //enter key is down
+                SendKeys.Send("{TAB}");
+            }
+        }
 
         //public void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         //{
@@ -331,6 +344,10 @@ namespace labor_data
                 string title = "Alert";
                 MessageBox.Show(message, title);
                 input = 0;
+            }
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                SendKeys.Send("{TAB}");
             }
         }
 
