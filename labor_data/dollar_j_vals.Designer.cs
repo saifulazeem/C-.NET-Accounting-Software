@@ -91,17 +91,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(130, 514);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(38, 515);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.Size = new System.Drawing.Size(73, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "M%:---";
+            this.label2.Text = "Total Cost :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 514);
+            this.label1.Location = new System.Drawing.Point(115, 515);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 13);
@@ -115,6 +116,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(109, 20);
             this.textBox2.TabIndex = 2;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // button1
             // 
@@ -155,7 +157,7 @@
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(124, 21);
-            this.comboBox2.TabIndex = 19;
+            this.comboBox2.TabIndex = 1;
             this.comboBox2.Text = "Choose Item";
             // 
             // dollar_j_vals
@@ -171,7 +173,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "dollar_j_vals";
-            this.Text = "$L & M% Calculation Form";
+            this.Text = "Labor Total Cost";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.dollar_j_vals_FormClosing);
             this.Load += new System.EventHandler(this.dollar_j_vals_Load);
             this.panel1.ResumeLayout(false);

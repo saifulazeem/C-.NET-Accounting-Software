@@ -2105,198 +2105,61 @@ namespace labor_data
             //Mofiys J
             if(label21.Text=="---" && label11.Text=="---")
             {
-                ////label12.BackColor = System.Drawing.Color.Transparent;
-                //label21.BackColor = System.Drawing.Color.Transparent;
-                //label11.BackColor = System.Drawing.Color.Transparent;
-                //label32.BackColor = System.Drawing.Color.Transparent;
-                //label23.BackColor = System.Drawing.Color.Transparent;
-                //label40.BackColor = System.Drawing.Color.Transparent;
-                //label41.BackColor = System.Drawing.Color.Transparent;
-
-                //if (textBox1.Text == "" || textBox5.Text == "")
-                //{
-                //    string message = "Numeric Values is Missing For Gross Sale ($A) or $J Value";
-                //    string title = "Alert";
-                //    MessageBox.Show(message, title);
-                //}
-                //else
-                //{
-                //    String grossfs_sale = textBox1.Text;
-                //    //String cashh_sale = textBox2.Text;
-                //    //String non_cashh_sale = textBox3.Text;
-                //    //String f_val = textBox4.Text;
-                //    String dollar_j = textBox5.Text;
-                //    bool dollar_j_isFlost = double.TryParse(dollar_j, out double j_val);
-                //    bool grosfss_sale_isFlost = double.TryParse(grossfs_sale, out double ff_ga_sale);
-                //    double k_percent = j_val / ff_ga_sale;
-                //    double dollar_L_M_percent = j_val + k_percent;
-
-                //    double percent_o, percent_q;
-
-                //    if (checkBox1.Checked)
-                //    {
-                //        double.TryParse(textBox6.Text, out double new_n_val);
-                //        percent_o = new_n_val / ff_ga_sale;
-                //        label31.Text = new_n_val + " $".ToString();
-                //    }
-                //    else
-                //    {
-
-
-                //        String per_x = label26.Text;
-                //        if (per_x == "Null")
-                //        {
-                //            label26.Text = "Null";
-                //            double.TryParse(textBox6.Text, out double new_n_val);
-                //            percent_o = new_n_val / ff_ga_sale;
-                //            label31.Text = new_n_val + " $".ToString();
-                //        }
-                //        else
-                //        {
-                //            bool percent_x_isFlost = double.TryParse(per_x, out double x_val);
-                //            double dollar_n = x_val * dollar_L_M_percent;
-                //            textBox6.Text = dollar_n.ToString();
-                //            label31.Text = dollar_n + " $".ToString();
-                //            double.TryParse(textBox6.Text, out double new_n_val);
-                //            percent_o = new_n_val / ff_ga_sale;
-
-                //        }
-                //    }
-
-                //    if (checkBox2.Checked)
-                //    {
-                //        double.TryParse(textBox7.Text, out double new_p_val);
-                //        percent_q = new_p_val / ff_ga_sale;
-                //        label22.Text = new_p_val + " $".ToString();
-                //    }
-                //    else
-                //    {
-
-
-                //        String perr_x = label38.Text;
-                //        if (perr_x == "Null")
-                //        {
-                //            //label38.Text = "Null";
-                //            double.TryParse(textBox7.Text, out double new_p_val);
-                //            percent_q = new_p_val / ff_ga_sale;
-                //            label22.Text = new_p_val + " $".ToString();
-                //        }
-                //        else
-                //        {
-                //            bool percent_xx_isFlost = double.TryParse(perr_x, out double xx_val);
-                //            double dollar_p = xx_val * dollar_L_M_percent;
-                //            textBox7.Text = dollar_p.ToString();
-                //            label22.Text = dollar_p + " $".ToString();
-                //            percent_q = dollar_p / ff_ga_sale;
-
-
-                //        }
-                //    }
-
-                //    double.TryParse(textBox7.Text, out double new_p_val_fr_r);
-                //    double.TryParse(textBox6.Text, out double new_n_val_fr_r);
-                //    dollar_r = dollar_L_M_percent + new_n_val_fr_r + new_p_val_fr_r;
-                //    double percent_s = dollar_r / ff_ga_sale;
-
-                //    bool percent_o_negative = percent_o < 0;
-                //    bool percent_q_negative = percent_q < 0;
-                //    bool k_percent_negative = k_percent < 0;
-                //    bool L_dollar_M_negative = dollar_L_M_percent < 0;
-                //    bool dollar_r_negative = dollar_r < 0;
-                //    bool s_percent_negative = percent_s < 0;
-
-                //    if (s_percent_negative == false && k_percent_negative == false && L_dollar_M_negative == false && percent_o_negative == false && percent_q_negative == false && dollar_r_negative == false)
-                //    {
-                //        label12.Text = "K% : " + k_percent + "%";
-                //        label21.Text = dollar_L_M_percent.ToString();
-                //        label11.Text = dollar_L_M_percent.ToString();
-                //        label32.Text = percent_o + " %".ToString();
-                //        label23.Text = percent_q + " %".ToString();
-                //        label40.Text = dollar_r + " $".ToString();
-                //        label41.Text = percent_s + " %".ToString();
-                //    }
-                //    else
-                //    {
-                //        label12.Text = "K% : " + k_percent + "%";
-                //        label21.Text = dollar_L_M_percent.ToString();
-                //        label11.Text = dollar_L_M_percent.ToString();
-                //        label32.Text = percent_o + " %".ToString();
-                //        label23.Text = percent_q + " %".ToString();
-                //        label40.Text = dollar_r + " $".ToString();
-                //        label41.Text = percent_s + " %".ToString();
-
-                //        if (s_percent_negative == true)
-                //        {
-                //            label41.Text = percent_s + " %".ToString();
-                //            label41.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (dollar_r_negative == true)
-
-                //        {
-                //            label40.Text = dollar_r + " $".ToString();
-                //            label40.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (percent_q_negative == true)
-                //        {
-                //            label23.Text = percent_q + " %".ToString();
-                //            label23.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (percent_o_negative == true)
-                //        {
-                //            label32.Text = percent_o + " %".ToString();
-                //            label32.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (k_percent_negative == true)
-                //        {
-                //            label12.Text = "K% : " + k_percent + "%";
-                //            label12.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (L_dollar_M_negative == true)
-                //        {
-                //            label21.Text = dollar_L_M_percent.ToString();
-                //            label11.Text = dollar_L_M_percent.ToString();
-                //            label11.BackColor = System.Drawing.Color.Red;
-                //            label21.BackColor = System.Drawing.Color.Red;
-                //        }
-                //    }
-
-                //}
+               
                 MessageBox.Show("Please Click on + Button to Calculate $L and %M", "$L and %M Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             //case2================
             else
             {
-                //label12.BackColor = System.Drawing.Color.Transparent;
-              //  label21.BackColor = System.Drawing.Color.Transparent;
-                //label11.BackColor = System.Drawing.Color.Transparent;
+           
                 label32.BackColor = System.Drawing.Color.Transparent;
                 label23.BackColor = System.Drawing.Color.Transparent;
                 label40.BackColor = System.Drawing.Color.Transparent;
                 label41.BackColor = System.Drawing.Color.Transparent;
 
-                //if(textBox5.Text=="")
-                //{
-                //    textBox5.Text = "0";
-                //}
 
                 if (textBox1.Text == "")
                 {
-                    string message = "Numeric Values is Missing For Gross Sale ($A) or $J Value";
+                    string message = "Numeric Values is Missing For Gross Sale ($A)";
                     string title = "Alert";
                     MessageBox.Show(message, title);
                 }
                 else
                 {
-                    String grossfs_sale = textBox1.Text;
+                    string str2 = "";
+                    tbx1 = textBox1.Text;
+                    tbx1 = tbx1.Replace("$", str2);
+                    tbx1 = tbx1.Replace(",", str2);
+                    tbx1 = tbx1.Replace(".", str2);
+
+
+                    String grossfs_sale = tbx1;
+                    string d_l_val = label21.Text;
+                    string per_m_val=label11.Text;
+                    if (d_l_val.Contains("|"))
+                    {
+                        string[] tokens1 = d_l_val.Split('|');
+                        d_l_val = tokens1[0];
+                        per_m_val = tokens1[1];
+                    }
+                    string str21 = "";
+                    d_l_val = d_l_val.Replace("$", str21);
+                    d_l_val = d_l_val.Replace(",", str21);
+                    d_l_val = d_l_val.Replace(".", str21);
+
+                    per_m_val = per_m_val.Replace("%", str21);
+
+
                     //String cashh_sale = textBox2.Text;
                     //String non_cashh_sale = textBox3.Text;
                     //String f_val = textBox4.Text;
                     //String dollar_j = textBox5.Text;
-                    
+
                     //bool dollar_j_isFlost = double.TryParse(dollar_j, out double j_val);
                     bool grosfss_sale_isFlost = double.TryParse(grossfs_sale, out double ff_ga_sale);
                     //double k_percent = j_val / ff_ga_sale;
-                    double.TryParse(label21.Text, out double dollar_L_M_percent);
+                    double.TryParse(d_l_val, out double dollar_L);
+                    double.TryParse(per_m_val, out double M_percent);
                     //dollar_L_M_percent = j_val + k_percent;
 
                     double percent_o, percent_q;
@@ -2305,7 +2168,9 @@ namespace labor_data
                     {
                         double.TryParse(textBox6.Text, out double new_n_val);
                         percent_o = new_n_val / ff_ga_sale;
-                        label31.Text = new_n_val + " $".ToString();
+                        label31.Text = new_n_val.ToString();
+                        label31.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label31.Text));
+
                     }
                     else
                     {
@@ -2317,14 +2182,16 @@ namespace labor_data
                             label26.Text = "Null";
                             double.TryParse(textBox6.Text, out double new_n_val);
                             percent_o = new_n_val / ff_ga_sale;
-                            label31.Text = new_n_val + " $".ToString();
+                            label31.Text = new_n_val.ToString();
+                            label31.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label31.Text));
                         }
                         else
                         {
                             bool percent_x_isFlost = double.TryParse(per_x, out double x_val);
-                            double dollar_n = x_val * dollar_L_M_percent;
+                            double dollar_n = x_val * dollar_L;//dividng values
                             textBox6.Text = dollar_n.ToString();
-                            label31.Text = dollar_n + " $".ToString();
+                            label31.Text = dollar_n.ToString();
+                            label31.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label31.Text));
                             double.TryParse(textBox6.Text, out double new_n_val);
                             percent_o = new_n_val / ff_ga_sale;
 
@@ -2335,7 +2202,8 @@ namespace labor_data
                     {
                         double.TryParse(textBox7.Text, out double new_p_val);
                         percent_q = new_p_val / ff_ga_sale;
-                        label22.Text = new_p_val + " $".ToString();
+                        label22.Text = new_p_val.ToString();
+                        label22.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label22.Text));
                     }
                     else
                     {
@@ -2347,14 +2215,16 @@ namespace labor_data
                             //label38.Text = "Null";
                             double.TryParse(textBox7.Text, out double new_p_val);
                             percent_q = new_p_val / ff_ga_sale;
-                            label22.Text = new_p_val + " $".ToString();
+                            label22.Text = new_p_val .ToString();
+                            label22.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label22.Text));
                         }
                         else
                         {
                             bool percent_xx_isFlost = double.TryParse(perr_x, out double xx_val);
-                            double dollar_p = xx_val * dollar_L_M_percent;
+                            double dollar_p = xx_val * dollar_L;
                             textBox7.Text = dollar_p.ToString();
-                            label22.Text = dollar_p + " $".ToString();
+                            label22.Text = dollar_p.ToString();
+                            label22.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label22.Text));
                             percent_q = dollar_p / ff_ga_sale;
 
 
@@ -2363,55 +2233,71 @@ namespace labor_data
 
                     double.TryParse(textBox7.Text, out double new_p_val_fr_r);
                     double.TryParse(textBox6.Text, out double new_n_val_fr_r);
-                    dollar_r = dollar_L_M_percent + new_n_val_fr_r + new_p_val_fr_r;
+                    dollar_r = dollar_L + new_n_val_fr_r + new_p_val_fr_r;
                     double percent_s = dollar_r / ff_ga_sale;
 
                     bool percent_o_negative = percent_o < 0;
                     bool percent_q_negative = percent_q < 0;
                     //bool k_percent_negative = k_percent < 0;
-                    bool L_dollar_M_negative = dollar_L_M_percent < 0;
+                   // bool L_dollar_M_negative = dollar_L_M_percent < 0;
                     bool dollar_r_negative = dollar_r < 0;
                     bool s_percent_negative = percent_s < 0;
 
-                    if (s_percent_negative == false  && L_dollar_M_negative == false && percent_o_negative == false && percent_q_negative == false && dollar_r_negative == false)
+                    if (s_percent_negative == false  && percent_o_negative == false && percent_q_negative == false && dollar_r_negative == false)
                     {
                         //label12.Text = "K% : " + k_percent + "%";
-                        label21.Text = dollar_L_M_percent.ToString();
-                        label11.Text = dollar_L_M_percent.ToString();
-                        label32.Text = percent_o + " %".ToString();
-                        label23.Text = percent_q + " %".ToString();
-                        label40.Text = dollar_r + " $".ToString();
-                        label41.Text = percent_s + " %".ToString();
+                        //label21.Text = dollar_L_M_percent.ToString();
+                        //label11.Text = dollar_L_M_percent.ToString();
+                        label32.Text = percent_o.ToString();
+                        label32.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label32.Text));
+                        label23.Text = percent_q .ToString();
+                        label23.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label23.Text));
+                        label40.Text = dollar_r.ToString();
+                        label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
+                        label41.Text = percent_s.ToString();
+                        label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
                     }
                     else
                     {
-                        //label12.Text = "K% : " + k_percent + "%";
-                        label21.Text = dollar_L_M_percent.ToString();
-                        label11.Text = dollar_L_M_percent.ToString();
-                        label32.Text = percent_o + " %".ToString();
-                        label23.Text = percent_q + " %".ToString();
-                        label40.Text = dollar_r + " $".ToString();
-                        label41.Text = percent_s + " %".ToString();
+                        ////label12.Text = "K% : " + k_percent + "%";
+                        ////label21.Text = dollar_L_M_percent.ToString();
+                        ////label11.Text = dollar_L_M_percent.ToString();
+                        //label32.Text = percent_o + " %".ToString();
+                        //label23.Text = percent_q + " %".ToString();
+                        //label40.Text = dollar_r + " $".ToString();
+                        //label41.Text = percent_s + " %".ToString();
+                        label32.Text = percent_o.ToString();
+                        label32.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label32.Text));
+                        label23.Text = percent_q.ToString();
+                        label23.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label23.Text));
+                        label40.Text = dollar_r.ToString();
+                        label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
+                        label41.Text = percent_s.ToString();
+                        label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
 
                         if (s_percent_negative == true)
                         {
-                            label41.Text = percent_s + " %".ToString();
+                            label41.Text = percent_s.ToString();
+                            label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
                             label41.BackColor = System.Drawing.Color.Red;
                         }
                         if (dollar_r_negative == true)
 
                         {
-                            label40.Text = dollar_r + " $".ToString();
+                            label40.Text = dollar_r.ToString();
+                            label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
                             label40.BackColor = System.Drawing.Color.Red;
                         }
                         if (percent_q_negative == true)
                         {
-                            label23.Text = percent_q + " %".ToString();
+                            label23.Text = percent_q .ToString();
+                            label23.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label23.Text));
                             label23.BackColor = System.Drawing.Color.Red;
                         }
                         if (percent_o_negative == true)
                         {
-                            label32.Text = percent_o + " %".ToString();
+                            label32.Text = percent_o.ToString();
+                            label32.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label32.Text));
                             label32.BackColor = System.Drawing.Color.Red;
                         }
                         //if (k_percent_negative == true)

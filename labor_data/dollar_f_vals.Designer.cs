@@ -173,7 +173,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "dollar_f_vals";
-            this.Text = "$FF & GG% Calculation Form";
+            this.Text = "Total Cost of Goods Sold";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.dollar_f_vals_FormClosing);
             this.Load += new System.EventHandler(this.dollar_f_vals_Load);
             this.panel1.ResumeLayout(false);

@@ -29,7 +29,7 @@ namespace labor_data
         public static DataTable cbx_data = new DataTable();
         public static DataTable fg_data_dt = new DataTable();
 
-
+        Profit_Loss_Calculations profss;
 
         //string con_str = "Data Source =DESKTOP-D8I8EQJ;Initial Catalog=rms_db;Integrated Security=True";
         public static string con_str => ConfigurationManager.ConnectionStrings["con_str"].ConnectionString;
@@ -64,7 +64,7 @@ namespace labor_data
                 }
             }
         }
-        Profit_Loss_Calculations profss;
+     
 
         private void dollar_f_vals_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -80,30 +80,19 @@ namespace labor_data
             bool dol_f_negative = dol_ff < 0;
             if (dol_f_negative == false)
             {
-                //string dfss = dol_ff.ToString();
-                //string pergss = gg_per.ToString();
-                //dfss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dfss));
-                //pergss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(pergss));
-                //profss.label16.Text = dfss + "   |   " + pergss;
-                //profss.label19.Text = dol_ff.ToString();
+               
                 profss.label16.Text = label5.Text;
                 profss.label16.BackColor = System.Drawing.Color.Transparent;
-                //profss.label19.BackColor = System.Drawing.Color.Transparent;
+
             }
             else
             {
-                //string dfss = dol_ff.ToString();
-                //string pergss = gg_per.ToString();
-                //dfss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dfss));
-                //pergss = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(pergss));
-                //profss.label16.Text = dfss + "   |   " + pergss;
-                //profss.label19.Text = dol_ff.ToString();
-                // profss.label19.Text = dol_ff.ToString();
+       
                 profss.label16.Text = label5.Text;
                 profss.label16.BackColor = System.Drawing.Color.Red;
-                //profss.label19.BackColor = System.Drawing.Color.Red;
+  
             }
-            //profss.textBox4.Enabled = false;
+          
 
             //database
             cmd.Parameters.Clear();
@@ -250,6 +239,7 @@ namespace labor_data
                         {
                             mylab.Text = g_per.ToString();
                             mylab.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(mylab.Text));
+                            mylab.BackColor = System.Drawing.Color.Transparent;
                         }
                         else
                         {
@@ -471,9 +461,9 @@ namespace labor_data
             pointYY = 45;
             point_XX = 379;
             point_YY = 47;
-          
-            
+ 
             gs = profss.textBox1.Text;
+
             string str2 = "";
             gs = gs.Replace("$", str2);
             gs = gs.Replace(",", str2);
