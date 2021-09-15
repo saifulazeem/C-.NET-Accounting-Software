@@ -101,6 +101,7 @@ namespace labor_data
 
         private void button2_Click(object sender, EventArgs e)
         {
+            double.TryParse(textBox1.Text, out double txb1);
             if (textBox1.Text == "")
             {
                 //MessageBox.Show("Failed to Save Data");
@@ -110,7 +111,7 @@ namespace labor_data
                 cmd2.CommandText = qry;
                 cmd2.Connection = db_conect;
                 //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@per_x", emt_str);
+                cmd2.Parameters.AddWithValue("@per_x", emt_str);
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
@@ -123,27 +124,36 @@ namespace labor_data
             }
             else
             {
-                cmd2.Parameters.Clear();
-                string qry = "UPDATE free_values SET percent_x=@per_x where v_id=1 ";
-                cmd2.CommandText = qry;
-                cmd2.Connection = db_conect;
-                //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@per_x", textBox1.Text);
-                int rows = cmd2.ExecuteNonQuery();
-                if (rows > 0)
+                if (txb1 <= 100)
                 {
-                    MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    cmd2.Parameters.Clear();
+                    string qry = "UPDATE free_values SET percent_x=@per_x where v_id=1 ";
+                    cmd2.CommandText = qry;
+                    cmd2.Connection = db_conect;
+                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                    cmd2.Parameters.AddWithValue("@per_x", textBox1.Text);
+                    int rows = cmd2.ExecuteNonQuery();
+                    if (rows > 0)
+                    {
+                        MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to Save Data");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Failed to Save Data");
+                    MessageBox.Show("Percentage Can not Be greater than 100%", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+                   
             }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            double.TryParse(textBox2.Text, out double txb2);
             if (textBox2.Text == "")
             {
                 //MessageBox.Show("Failed to Save Data");
@@ -153,7 +163,7 @@ namespace labor_data
                 cmd2.CommandText = qry;
                 cmd2.Connection = db_conect;
                 //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@per_xx", ept_str);
+                cmd2.Parameters.AddWithValue("@per_xx", ept_str);
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
@@ -166,26 +176,35 @@ namespace labor_data
             }
             else
             {
-                cmd2.Parameters.Clear();
-                string qry = "UPDATE free_values SET percent_xx=@per_xx where v_id=1 ";
-                cmd2.CommandText = qry;
-                cmd2.Connection = db_conect;
-                //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@per_xx", textBox2.Text);
-                int rows = cmd2.ExecuteNonQuery();
-                if (rows > 0)
+                if (txb2 <= 100)
                 {
-                    MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    cmd2.Parameters.Clear();
+                    string qry = "UPDATE free_values SET percent_xx=@per_xx where v_id=1 ";
+                    cmd2.CommandText = qry;
+                    cmd2.Connection = db_conect;
+                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                    cmd2.Parameters.AddWithValue("@per_xx", textBox2.Text);
+                    int rows = cmd2.ExecuteNonQuery();
+                    if (rows > 0)
+                    {
+                        MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to Save Data");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Failed to Save Data");
+                    MessageBox.Show("Percentage Can not Be greater than 100%", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+                   
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            double.TryParse(textBox3.Text, out double txb3);
             if (textBox3.Text == "")
             {
                 //MessageBox.Show("Failed to Save Data");
@@ -195,7 +214,7 @@ namespace labor_data
                 cmd2.CommandText = qry;
                 cmd2.Connection = db_conect;
                 //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@per_v", empt_str);
+                cmd2.Parameters.AddWithValue("@per_v", empt_str);
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
@@ -208,26 +227,35 @@ namespace labor_data
             }
             else
             {
-                cmd2.Parameters.Clear();
-                string qry = "UPDATE free_values SET percent_v=@per_v where v_id=1 ";
-                cmd2.CommandText = qry;
-                cmd2.Connection = db_conect;
-                //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@per_v", textBox3.Text);
-                int rows = cmd2.ExecuteNonQuery();
-                if (rows > 0)
+                if(txb3 <=100)
                 {
-                    MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    cmd2.Parameters.Clear();
+                    string qry = "UPDATE free_values SET percent_v=@per_v where v_id=1 ";
+                    cmd2.CommandText = qry;
+                    cmd2.Connection = db_conect;
+                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                    cmd2.Parameters.AddWithValue("@per_v", textBox3.Text);
+                    int rows = cmd2.ExecuteNonQuery();
+                    if (rows > 0)
+                    {
+                        MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to Save Data");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Failed to Save Data");
+                    MessageBox.Show("Percentage Can not Be greater than 100%", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+            
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //double.TryParse(textBox4.Text, out double txb4);
             if (textBox4.Text == "")
             {
                 //MessageBox.Show("Failed to Save Data");
@@ -237,7 +265,7 @@ namespace labor_data
                 cmd2.CommandText = qry;
                 cmd2.Connection = db_conect;
                 //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@dollar_z", emt_str);
+                cmd2.Parameters.AddWithValue("@dollar_z", emt_str);
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
@@ -250,21 +278,29 @@ namespace labor_data
             }
             else
             {
-                cmd2.Parameters.Clear();
-                string qry = "UPDATE free_values SET dollar_z=@dollar_z where v_id=1 ";
-                cmd2.CommandText = qry;
-                cmd2.Connection = db_conect;
-                //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                cmd2.Parameters.Add("@dollar_z", textBox4.Text);
-                int rows = cmd2.ExecuteNonQuery();
-                if (rows > 0)
-                {
-                    MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
-                }
-                else
-                {
-                    MessageBox.Show("Failed to Save Data");
-                }
+                //if(txb4<=100)
+                //{
+                //    cmd2.Parameters.Clear();
+                    string qry = "UPDATE free_values SET dollar_z=@dollar_z where v_id=1 ";
+                    cmd2.CommandText = qry;
+                    cmd2.Connection = db_conect;
+                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                    cmd2.Parameters.AddWithValue("@dollar_z", textBox4.Text);
+                    int rows = cmd2.ExecuteNonQuery();
+                    if (rows > 0)
+                    {
+                        MessageBox.Show(rows + " Record Saved TO Database Sucessfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to Save Data");
+                    }
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Percentage Can not Be greater than 100%", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //}
+               
             }
         }
 

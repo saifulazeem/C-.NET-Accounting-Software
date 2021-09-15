@@ -1140,6 +1140,10 @@ namespace labor_data
             {
                 ctk = -1;
                 ctk2 = -1;
+                comboBox1.Text = "Please Select...";
+                comboBox3.Text = "Select Labor Type...";
+                checkBox1.Checked = false;
+                checkBox2.Checked = false;
                 //label45.BackColor = System.Drawing.Color.Transparent;
                 label57.BackColor = System.Drawing.Color.Transparent;
                 label58.BackColor = System.Drawing.Color.Transparent;
@@ -2188,6 +2192,7 @@ namespace labor_data
                         else
                         {
                             bool percent_x_isFlost = double.TryParse(per_x, out double x_val);
+                            x_val = x_val / 100;
                             double dollar_n = x_val * dollar_L;//dividng values
                             textBox6.Text = dollar_n.ToString();
                             label31.Text = dollar_n.ToString();
@@ -2221,6 +2226,7 @@ namespace labor_data
                         else
                         {
                             bool percent_xx_isFlost = double.TryParse(perr_x, out double xx_val);
+                            xx_val = xx_val / 100;
                             double dollar_p = xx_val * dollar_L;
                             textBox7.Text = dollar_p.ToString();
                             label22.Text = dollar_p.ToString();
