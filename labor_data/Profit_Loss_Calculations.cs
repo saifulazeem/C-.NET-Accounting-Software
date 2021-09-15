@@ -1635,100 +1635,6 @@ namespace labor_data
             //modify
             if(label16.Text=="---" && label19.Text=="---")
             {
-                //label16.BackColor = System.Drawing.Color.Transparent;
-                //label17.BackColor = System.Drawing.Color.Transparent;
-                ////label18.BackColor = System.Drawing.Color.Transparent;
-                //label19.BackColor = System.Drawing.Color.Transparent;
-                //label20.BackColor = System.Drawing.Color.Transparent;
-                //if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || label19.Text == "---")
-                //{
-                //    string message = "Numeric Values is Missing";
-                //    string title = "Alert";
-                //    MessageBox.Show(message, title);
-                //}
-                //else
-                //{
-                //    String grosss_sale = textBox1.Text;
-                //    String cashh_sale = textBox2.Text;
-                //    String non_cashh_sale = textBox3.Text;
-                //    //f_val = textBox4.Text;
-                //    //bool grosss_sale_isNumber = int.TryParse(grosss_sale, out int ga_sale);
-                //    // bool cash_sale_isNumber = int.TryParse(cashh_sale, out int cc_sale);
-                //    //bool non_cash_sale_isNumber = int.TryParse(non_cashh_sale, out int n_cc_sale);
-                //    //bool f_val_isNumber = int.TryParse(f_val, out int f_vaal);
-                //    bool grosss_sale_isFlost = double.TryParse(grosss_sale, out double f_ga_sale);
-                //    bool cash_sale_isFlost = double.TryParse(cashh_sale, out double f_cc_sale);
-                //    bool non_cash_isFlost = double.TryParse(non_cashh_sale, out double f_n_cc_sale);
-                //    //bool fisFlost = double.TryParse(f_val, out double f_vall);
-
-                //    //double g_percent = f_vall / f_ga_sale;
-
-
-                //    //double gg_percent = f_vall + g_percent;
-                //    //double ff_dollar = f_vall + g_percent;
-                //    double n_csh_sale = f_n_cc_sale / f_ga_sale;
-                //    double grs_sale = f_cc_sale + n_csh_sale;
-                //    h_dollar = grs_sale - ff_dollar;
-                //    double i_percent = grs_sale - gg_percent;
-
-                //    bool g_percent_negative = g_percent < 0;
-                //    bool gg_percent_negative = gg_percent < 0;
-                //    bool ff_dollar_negative = ff_dollar < 0;
-                //    bool h_dollar_negative = h_dollar < 0;
-                //    bool i_percent_negative = i_percent < 0;
-
-                //    if (g_percent_negative == false && gg_percent_negative == false && ff_dollar_negative == false && h_dollar_negative == false && i_percent_negative == false)
-                //    {
-                //        label18.Text = g_percent + "%";
-
-                //        label19.Text = gg_percent.ToString();
-
-                //        label16.Text = ff_dollar.ToString();
-
-                //        label17.Text = "$H :" + h_dollar + "$";
-
-                //        label20.Text = "I% : " + i_percent + "%";
-                //    }
-                //    else
-                //    {
-                //        label18.Text = g_percent + "%";
-
-                //        label19.Text = gg_percent.ToString();
-
-                //        label16.Text = ff_dollar.ToString();
-
-                //        label17.Text = "$H :" + h_dollar + "$";
-
-                //        label20.Text = "I% : " + i_percent + "%";
-
-                //        if (g_percent_negative == true)
-                //        {
-                //            label18.Text = g_percent + "%";
-                //            label18.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (gg_percent_negative == true)
-                //        {
-                //            label19.BackColor = System.Drawing.Color.Red;
-                //            label19.Text = gg_percent.ToString();
-                //        }
-                //        if (ff_dollar_negative == true)
-                //        {
-                //            label16.BackColor = System.Drawing.Color.Red;
-                //            label16.Text = ff_dollar.ToString();
-                //        }
-                //        if (h_dollar_negative == true)
-                //        {
-                //            label17.BackColor = System.Drawing.Color.Red;
-                //            label17.Text = "$H :" + h_dollar + "$";
-                //        }
-                //        if (i_percent_negative == true)
-                //        {
-                //            label20.BackColor = System.Drawing.Color.Red;
-                //            label20.Text = "I% : " + i_percent + "%";
-                //        }
-                //    }
-
-                //}
                 MessageBox.Show("Please Click on + Button to Calculate $FF and %GG", "$FF and %% Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             //CASE222222
@@ -1736,13 +1642,8 @@ namespace labor_data
             {
                 //label16.BackColor = System.Drawing.Color.Transparent;
                 label17.BackColor = System.Drawing.Color.Transparent;
-                //label18.BackColor = System.Drawing.Color.Transparent;
-                //label19.BackColor = System.Drawing.Color.Transparent;
                 label20.BackColor = System.Drawing.Color.Transparent;
-                //if (textBox4.Text == "")
-                //{
-                  //  textBox4.Text = "0";
-                //}
+            
                 if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
                 {
                     string message = "Numeric Values is Missing";
@@ -1751,11 +1652,56 @@ namespace labor_data
                 }
                 else
                 {
-                    String grosss_sale = textBox1.Text;
-                    String cashh_sale = textBox2.Text;
-                    String non_cashh_sale = textBox3.Text;
-                    String percent_gg = label19.Text;
+                    //String grosss_sale = textBox1.Text;
+                    //String cashh_sale = textBox2.Text;
+                    //String non_cashh_sale = textBox3.Text;
+                    //String percent_gg = label19.Text;
+                    //String dolls_ff = label16.Text;
+                    string str2 = "";
+                    tbx1 = textBox1.Text;
+                    tbx1 = tbx1.Replace("$", str2);
+                    tbx1 = tbx1.Replace(",", str2);
+                    tbx1 = tbx1.Replace(".", str2);
+
+                    tbx2 = textBox2.Text;
+                    tbx2 = tbx2.Replace("$", str2);
+                    tbx2 = tbx2.Replace(",", str2);
+                    tbx2 = tbx2.Replace(".", str2);
+
+                    tbx3 = textBox3.Text;
+                    tbx3 = tbx3.Replace("$", str2);
+                    tbx3 = tbx3.Replace(",", str2);
+                    tbx3 = tbx3.Replace(".", str2);
+
+
+                    gross_sale = tbx1;
+                    cash_sale = tbx2;
+                    non_cash_sale = tbx3;
+
+
+                    String grosss_sale = tbx1;
+                    String cashh_sale = tbx2;
+                    String non_cashh_sale = tbx3;
+
                     String dolls_ff = label16.Text;
+                    String percent_gg = label19.Text;
+
+                    if (dolls_ff.Contains("|"))
+                    {
+                        string[] tokens1 = dolls_ff.Split('|');
+                        dolls_ff = tokens1[0];
+                        percent_gg = tokens1[1];
+                    }
+                    string str21 = "";
+                    dolls_ff = dolls_ff.Replace("$", str21);
+                    dolls_ff = dolls_ff.Replace(",", str21);
+                    dolls_ff = dolls_ff.Replace(".", str21);
+
+                    percent_gg = percent_gg.Replace("%", str21);
+
+
+
+
 
                     bool grosss_sale_isFlost = double.TryParse(grosss_sale, out double f_ga_sale);
                     bool cash_sale_isFlost = double.TryParse(cashh_sale, out double f_cc_sale);
@@ -1764,41 +1710,48 @@ namespace labor_data
                     double.TryParse(percent_gg, out double gg_percent);
                     double.TryParse(dolls_ff, out double ff_dollar);
 
-                    double n_csh_sale = f_n_cc_sale / f_ga_sale;
-                    double grs_sale = f_cc_sale + n_csh_sale;
+                    double fcsh_sale = f_cc_sale / f_ga_sale; //B%
+                    double n_csh_sale = f_n_cc_sale / f_ga_sale; //C%
+                    double grs_sale = f_cc_sale + f_n_cc_sale; //$D
+                    double ep = n_csh_sale + fcsh_sale; //E%
+                    ep = ep * 100;
                     h_dollar = grs_sale - ff_dollar;
-                    double i_percent = grs_sale - gg_percent;
+                    double i_percent = ep - gg_percent;
+                    double iper = (ep - gg_percent)/ 100;
 
 
-                    bool gg_percent_negative = gg_percent < 0;
-                    bool ff_dollar_negative = ff_dollar < 0;
+                    //bool gg_percent_negative = gg_percent < 0;
+                    //bool ff_dollar_negative = ff_dollar < 0;
                     bool h_dollar_negative = h_dollar < 0;
-                    bool i_percent_negative = i_percent < 0;
+                    bool i_percent_negative = iper < 0;
 
                     if ( h_dollar_negative == false && i_percent_negative == false)
                     {
 
-                        label17.Text = "$H :" + h_dollar + "$";
-
-                        label20.Text = "I% : " + i_percent + "%";
+                        string d_h = h_dollar.ToString();
+                        string p_i = iper.ToString();
+                        d_h = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(d_h));
+                        p_i = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(p_i));
+                        label17.Text = d_h+"   |   "+p_i;
                     }
                     else
                     {
+                        string d_h = h_dollar.ToString();
+                        string p_i = iper.ToString();
+                        d_h = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(d_h));
+                        p_i = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(p_i));
+                        label17.Text = d_h + "   |   " + p_i;
 
-                        label17.Text = "$H :" + h_dollar + "$";
-
-                        label20.Text = "I% : " + i_percent + "%";
-                       
                         if (h_dollar_negative == true)
                         {
                             label17.BackColor = System.Drawing.Color.Red;
-                            label17.Text = "$H :" + h_dollar + "$";
+                            //label17.Text = "$H :" + h_dollar + "$";
                         }
-                        if (i_percent_negative == true)
-                        {
-                            label20.BackColor = System.Drawing.Color.Red;
-                            label20.Text = "I% : " + i_percent + "%";
-                        }
+                        //if (i_percent_negative == true)
+                        //{
+                        //    label20.BackColor = System.Drawing.Color.Red;
+                        //    label20.Text = "I% : " + i_percent + "%";
+                        //}
                     }
 
                 }
