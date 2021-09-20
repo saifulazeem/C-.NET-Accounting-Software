@@ -1666,16 +1666,22 @@ namespace labor_data
                     tbx1 = tbx1.Replace("$", str2);
                     tbx1 = tbx1.Replace(",", str2);
                     tbx1 = tbx1.Replace(".", str2);
+                    tbx1 = tbx1.Replace("(", "-");
+                    tbx1 = tbx1.Replace(")", str2);
 
                     tbx2 = textBox2.Text;
                     tbx2 = tbx2.Replace("$", str2);
                     tbx2 = tbx2.Replace(",", str2);
                     tbx2 = tbx2.Replace(".", str2);
+                    tbx2 = tbx2.Replace("(", "-");
+                    tbx2 = tbx2.Replace(")", str2);
 
                     tbx3 = textBox3.Text;
                     tbx3 = tbx3.Replace("$", str2);
                     tbx3 = tbx3.Replace(",", str2);
                     tbx3 = tbx3.Replace(".", str2);
+                    tbx3 = tbx3.Replace("(", "-");
+                    tbx3 = tbx3.Replace(")", str2);
 
 
                     gross_sale = tbx1;
@@ -1744,6 +1750,11 @@ namespace labor_data
                         string p_i = iper.ToString();
                         d_h = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(d_h));
                         p_i = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(p_i));
+                        if (d_h.Contains("("))
+                        {
+                            d_h = d_h.Replace("(", "-");
+                            d_h = d_h.Replace(")", "");
+                        }
                         label17.Text = d_h + "   |   " + p_i;
 
                         if (h_dollar_negative == true)
@@ -1801,6 +1812,8 @@ namespace labor_data
                     tbx1 = tbx1.Replace("$", str2);
                     tbx1 = tbx1.Replace(",", str2);
                     tbx1 = tbx1.Replace(".", str2);
+                    tbx1 = tbx1.Replace("(", "-");
+                    tbx1 = tbx1.Replace(")", str2);
 
                     string d_t_val = label66.Text;
                     string per_uu_val = label67.Text;
@@ -1868,7 +1881,13 @@ namespace labor_data
                     
                     bool dollar_tt_uu_percent_negative = dollar_tts < 0;
                     double dollar_v, percent_w, dollar_vv, ww_percent;
-                    double.TryParse(label79.Text, out dollar_z);
+                    string dolz = label79.Text;
+                    dolz = dolz.Replace("$", str2);
+                    dolz = dolz.Replace(",", str2);
+                    dolz = dolz.Replace(".", str2);
+                    dolz = dolz.Replace("(", "-");
+                    dolz = dolz.Replace(")", str2);
+                    double.TryParse(dolz, out dollar_z);
                     if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && label17.Text != "---" && label40.Text != "---")
                     {
                         dollar_v = h_dollar - dollar_r - dollar_tts;
@@ -1898,43 +1917,78 @@ namespace labor_data
                         label57.Text = dollar_t.ToString();
                         label58.Text = percent_u.ToString();
                         //label45.Text = "U% : " + u_percent.ToString();
-                        label68.Text = dollar_tts.ToString();
+                        //label68.Text = dollar_tts.ToString();
                        // label66.Text = dollar_tt_uu_percent.ToString();
-                        label70.Text = "$V : " + dollar_v.ToString();
-                        label71.Text = "W% : " + percent_w.ToString();
-                        label80.Text = "$VV : " + dollar_vv.ToString();
-                        label81.Text = "WW% : " + ww_percent.ToString();
+                        string dolv = dollar_v.ToString();
+                        string perw = percent_w.ToString();
+                        dolv = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolv));
+                        perw = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(perw));
+                        label70.Text = dolv + "   |   " + perw;
+                        //label71.Text = "W% : " + percent_w.ToString();
+                        //label80.Text = "$VV : " + dollar_vv.ToString();
+                        //label81.Text = "WW% : " + ww_percent.ToString();
+
+                        string dolvv = dollar_vv.ToString();
+                        string perww = ww_percent.ToString();
+                        dolvv = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolvv));
+                        perww = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(perww));
+                        label80.Text = dolvv + "   |   " + perww;
 
                     }
                     else
                     {
                         label57.Text = dollar_t.ToString();
                         label58.Text = percent_u.ToString();
-                       //label45.Text = "U% : " + u_percent.ToString();
-                       // label68.Text = dollar_tt_uu_percent.ToString();
+                        //label45.Text = "U% : " + u_percent.ToString();
+                        // label68.Text = dollar_tt_uu_percent.ToString();
                         //label66.Text = dollar_tt_uu_percent.ToString();
-                        label70.Text = "$V : " + dollar_v.ToString();
-                        label71.Text = "W% : " + percent_w.ToString();
-                        label80.Text = "$VV : " + dollar_vv.ToString();
-                        label81.Text = "WW% : " + ww_percent.ToString();
+                        //label70.Text = "$V : " + dollar_v.ToString();
+                        //label71.Text = "W% : " + percent_w.ToString();
+                        //label80.Text = "$VV : " + dollar_vv.ToString();
+                        //label81.Text = "WW% : " + ww_percent.ToString();
+                        string dolv = dollar_v.ToString();
+                        string perw = percent_w.ToString();
+                        dolv = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolv));
+                        perw = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(perw));
+                        if (dolv.Contains("("))
+                        {
+                            dolv = dolv.Replace("(", "-");
+                            dolv = dolv.Replace(")", "");
+                        }
+                     
+                        label70.Text = dolv + "   |   " + perw;
+                   
+                        string dolvv = dollar_vv.ToString();
+                        string perww = ww_percent.ToString();
+                        dolvv = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolvv));
+                        perww = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(perww));
+
+                        if (dolvv.Contains("("))
+                        {
+                            dolvv = dolvv.Replace("(", "-");
+                            dolvv = dolvv.Replace(")", "");
+                        }
+                        label80.Text = dolvv + "   |   " + perww;
+
+
                         if (percent_ww_negative == true)
                         {
-                            label81.Text = "WW% : " + ww_percent.ToString();
+                            //label81.Text = "WW% : " + ww_percent.ToString();
                             label81.BackColor = System.Drawing.Color.Red;
                         }
                         if (dollar_vv_negative == true)
                         {
-                            label80.Text = "$VV : " + dollar_vv.ToString();
+                            //label80.Text = "$VV : " + dollar_vv.ToString();
                             label80.BackColor = System.Drawing.Color.Red;
                         }
                         if (percent_w_negative == true)
                         {
-                            label71.Text = "W% : " + percent_w.ToString();
+                            //label71.Text = "W% : " + percent_w.ToString();
                             label71.BackColor = System.Drawing.Color.Red;
                         }
                         if (dollar_v_negative == true)
                         {
-                            label70.Text = "$V : " + dollar_v.ToString();
+                            //label70.Text = "$V : " + dollar_v.ToString();
                             label70.BackColor = System.Drawing.Color.Red;
                         }
                         if (dollar_tt_uu_percent_negative == true)
@@ -2004,6 +2058,8 @@ namespace labor_data
                     tbx1 = tbx1.Replace("$", str2);
                     tbx1 = tbx1.Replace(",", str2);
                     tbx1 = tbx1.Replace(".", str2);
+                    tbx1 = tbx1.Replace("(", "-");
+                    tbx1 = tbx1.Replace(")", str2);
 
 
                     String grossfs_sale = tbx1;
@@ -2164,10 +2220,17 @@ namespace labor_data
                         label23.Text = textBox7.Text + "   |   " + pq;
                         //label23.Text = percent_q .ToString();
                         //label23.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label23.Text));
-                        label40.Text = dollar_r.ToString();
-                        label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
-                        label41.Text = percent_s.ToString();
-                        label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
+                        //label40.Text = dollar_r.ToString();
+                        //label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
+                        //label41.Text = percent_s.ToString();
+                        //label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
+
+                        string dolr = dollar_r.ToString();
+                        string pers = percent_s.ToString();
+                        pers = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(pers));
+                        dolr = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolr));
+
+                        label40.Text = dolr + "   |   " + pers;
                     }
                     else
                     {
@@ -2188,22 +2251,33 @@ namespace labor_data
                         string pq = percent_q.ToString();
                         pq = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(pq));
                         label23.Text = textBox7.Text + "   |   " + pq;
-                        label40.Text = dollar_r.ToString();
-                        label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
-                        label41.Text = percent_s.ToString();
-                        label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
+                        //label40.Text = dollar_r.ToString();
+                        //label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
+                        //label41.Text = percent_s.ToString();
+                        //label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
+                        string dolr = dollar_r.ToString();
+                        string pers = percent_s.ToString();
+                        pers = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(pers));
+                        dolr = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolr));
+                        if (dolr.Contains("("))
+                        {
+                            dolr = dolr.Replace("(", "-");
+                            dolr = dolr.Replace(")", "");
+                        }
+                        label40.Text = dolr + "   |   " + pers;
 
                         if (s_percent_negative == true)
                         {
-                            label41.Text = percent_s.ToString();
-                            label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
-                            label41.BackColor = System.Drawing.Color.Red;
+                            //label41.Text = percent_s.ToString();
+                            //label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
+                            label40.BackColor = System.Drawing.Color.Red;
                         }
                         if (dollar_r_negative == true)
 
                         {
-                            label40.Text = dollar_r.ToString();
-                            label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
+                            //label40.Text = dollar_r.ToString();
+                            //label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
+
                             label40.BackColor = System.Drawing.Color.Red;
                         }
                         if (percent_q_negative == true)
@@ -2554,13 +2628,16 @@ namespace labor_data
             {
                 pperr_x = dr["percent_x"].ToString();
                 label26.Text = pperr_x;
+                groupBox4.Text= "Insurance( "+pperr_x+"% )";
                 pperr_xx = dr["percent_xx"].ToString();
                 label38.Text = pperr_xx;
+                groupBox5.Text = "PayRoll Tax( " + pperr_xx + "% )";
 
                 pper_v = dr["percent_v"].ToString();
                 label63.Text = pper_v;
                 ddollar_z = dr["dollar_z"].ToString();
                 label79.Text = ddollar_z;
+                label79.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label79.Text));
             }
 
     
@@ -2598,16 +2675,22 @@ namespace labor_data
                 tbx1 = tbx1.Replace("$", str2);
                 tbx1 = tbx1.Replace(",", str2);
                 tbx1 = tbx1.Replace(".", str2);
+                tbx1 = tbx1.Replace("(", "-");
+                tbx1 = tbx1.Replace(")", str2);
 
                 tbx2 = textBox2.Text;
                 tbx2 = tbx2.Replace("$", str2);
                 tbx2 = tbx2.Replace(",", str2);
                 tbx2 = tbx2.Replace(".", str2);
+                tbx2 = tbx2.Replace("(", "-");
+                tbx2 = tbx2.Replace(")", str2);
 
                 tbx3 = textBox3.Text;
                 tbx3 = tbx3.Replace("$", str2);
                 tbx3 = tbx3.Replace(",", str2);
                 tbx3 = tbx3.Replace(".", str2);
+                tbx3 = tbx3.Replace("(", "-");
+                tbx3 = tbx3.Replace(")", str2);
 
 
                 gross_sale = tbx1;
@@ -2645,7 +2728,7 @@ namespace labor_data
                     label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
                     dds= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                     eps= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                    label7.Text = dds + "    |    " + eps;
+                    label7.Text = dds + "   |   " + eps;
 
                 }
 
@@ -2662,7 +2745,8 @@ namespace labor_data
                         label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
                         dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                         eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                        label7.Text = dds + "  -  " + eps;
+                      
+                        label7.Text = dds + "   |   " + eps;
 
                     }
                     if (n_csh_sale_negative == true)
@@ -2677,7 +2761,7 @@ namespace labor_data
                         label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
                         dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                         eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                        label7.Text = dds + "  -  " + eps;
+                        label7.Text = dds + "   |   " + eps;
 
 
 
@@ -2693,7 +2777,7 @@ namespace labor_data
                         label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
                         dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                         eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                        label7.Text = dds + "  -  " + eps;
+                        label7.Text = dds + "   |   " + eps;
                         label7.BackColor = System.Drawing.Color.Red;
 
                     }
@@ -2708,7 +2792,12 @@ namespace labor_data
                         label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
                         dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                         eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                        label7.Text = dds + "  -  " + eps;
+                        if (dds.Contains("("))
+                        {
+                            dds = dds.Replace("(", "-");
+                            dds = dds.Replace(")", "");
+                        }
+                        label7.Text = dds + "   |   " + eps;
                         label7.BackColor = System.Drawing.Color.Red;
                     }
                 }
