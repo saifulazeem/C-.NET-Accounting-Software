@@ -1770,164 +1770,7 @@ namespace labor_data
             //modify dol t
             if(label66.Text=="---" && label68.Text=="---")
             {
-                ////label45.BackColor = System.Drawing.Color.Transparent;
-                //label57.BackColor = System.Drawing.Color.Transparent;
-                //label58.BackColor = System.Drawing.Color.Transparent;
-                //label66.BackColor = System.Drawing.Color.Transparent;
-                //label68.BackColor = System.Drawing.Color.Transparent;
-                //label71.BackColor = System.Drawing.Color.Transparent;
-                //label70.BackColor = System.Drawing.Color.Transparent;
-                //label80.BackColor = System.Drawing.Color.Transparent;
-                //label81.BackColor = System.Drawing.Color.Transparent;
-                //if (textBox1.Text == "" || textBox8.Text == "")
-                //{
-                //    string message = "Numeric Values is Missing For Gross Sale ($A) or $T Value";
-                //    string title = "Alert";
-                //    MessageBox.Show(message, title);
-                //}
-                //else
-                //{
-                //    String dollar_a = textBox1.Text;
-                //    String dollar_ts = textBox8.Text;
-                //    bool dollar_a_isFlost = double.TryParse(dollar_a, out double dollar_a_val);
-                //    bool dollat_t_isFlost = double.TryParse(dollar_ts, out double dollar_t_val);
-                //    double u_percent = dollar_t_val / dollar_a_val;
-
-                //    double percent_u, dollar_t;
-                //    if (checkBox3.Checked)
-                //    {
-                //        double.TryParse(textBox9.Text, out double new_t_val);
-                //        percent_u = new_t_val / dollar_a_val;
-                //        label57.Text = new_t_val + " $".ToString();
-                //        dollar_t = new_t_val;
-                //    }
-                //    else
-                //    {
-                //        String perr_x = label63.Text;
-                //        if (perr_x == "Null")
-                //        {
-                //            //label26.Text = "Null";
-                //            double.TryParse(textBox9.Text, out double new_t_val);
-                //            percent_u = new_t_val / dollar_a_val;
-                //            label57.Text = new_t_val + " $".ToString();
-                //            dollar_t = new_t_val;
-                //        }
-                //        else
-                //        {
-                //            bool percent_x_isFlost = double.TryParse(perr_x, out double v_val);
-                //            double dollar_ts_val = v_val * dollar_a_val;
-                //            dollar_t = dollar_ts_val;
-                //            textBox9.Text = dollar_t.ToString();
-                //            label57.Text = dollar_t + " $".ToString();
-                //            double.TryParse(textBox9.Text, out double new_t_val);
-                //            percent_u = new_t_val / dollar_a_val;
-
-                //        }
-                //    }
-                //    bool percent_u_negative = percent_u < 0;
-                //    bool dollar_t_negative = dollar_t < 0;
-                //    bool u_percent_negative = u_percent < 0;
-                //    double.TryParse(textBox8.Text, out double real_t_val);
-                //    bool real_dollar_t_negative = real_t_val < 0;
-                //    double dollar_tt_uu_percent = percent_u + dollar_t + u_percent + real_t_val;
-                //    bool dollar_tt_uu_percent_negative = dollar_tt_uu_percent < 0;
-                //    double dollar_v, percent_w, dollar_vv, ww_percent;
-                //    double.TryParse(label79.Text, out dollar_z);
-                //    if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && label19.Text != "---" && label40.Text != "---")
-                //    {
-                //        dollar_v = h_dollar - dollar_r - dollar_tt_uu_percent;
-                //        percent_w = dollar_v / dollar_a_val;
-                //        dollar_vv = h_dollar - dollar_r - dollar_tt_uu_percent + dollar_z;
-                //        ww_percent = dollar_vv / dollar_a_val;
-                //    }
-                //    else
-                //    {
-                //        dollar_v = 0;
-                //        percent_w = 0;
-                //        dollar_vv = 0;
-                //        ww_percent = 0;
-                //        string message = "$ V, W%, $VV and WW%  Can not be Calculated /n Please Calculate $H, $R and $TT First";
-                //        string title = "Alert";
-                //        MessageBox.Show(message, title);
-
-                //    }
-
-                //    bool dollar_v_negative = dollar_v < 0;
-                //    bool dollar_vv_negative = dollar_vv < 0;
-                //    bool percent_ww_negative = ww_percent < 0;
-                //    bool percent_w_negative = percent_w < 0;
-
-                //    if (percent_ww_negative == false && dollar_vv_negative == false && percent_w_negative == false && dollar_v_negative == false && dollar_tt_uu_percent_negative == false && percent_u_negative == false && dollar_t_negative == false && u_percent_negative == false)
-                //    {
-                //        label57.Text = dollar_t.ToString();
-                //        label58.Text = percent_u.ToString();
-                //        label45.Text = "U% : " + u_percent.ToString();
-                //        label68.Text = dollar_tt_uu_percent.ToString();
-                //        label66.Text = dollar_tt_uu_percent.ToString();
-                //        label70.Text = "$V : " + dollar_v.ToString();
-                //        label71.Text = "W% : " + percent_w.ToString();
-                //        label80.Text = "$VV : " + dollar_vv.ToString();
-                //        label81.Text = "WW% : " + ww_percent.ToString();
-
-                //    }
-                //    else
-                //    {
-                //        label57.Text = dollar_t.ToString();
-                //        label58.Text = percent_u.ToString();
-                //        label45.Text = "U% : " + u_percent.ToString();
-                //        label68.Text = dollar_tt_uu_percent.ToString();
-                //        label66.Text = dollar_tt_uu_percent.ToString();
-                //        label70.Text = "$V : " + dollar_v.ToString();
-                //        label71.Text = "W% : " + percent_w.ToString();
-                //        label80.Text = "$VV : " + dollar_vv.ToString();
-                //        label81.Text = "WW% : " + ww_percent.ToString();
-                //        if (percent_ww_negative == true)
-                //        {
-                //            label81.Text = "WW% : " + ww_percent.ToString();
-                //            label81.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (dollar_vv_negative == true)
-                //        {
-                //            label80.Text = "$VV : " + dollar_vv.ToString();
-                //            label80.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (percent_w_negative == true)
-                //        {
-                //            label71.Text = "W% : " + percent_w.ToString();
-                //            label71.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (dollar_v_negative == true)
-                //        {
-                //            label70.Text = "$V : " + dollar_v.ToString();
-                //            label70.BackColor = System.Drawing.Color.Red;
-                //        }
-                //        if (dollar_tt_uu_percent_negative == true)
-                //        {
-                //            label68.Text = dollar_tt_uu_percent.ToString();
-                //            label68.BackColor = System.Drawing.Color.Red;
-                //            label66.Text = dollar_tt_uu_percent.ToString();
-                //            label66.BackColor = System.Drawing.Color.Red;
-
-                //        }
-                //        if (percent_u_negative == true)
-                //        {
-                //            label58.Text = percent_u.ToString();
-                //            label58.BackColor = System.Drawing.Color.Red;
-
-                //        }
-                //        if (dollar_t_negative == true)
-                //        {
-                //            label57.Text = dollar_t.ToString();
-                //            label57.BackColor = System.Drawing.Color.Red;
-
-                //        }
-                //        if (u_percent_negative == true)
-                //        {
-                //            label45.Text = "U% : " + u_percent.ToString();
-                //            label45.BackColor = System.Drawing.Color.Red;
-                //        }
-                //    }
-                //}
+                
                 MessageBox.Show("Please Click on + Button to Calculate $TT and %UU", "$TT and UU% Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             }
@@ -1943,11 +1786,9 @@ namespace labor_data
                 label70.BackColor = System.Drawing.Color.Transparent;
                 label80.BackColor = System.Drawing.Color.Transparent;
                 label81.BackColor = System.Drawing.Color.Transparent;
-                //if (textBox8.Text == "")
-                //{
-                //    textBox8.Text = "0";
-                //}
-                if (textBox1.Text == "" )
+
+                String perr_xs = label63.Text;
+                if (textBox1.Text == "" || perr_xs == "Null" && textBox7.Text == "" || textBox7.Text == null)
                 {
                     string message = "Numeric Values is Missing For Gross Sale ($A)";
                     string title = "Alert";
@@ -1955,7 +1796,32 @@ namespace labor_data
                 }
                 else
                 {
-                    String dollar_a = textBox1.Text;
+                    string str2 = "";
+                    tbx1 = textBox1.Text;
+                    tbx1 = tbx1.Replace("$", str2);
+                    tbx1 = tbx1.Replace(",", str2);
+                    tbx1 = tbx1.Replace(".", str2);
+
+                    string d_t_val = label66.Text;
+                    string per_uu_val = label67.Text;
+                    if (d_t_val.Contains("|"))
+                    {
+                        string[] tokens1 = d_t_val.Split('|');
+                        d_t_val = tokens1[0];
+                        per_uu_val = tokens1[1];
+                    }
+                    string str21 = "";
+                    d_t_val = d_t_val.Replace("$", str21);
+                    d_t_val = d_t_val.Replace(",", str21);
+                    d_t_val = d_t_val.Replace(".", str21);
+
+                    per_uu_val = per_uu_val.Replace("%", str21);
+
+
+                    String grossfs_sale = tbx1;
+
+
+                    String dollar_a = tbx1;
                     //String dollar_ts = textBox8.Text;
                     bool dollar_a_isFlost = double.TryParse(dollar_a, out double dollar_a_val);
                     //bool dollat_t_isFlost = double.TryParse(dollar_ts, out double dollar_t_val);
@@ -1995,18 +1861,19 @@ namespace labor_data
                     bool percent_u_negative = percent_u < 0;
                     bool dollar_t_negative = dollar_t < 0;
                     //bool u_percent_negative = u_percent < 0;
-                    double.TryParse(label66.Text, out double dollar_tt_uu_percent);
+                    double.TryParse(d_t_val, out double dollar_tts);
                     //double.TryParse(textBox8.Text, out double real_t_val);
                     //bool real_dollar_t_negative = real_t_val < 0;
-                    dollar_tt_uu_percent = percent_u + dollar_t + dollar_tt_uu_percent;
-                    bool dollar_tt_uu_percent_negative = dollar_tt_uu_percent < 0;
+                    ////////////dollar_tts = percent_u + dollar_t + dollar_tts;
+                    
+                    bool dollar_tt_uu_percent_negative = dollar_tts < 0;
                     double dollar_v, percent_w, dollar_vv, ww_percent;
                     double.TryParse(label79.Text, out dollar_z);
-                    if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && label19.Text != "---" && label40.Text != "---")
+                    if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && label17.Text != "---" && label40.Text != "---")
                     {
-                        dollar_v = h_dollar - dollar_r - dollar_tt_uu_percent;
+                        dollar_v = h_dollar - dollar_r - dollar_tts;
                         percent_w = dollar_v / dollar_a_val;
-                        dollar_vv = h_dollar - dollar_r - dollar_tt_uu_percent + dollar_z;
+                        dollar_vv = h_dollar - dollar_r - dollar_tts + dollar_z;
                         ww_percent = dollar_vv / dollar_a_val;
                     }
                     else
@@ -2031,8 +1898,8 @@ namespace labor_data
                         label57.Text = dollar_t.ToString();
                         label58.Text = percent_u.ToString();
                         //label45.Text = "U% : " + u_percent.ToString();
-                        label68.Text = dollar_tt_uu_percent.ToString();
-                        label66.Text = dollar_tt_uu_percent.ToString();
+                        label68.Text = dollar_tts.ToString();
+                       // label66.Text = dollar_tt_uu_percent.ToString();
                         label70.Text = "$V : " + dollar_v.ToString();
                         label71.Text = "W% : " + percent_w.ToString();
                         label80.Text = "$VV : " + dollar_vv.ToString();
@@ -2044,8 +1911,8 @@ namespace labor_data
                         label57.Text = dollar_t.ToString();
                         label58.Text = percent_u.ToString();
                        //label45.Text = "U% : " + u_percent.ToString();
-                        label68.Text = dollar_tt_uu_percent.ToString();
-                        label66.Text = dollar_tt_uu_percent.ToString();
+                       // label68.Text = dollar_tt_uu_percent.ToString();
+                        //label66.Text = dollar_tt_uu_percent.ToString();
                         label70.Text = "$V : " + dollar_v.ToString();
                         label71.Text = "W% : " + percent_w.ToString();
                         label80.Text = "$VV : " + dollar_vv.ToString();
@@ -2072,10 +1939,10 @@ namespace labor_data
                         }
                         if (dollar_tt_uu_percent_negative == true)
                         {
-                            label68.Text = dollar_tt_uu_percent.ToString();
+                            label68.Text = dollar_tts.ToString();
                             label68.BackColor = System.Drawing.Color.Red;
-                            label66.Text = dollar_tt_uu_percent.ToString();
-                            label66.BackColor = System.Drawing.Color.Red;
+                           // label66.Text = dollar_tt_uu_percent.ToString();
+                           // label66.BackColor = System.Drawing.Color.Red;
 
                         }
                         if (percent_u_negative == true)
