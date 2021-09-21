@@ -265,7 +265,7 @@
         <Top>1.78056in</Top>
         <Left>1.47445in</Left>
         <Height>0.20415in</Height>
-        <Width>0.89166in</Width>
+        <Width>2.26389in</Width>
         <ZIndex>7</ZIndex>
         <Style>
           <Border>
@@ -413,74 +413,6 @@
           </Border>
         </Style>
       </Tablix>
-      <Tablix Name="Tablix5">
-        <TablixBody>
-          <TablixColumns>
-            <TablixColumn>
-              <Width>1.31667in</Width>
-            </TablixColumn>
-          </TablixColumns>
-          <TablixRows>
-            <TablixRow>
-              <Height>0.20833in</Height>
-              <TablixCells>
-                <TablixCell>
-                  <CellContents>
-                    <Textbox Name="sale_rev_cash_sale7">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>=Fields!gross_sale_percent_e.Value</Value>
-                              <Style />
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Style>None</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-              </TablixCells>
-            </TablixRow>
-          </TablixRows>
-        </TablixBody>
-        <TablixColumnHierarchy>
-          <TablixMembers>
-            <TablixMember />
-          </TablixMembers>
-        </TablixColumnHierarchy>
-        <TablixRowHierarchy>
-          <TablixMembers>
-            <TablixMember>
-              <Group Name="Details4" />
-            </TablixMember>
-          </TablixMembers>
-        </TablixRowHierarchy>
-        <DataSetName>DataSet1</DataSetName>
-        <Top>1.77638in</Top>
-        <Left>2.42167in</Left>
-        <Height>0.20833in</Height>
-        <Width>1.31667in</Width>
-        <ZIndex>10</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Tablix>
       <Textbox Name="sale_rev_cash_sale6">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -500,7 +432,7 @@
         <Left>1.47445in</Left>
         <Height>0.30833in</Height>
         <Width>1.31667in</Width>
-        <ZIndex>11</ZIndex>
+        <ZIndex>10</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -534,7 +466,7 @@
         <Left>0.40501in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>12</ZIndex>
+        <ZIndex>11</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -567,7 +499,7 @@
         <Left>0.00001in</Left>
         <Height>0.25in</Height>
         <Width>1.66667in</Width>
-        <ZIndex>13</ZIndex>
+        <ZIndex>12</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -602,7 +534,7 @@
         <Left>0.40501in</Left>
         <Height>0.30833in</Height>
         <Width>0.375in</Width>
-        <ZIndex>14</ZIndex>
+        <ZIndex>13</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -632,7 +564,7 @@
         <Left>0.78001in</Left>
         <Height>0.30833in</Height>
         <Width>1.31667in</Width>
-        <ZIndex>15</ZIndex>
+        <ZIndex>14</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -666,7 +598,7 @@
         <Left>0.31612in</Left>
         <Height>0.30833in</Height>
         <Width>0.46389in</Width>
-        <ZIndex>16</ZIndex>
+        <ZIndex>15</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -696,7 +628,7 @@
         <Left>0.78001in</Left>
         <Height>0.30833in</Height>
         <Width>1.31667in</Width>
-        <ZIndex>17</ZIndex>
+        <ZIndex>16</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -730,7 +662,7 @@
         <Left>0.21333in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>18</ZIndex>
+        <ZIndex>17</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -759,38 +691,8 @@
         <Top>3.85139in</Top>
         <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>19</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale11">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!cog_percent_gg.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>3.85139in</Top>
-        <Left>2.56306in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>20</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>18</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -806,7 +708,7 @@
         <Left>0.025in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>21</ZIndex>
+        <ZIndex>19</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -818,7 +720,7 @@
         <Left>0.025in</Left>
         <Height>0in</Height>
         <Width>3.71333in</Width>
-        <ZIndex>22</ZIndex>
+        <ZIndex>20</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -830,7 +732,7 @@
         <Left>0.00834in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>23</ZIndex>
+        <ZIndex>21</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -859,7 +761,7 @@
         <Left>0.025in</Left>
         <Height>0.25in</Height>
         <Width>1.66667in</Width>
-        <ZIndex>24</ZIndex>
+        <ZIndex>22</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -894,7 +796,7 @@
         <Left>0.33278in</Left>
         <Height>0.30833in</Height>
         <Width>0.375in</Width>
-        <ZIndex>25</ZIndex>
+        <ZIndex>23</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -924,75 +826,7 @@
         <Left>0.70778in</Left>
         <Height>0.30833in</Height>
         <Width>1.31667in</Width>
-        <ZIndex>26</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox26">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>$FF:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>3.85139in</Top>
-        <Left>0.42167in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>27</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox27">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>GG% :</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>3.85139in</Top>
-        <Left>1.98in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.58306in</Width>
-        <ZIndex>28</ZIndex>
+        <ZIndex>24</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1008,7 +842,7 @@
         <Left>0.025in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>29</ZIndex>
+        <ZIndex>25</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -1038,41 +872,7 @@
         <Left>0.23833in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>30</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox29">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>$L:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>7.17779in</Top>
-        <Left>0.44667in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>31</ZIndex>
+        <ZIndex>26</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1099,74 +899,10 @@
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
         <Top>7.17779in</Top>
-        <Left>0.96334in</Left>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>32</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox30">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>M% :</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>7.17779in</Top>
-        <Left>2.00501in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.58306in</Width>
-        <ZIndex>33</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale14">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!percent_m.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>7.17779in</Top>
-        <Left>2.58807in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>34</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>27</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1182,7 +918,7 @@
         <Left>0.025in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>35</ZIndex>
+        <ZIndex>28</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -1212,7 +948,7 @@
         <Left>0.24389in</Left>
         <Height>0.30833in</Height>
         <Width>0.46389in</Width>
-        <ZIndex>36</ZIndex>
+        <ZIndex>29</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1242,7 +978,7 @@
         <Left>0.70778in</Left>
         <Height>0.30833in</Height>
         <Width>1.31667in</Width>
-        <ZIndex>37</ZIndex>
+        <ZIndex>30</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1276,7 +1012,7 @@
         <Left>0.21334in</Left>
         <Height>0.30833in</Height>
         <Width>1.16167in</Width>
-        <ZIndex>38</ZIndex>
+        <ZIndex>31</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1302,41 +1038,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>4.7375in</Top>
-        <Left>0.40501in</Left>
+        <Top>4.75139in</Top>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>39</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale17">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!cog_percent_I.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>4.72362in</Top>
-        <Left>1.98in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>40</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>32</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1352,7 +1058,7 @@
         <Left>0.00834in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>41</ZIndex>
+        <ZIndex>33</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -1382,105 +1088,7 @@
         <Left>0.205in</Left>
         <Height>0.30833in</Height>
         <Width>0.875in</Width>
-        <ZIndex>42</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox36">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>$N:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>8.00279in</Top>
-        <Left>0.41334in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>43</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale18">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!dollar_n.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>8.00279in</Top>
-        <Left>0.93001in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>44</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox37">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>O% :</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>8.00279in</Top>
-        <Left>1.98834in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.58306in</Width>
-        <ZIndex>45</ZIndex>
+        <ZIndex>34</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1506,11 +1114,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>8.00279in</Top>
-        <Left>2.5714in</Left>
+        <Top>8.08612in</Top>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>46</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>35</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1526,47 +1134,13 @@
         <Left>0.00834in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>47</ZIndex>
+        <ZIndex>36</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
           </Border>
         </Style>
       </Line>
-      <Textbox Name="Textbox38">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>X%:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>7.6389in</Top>
-        <Left>1.21889in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>48</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="sale_rev_cash_sale20">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -1582,11 +1156,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>7.6389in</Top>
-        <Left>1.73556in</Left>
+        <Top>7.62502in</Top>
+        <Left>1.17724in</Left>
         <Height>0.30833in</Height>
         <Width>0.91944in</Width>
-        <ZIndex>49</ZIndex>
+        <ZIndex>37</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1602,111 +1176,13 @@
         <Left>0.01667in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>50</ZIndex>
+        <ZIndex>38</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
           </Border>
         </Style>
       </Line>
-      <Textbox Name="sale_rev_cash_sale21">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!dollar_p.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>8.83335in</Top>
-        <Left>0.93834in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>51</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox39">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>$P:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>8.83335in</Top>
-        <Left>0.42167in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>52</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox40">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Q% :</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>8.83335in</Top>
-        <Left>1.99667in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.58306in</Width>
-        <ZIndex>53</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="sale_rev_cash_sale22">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -1722,11 +1198,11 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>8.83335in</Top>
-        <Left>2.57973in</Left>
+        <Top>8.86112in</Top>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>54</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>39</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1753,44 +1229,10 @@
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
         <Top>8.46946in</Top>
-        <Left>1.90557in</Left>
+        <Left>1.48834in</Left>
         <Height>0.30833in</Height>
         <Width>0.91944in</Width>
-        <ZIndex>55</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox41">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>XX%:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>8.46946in</Top>
-        <Left>1.3889in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>56</ZIndex>
+        <ZIndex>40</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1824,7 +1266,7 @@
         <Left>0.21333in</Left>
         <Height>0.30833in</Height>
         <Width>1.16168in</Width>
-        <ZIndex>57</ZIndex>
+        <ZIndex>41</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1858,7 +1300,7 @@
         <Left>0.21333in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>58</ZIndex>
+        <ZIndex>42</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1892,7 +1334,7 @@
         <Left>0.42167in</Left>
         <Height>0.30833in</Height>
         <Width>0.51667in</Width>
-        <ZIndex>59</ZIndex>
+        <ZIndex>43</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1922,7 +1364,7 @@
         <Left>0.93834in</Left>
         <Height>0.30833in</Height>
         <Width>0.91944in</Width>
-        <ZIndex>60</ZIndex>
+        <ZIndex>44</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1956,7 +1398,7 @@
         <Left>1.98in</Left>
         <Height>0.30833in</Height>
         <Width>0.58306in</Width>
-        <ZIndex>61</ZIndex>
+        <ZIndex>45</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1986,7 +1428,7 @@
         <Left>2.56306in</Left>
         <Height>0.30833in</Height>
         <Width>1.13612in</Width>
-        <ZIndex>62</ZIndex>
+        <ZIndex>46</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2001,7 +1443,7 @@
         <Top>10.05in</Top>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>63</ZIndex>
+        <ZIndex>47</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -2013,7 +1455,7 @@
         <Left>0.00001in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>64</ZIndex>
+        <ZIndex>48</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -2043,67 +1485,7 @@
         <Left>0.2439in</Left>
         <Height>0.30833in</Height>
         <Width>0.46389in</Width>
-        <ZIndex>65</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale27">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!u_percent.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>10.91667in</Top>
-        <Left>0.70779in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.31667in</Width>
-        <ZIndex>66</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale26">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!dollar_t.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>10.43889in</Top>
-        <Left>0.70779in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.31667in</Width>
-        <ZIndex>67</ZIndex>
+        <ZIndex>49</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2137,7 +1519,7 @@
         <Left>0.33279in</Left>
         <Height>0.30833in</Height>
         <Width>0.375in</Width>
-        <ZIndex>68</ZIndex>
+        <ZIndex>50</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2170,7 +1552,7 @@
         <Left>0.02501in</Left>
         <Height>0.25in</Height>
         <Width>1.66667in</Width>
-        <ZIndex>69</ZIndex>
+        <ZIndex>51</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2205,41 +1587,7 @@
         <Left>0.21334in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>70</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox47">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>$TT:</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>12in</Top>
-        <Left>0.42168in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.51667in</Width>
-        <ZIndex>71</ZIndex>
+        <ZIndex>52</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2266,74 +1614,10 @@
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
         <Top>12in</Top>
-        <Left>0.93835in</Left>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>72</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox48">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>UU% :</Value>
-                <Style>
-                  <FontFamily>times New Roman</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox18</rd:DefaultName>
-        <Top>12in</Top>
-        <Left>1.98002in</Left>
-        <Height>0.30833in</Height>
-        <Width>0.58306in</Width>
-        <ZIndex>73</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale29">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!percent_uu.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>12in</Top>
-        <Left>2.56308in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>74</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>53</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2366,7 +1650,7 @@
         <Left>0.00001in</Left>
         <Height>0.25in</Height>
         <Width>1.66667in</Width>
-        <ZIndex>75</ZIndex>
+        <ZIndex>54</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2401,7 +1685,7 @@
         <Left>0.23001in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>76</ZIndex>
+        <ZIndex>55</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2428,40 +1712,10 @@
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
         <Top>13.29585in</Top>
-        <Left>0.42168in</Left>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>77</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale31">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!percent_w.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>13.29307in</Top>
-        <Left>1.98002in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>78</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>56</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2477,7 +1731,7 @@
         <Left>0.00001in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>79</ZIndex>
+        <ZIndex>57</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -2489,7 +1743,7 @@
         <Left>0.00001in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>80</ZIndex>
+        <ZIndex>58</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -2519,7 +1773,7 @@
         <Left>0.23001in</Left>
         <Height>0.30833in</Height>
         <Width>1in</Width>
-        <ZIndex>81</ZIndex>
+        <ZIndex>59</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2546,40 +1800,10 @@
         </Paragraphs>
         <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
         <Top>14.10139in</Top>
-        <Left>0.42168in</Left>
+        <Left>1.00778in</Left>
         <Height>0.30833in</Height>
-        <Width>0.91944in</Width>
-        <ZIndex>82</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="sale_rev_cash_sale33">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=Fields!percent_ww.Value</Value>
-                <Style />
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>sale_rev_cash_sale</rd:DefaultName>
-        <Top>14.08751in</Top>
-        <Left>1.98002in</Left>
-        <Height>0.30833in</Height>
-        <Width>1.13612in</Width>
-        <ZIndex>83</ZIndex>
+        <Width>2.10834in</Width>
+        <ZIndex>60</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2595,7 +1819,7 @@
         <Left>0.00001in</Left>
         <Height>0in</Height>
         <Width>3.675in</Width>
-        <ZIndex>84</ZIndex>
+        <ZIndex>61</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>

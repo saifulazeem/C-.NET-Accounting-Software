@@ -16,7 +16,7 @@ namespace labor_data
 {
     public partial class Profit_Loss_Calculations : Form
     {
-        public static String gross_sale, cash_sale, non_cash_sale,f_val, refskey,tbx1,tbx2,tbx3,tbx6,tbx7;
+        public static String gross_sale, cash_sale, non_cash_sale,f_val, refskey,tbx1,tbx2,tbx3,tbx6,tbx7,tbx9;
         public static int ctk, ctk2;
         
 
@@ -1857,9 +1857,13 @@ namespace labor_data
                     double percent_u, dollar_t;
                     if (checkBox3.Checked)
                     {
-                        double.TryParse(textBox9.Text, out double new_t_val);
+                        string boxt = textBox9.Text;
+                        boxt = boxt.Replace("$", str21);
+                        boxt = boxt.Replace(",", str21);
+                        boxt = boxt.Replace(".", str21);
+                        double.TryParse(boxt, out double new_t_val);
                         percent_u = new_t_val / dollar_a_val;
-                        label57.Text = new_t_val + " $".ToString();
+                        //label57.Text = new_t_val + " $".ToString();
                         dollar_t = new_t_val;
                     }
                     else
@@ -1889,6 +1893,7 @@ namespace labor_data
                     bool dollar_t_negative = dollar_t < 0;
                     //bool u_percent_negative = u_percent < 0;
                     double.TryParse(d_t_val, out double dollar_tts);
+                    //dollar_tts = dollar_t + dollar_tts;
                     //double.TryParse(textBox8.Text, out double real_t_val);
                     //bool real_dollar_t_negative = real_t_val < 0;
                     ////////////dollar_tts = percent_u + dollar_t + dollar_tts;
@@ -2416,6 +2421,70 @@ namespace labor_data
             label16.Text = dolsff.ToString();
         }
 
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox3.Checked==true)
+            {
+                tbx9 = textBox9.Text;
+                string d_t_val = label66.Text;
+                string per_uu_val = "";
+                if (d_t_val.Contains("|"))
+                {
+                    string[] tokens1 = d_t_val.Split('|');
+                    d_t_val = tokens1[0];
+                    per_uu_val = tokens1[1];
+                }
+                string str21 = "";
+                d_t_val = d_t_val.Replace("$", str21);
+                d_t_val = d_t_val.Replace(",", str21);
+                d_t_val = d_t_val.Replace(".", str21);
+
+                tbx9 = tbx9.Replace("$", str21);
+                tbx9 = tbx9.Replace(",", str21);
+                tbx9 = tbx9.Replace(".", str21);
+
+                double.TryParse(tbx9, out double tb9);
+                
+                double.TryParse(d_t_val, out double tt9);
+
+                tt9 = tt9 - tb9;
+                string str2 = "";
+                tbx1 = textBox1.Text;
+                tbx1 = tbx1.Replace("$", str2);
+                tbx1 = tbx1.Replace(",", str2);
+                tbx1 = tbx1.Replace(".", str2);
+                tbx1 = tbx1.Replace("(", "-");
+                tbx1 = tbx1.Replace(")", str2);
+
+                double.TryParse(tbx1, out double gssd);
+                double upssd = tt9 / gssd;
+               string tt9s= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(tt9.ToString()));
+               string upssds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(upssd.ToString()));
+
+                label66.Text = tt9s + "   |   " + upssds;
+
+                per_uu_val = per_uu_val.Replace("%", str21);
+                //double.TryParse(per_uu_val, out double uu9);
+
+                textBox9.Text = "0$";
+                label57.Text = "0$   |   0%";
+                tt9 = 0;
+                tb9 = 0;
+                upssd = 0;
+                textBox9.Enabled = true;
+
+            }
+            else
+            {
+                textBox9.Enabled = false;
+                string tre = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dollar_t_vals.dolt_tbx_val.ToString()));
+                textBox9.Text = tre;
+                label57.Text = tre + "   |   " + dollar_t_vals.uper_str;
+                label66.Text = dollar_t_vals.t_t + "   |   " + dollar_t_vals.u_u;
+
+            }
+        }
+
         private void textBox6_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (textBox6.Text != "")
@@ -2605,7 +2674,7 @@ namespace labor_data
 
         private void Form7_Load(object sender, EventArgs e)
         {
-
+            textBox9.Enabled = false;
             //db_conect.ConnectionString = con_str;
             //db_conect.Open();
             combox_dt.Clear();
@@ -2646,10 +2715,10 @@ namespace labor_data
             {
                 pperr_x = dr["percent_x"].ToString();
                 label26.Text = pperr_x;
-                groupBox4.Text= "Insurance( "+pperr_x+"% )";
+                //groupBox4.Text= "Insurance( "+pperr_x+"% )";
                 pperr_xx = dr["percent_xx"].ToString();
                 label38.Text = pperr_xx;
-                groupBox5.Text = "PayRoll Tax( " + pperr_xx + "% )";
+                //groupBox5.Text = "PayRoll Tax( " + pperr_xx + "% )";
 
                 pper_v = dr["percent_v"].ToString();
                 label63.Text = pper_v;

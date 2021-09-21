@@ -20,10 +20,10 @@ namespace labor_data
 
         public static int pointXX, pointX, pointY, txtno;
         public static int pointYY, point_XX, point_YY;
-        public static double u_per, uu_per, dol_tt, t_dols;
+        public static double u_per, uu_per, dol_tt, t_dols, dolt_tbx_val;
   
 
-        public static String gs, cbxitem, tb1, pu;
+        public static String gs, cbxitem, tb1, pu,ncs,pervs,t_t,u_u,t1,u1, uper_str;
 
         public static SqlCommand cmd = new SqlCommand();
         public static SqlConnection db_conect = new SqlConnection();
@@ -106,8 +106,74 @@ namespace labor_data
                 //pls.label68.Text = dol_tt.ToString();
                 //pls.label66.BackColor = System.Drawing.Color.Transparent;
                 //pls.label68.BackColor = System.Drawing.Color.Transparent;
-                pls.label66.Text = label1.Text;
-                pls.label66.BackColor = System.Drawing.Color.Transparent;
+                //pls.label66.Text = label1.Text;
+                //pls.label66.BackColor = System.Drawing.Color.Transparent;
+
+                String perr_x = pls.label63.Text;
+                if (perr_x == "Null")
+                {
+                    //label26.Text = "Null";
+                    //double.TryParse(textBox9.Text, out double new_t_val);
+                    //percent_u = new_t_val / dollar_a_val;
+                    //label57.Text = new_t_val + " $".ToString();
+                    //dollar_t = new_t_val;
+                    pls.textBox9.Text = "0";
+                    pls.label57.Text = "---";
+                    pls.label66.Text = label1.Text;
+                    pls.label66.BackColor = System.Drawing.Color.Transparent;
+                }
+                else
+                {
+                    double.TryParse(gs, out double dollar_a_val);
+                    double.TryParse(ncs, out double ncs_val);
+                    double.TryParse(pervs, out double pervs_val);
+                    pervs_val = pervs_val / 100;
+                    dolt_tbx_val = ncs_val * pervs_val;
+                    pls.textBox9.Text= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolt_tbx_val.ToString()));
+                    double uper_val = dolt_tbx_val / dollar_a_val;
+                    uper_str= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(uper_val.ToString()));
+                    pls.label57.Text = pls.textBox9.Text + "   |   " + uper_str;
+
+
+                    t_t = label1.Text;
+                    u_u = "";
+                    if (t_t.Contains("|"))
+                    {
+                        string[] tokens1 = t_t.Split('|');
+                        t_t = tokens1[0];
+                        u_u = tokens1[1];
+                    }
+                    string str21 = "";
+                    t_t = t_t.Replace("$", str21);
+                    t_t = t_t.Replace(",", str21);
+                    t_t = t_t.Replace(".", str21);
+                    t_t = t_t.Replace("(", "-");
+                    t_t = t_t.Replace(")", str21);
+
+                    u_u = u_u.Replace("%", str21);
+                    u_u = u_u.Trim();
+                    double.TryParse(t_t, out double final_tt_val);
+                    double.TryParse(u_u, out double final_uu_val);
+
+                    final_tt_val = dolt_tbx_val + final_tt_val;
+                    //uper_val = uu_per;
+                    final_uu_val = (uper_val*100) + final_uu_val;
+                    final_uu_val = final_uu_val / 100;
+
+                    t_t= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(final_tt_val.ToString()));
+                    u_u = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(final_uu_val.ToString()));
+                    pls.label66.Text = t_t + "   |   " + u_u;
+
+                    if(final_tt_val>0)
+                    {
+                        pls.label66.ForeColor = System.Drawing.Color.Black;
+                    }
+                    else
+                    {
+                        pls.label66.ForeColor = System.Drawing.Color.Red;
+                    }
+
+                }
             }
             else
             {
@@ -115,8 +181,75 @@ namespace labor_data
                 //pls.label68.Text = dol_tt.ToString();
                 //pls.label66.BackColor = System.Drawing.Color.Red;
                 //pls.label68.BackColor = System.Drawing.Color.Red;
-                pls.label66.Text = label1.Text;
-                pls.label66.BackColor = System.Drawing.Color.Red;
+                //pls.label66.Text = label1.Text;
+                //pls.label66.BackColor = System.Drawing.Color.Red;
+
+                String perr_x = pls.label63.Text;
+                if (perr_x == "Null")
+                {
+                    //label26.Text = "Null";
+                    //double.TryParse(textBox9.Text, out double new_t_val);
+                    //percent_u = new_t_val / dollar_a_val;
+                    //label57.Text = new_t_val + " $".ToString();
+                    //dollar_t = new_t_val;
+                    pls.textBox9.Text = "0";
+                    pls.label57.Text = "---";
+                    pls.label66.Text = label1.Text;
+                    pls.label66.BackColor = System.Drawing.Color.Red;
+                }
+                else
+                {
+                    double.TryParse(gs, out double dollar_a_val);
+                    double.TryParse(ncs, out double ncs_val);
+                    double.TryParse(pervs, out double pervs_val);
+                    pervs_val = pervs_val / 100;
+                    double dolt_tbx_val = ncs_val * pervs_val;
+                    pls.textBox9.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolt_tbx_val.ToString()));
+                    double uper_val = dolt_tbx_val / dollar_a_val;
+                    string uper_str = "";
+                    uper_str = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(uper_val.ToString()));
+                    pls.label57.Text = pls.textBox9.Text + "   |   " + uper_str;
+
+
+                    t_t = label1.Text;
+                    u_u = "";
+                    if (t_t.Contains("|"))
+                    {
+                        string[] tokens1 = t_t.Split('|');
+                        t_t = tokens1[0];
+                        u_u = tokens1[1];
+                    }
+                    string str21 = "";
+                    t_t = t_t.Replace("$", str21);
+                    t_t = t_t.Replace(",", str21);
+                    t_t = t_t.Replace(".", str21);
+                    t_t = t_t.Replace("(", "-");
+                    t_t = t_t.Replace(")", str21);
+
+                    u_u = u_u.Replace("%", str21);
+                    u_u = u_u.Trim();
+
+                    double.TryParse(t_t, out double final_tt_val);
+                    double.TryParse(u_u, out double final_uu_val);
+
+                    final_tt_val = dolt_tbx_val + final_tt_val;
+                    final_uu_val = (uper_val * 100) + final_uu_val;
+                    final_uu_val = final_uu_val / 100;
+
+                    t_t = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(final_tt_val.ToString()));
+                    u_u = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(final_uu_val.ToString()));
+                    pls.label66.Text = t_t + "   |   " + u_u;
+
+                    if (final_tt_val > 0)
+                    {
+                        pls.label66.ForeColor = System.Drawing.Color.Black;
+                    }
+                    else
+                    {
+                        pls.label66.ForeColor = System.Drawing.Color.Red;
+                    }
+
+                }
             }
             //profss.textBox4.Enabled = false;
 
@@ -267,8 +400,8 @@ namespace labor_data
                                 //label1.BackColor = System.Drawing.Color.Transparent;
                                 //label2.BackColor = System.Drawing.Color.Transparent;
 
-                                string t1 = dol_tt.ToString();
-                                string u1 = uu_per.ToString();
+                                t1 = dol_tt.ToString();
+                                u1 = uu_per.ToString();
                                 label1.BackColor = System.Drawing.Color.Transparent;
                                 t1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(t1));
                                 u1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(u1));
@@ -282,8 +415,8 @@ namespace labor_data
                                 //label1.BackColor = System.Drawing.Color.Red;
                                 //label2.BackColor = System.Drawing.Color.Red;
 
-                                string t1 = dol_tt.ToString();
-                                string u1 = uu_per.ToString();
+                                t1 = dol_tt.ToString();
+                                u1 = uu_per.ToString();
                                 label1.BackColor = System.Drawing.Color.Red;
                                 t1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(t1));
                                 u1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(u1));
@@ -308,8 +441,8 @@ namespace labor_data
                                 //label2.Text = "UU%: " + dol_tt.ToString();
                                 //label1.BackColor = System.Drawing.Color.Transparent;
                                 //label2.BackColor = System.Drawing.Color.Transparent;
-                                string t1 = dol_tt.ToString();
-                                string u1 = uu_per.ToString();
+                                t1 = dol_tt.ToString();
+                                u1 = uu_per.ToString();
                                 label1.BackColor = System.Drawing.Color.Transparent;
                                 t1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(t1));
                                 u1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(u1));
@@ -322,8 +455,8 @@ namespace labor_data
                                 //label2.Text = "UU%: " + dol_tt.ToString();
                                 //label1.BackColor = System.Drawing.Color.Red;
                                 //label2.BackColor = System.Drawing.Color.Red;
-                                string t1 = dol_tt.ToString();
-                                string u1 = uu_per.ToString();
+                                t1 = dol_tt.ToString();
+                                u1 = uu_per.ToString();
                                 label1.BackColor = System.Drawing.Color.Red;
                                 t1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(t1));
                                 u1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(u1));
@@ -382,6 +515,8 @@ namespace labor_data
             //form load
             cbx_data_tu.Clear();
             tu_data_dt.Clear();
+            t_t = null;
+            u_u = null;
             contest();
             fill_combox5();
             comboBox5.DataSource = cbx_data_tu;
@@ -397,7 +532,18 @@ namespace labor_data
             string str2 = "";
             gs = gs.Replace("$", str2);
             gs = gs.Replace(",", str2);
-            
+            gs = gs.Replace("(", "-");
+            gs = gs.Replace(")", str2);
+
+            ncs = pls.textBox3.Text;
+            ncs = ncs.Replace("$", str2);
+            ncs = ncs.Replace(",", str2);
+            ncs = ncs.Replace("(", "-");
+            ncs = ncs.Replace(")", str2);
+
+            pervs = pls.label63.Text;
+            pervs = pervs.Replace("%", str2);
+
             cmd.Parameters.Clear();
             string qqry = "SELECT * FROM reused_values_tu  WHERE status_key='1'";
             cmd.CommandText = qqry;
@@ -450,7 +596,7 @@ namespace labor_data
                 {
                     string[] tokens1 = djj.Split('|');
                     djj = tokens1[0];
-                    pu = tokens1[1];
+                    u1 = tokens1[1];
                 }
                 string str21 = "";
                 djj = djj.Replace("$", str21);
@@ -467,10 +613,10 @@ namespace labor_data
                     //label1.BackColor = System.Drawing.Color.Transparent;
                     //label2.BackColor = System.Drawing.Color.Transparent;
 
-                    string t1 = dol_tt.ToString();
+                    t1 = dol_tt.ToString();
                     label1.BackColor = System.Drawing.Color.Transparent;
                     t1 = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(t1));
-                    label1.Text = t1 + "   |" + pu;
+                    label1.Text = t1 + "   |" + u1;
                 }
                 else
                 {
@@ -487,7 +633,7 @@ namespace labor_data
                         t1 = t1.Replace("(", "-");
                         t1 = t1.Replace(")", "");
                     }
-                    label1.Text = t1 + "   |" + pu;
+                    label1.Text = t1 + "   |" + u1;
                 }
                 pointY += 25;
                 pointYY += 25;

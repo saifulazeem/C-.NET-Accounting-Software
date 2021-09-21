@@ -888,3 +888,5 @@ F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\labor_data.cspr
 F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\labor_data.csproj.CopyComplete
 F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\labor_data.exe
 F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\labor_data.pdb
+F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\RdlCompile.cache
+F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\RdlCompile.compiled
