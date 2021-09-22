@@ -106,74 +106,74 @@ namespace labor_data
                 //pls.label68.Text = dol_tt.ToString();
                 //pls.label66.BackColor = System.Drawing.Color.Transparent;
                 //pls.label68.BackColor = System.Drawing.Color.Transparent;
-                //pls.label66.Text = label1.Text;
-                //pls.label66.BackColor = System.Drawing.Color.Transparent;
+                pls.label8.Text = label1.Text;
+                pls.label8.ForeColor = System.Drawing.Color.Black;
 
-                String perr_x = pls.label63.Text;
-                if (perr_x == "Null")
-                {
-                    //label26.Text = "Null";
-                    //double.TryParse(textBox9.Text, out double new_t_val);
-                    //percent_u = new_t_val / dollar_a_val;
-                    //label57.Text = new_t_val + " $".ToString();
-                    //dollar_t = new_t_val;
-                    pls.textBox9.Text = "0";
-                    pls.label57.Text = "---";
-                    pls.label66.Text = label1.Text;
-                    pls.label66.BackColor = System.Drawing.Color.Transparent;
-                }
-                else
-                {
-                    double.TryParse(gs, out double dollar_a_val);
-                    double.TryParse(ncs, out double ncs_val);
-                    double.TryParse(pervs, out double pervs_val);
-                    pervs_val = pervs_val / 100;
-                    dolt_tbx_val = ncs_val * pervs_val;
-                    pls.textBox9.Text= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolt_tbx_val.ToString()));
-                    double uper_val = dolt_tbx_val / dollar_a_val;
-                    uper_str= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(uper_val.ToString()));
-                    pls.label57.Text = pls.textBox9.Text + "   |   " + uper_str;
+                //String perr_x = pls.label63.Text;
+                //if (perr_x == "Null")
+                //{
+                //    //label26.Text = "Null";
+                //    //double.TryParse(textBox9.Text, out double new_t_val);
+                //    //percent_u = new_t_val / dollar_a_val;
+                //    //label57.Text = new_t_val + " $".ToString();
+                //    //dollar_t = new_t_val;
+                //    pls.textBox9.Text = "0";
+                //    pls.label57.Text = "---";
+                //    pls.label66.Text = label1.Text;
+                //    pls.label66.ForeColor = System.Drawing.Color.Black;
+                //}
+                //else
+                //{
+                //    double.TryParse(gs, out double dollar_a_val);
+                //    double.TryParse(ncs, out double ncs_val);
+                //    double.TryParse(pervs, out double pervs_val);
+                //    pervs_val = pervs_val / 100;
+                //    dolt_tbx_val = ncs_val * pervs_val;
+                //    pls.textBox9.Text= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolt_tbx_val.ToString()));
+                //    double uper_val = dolt_tbx_val / dollar_a_val;
+                //    uper_str= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(uper_val.ToString()));
+                //    pls.label57.Text = pls.textBox9.Text + "   |   " + uper_str;
 
 
-                    t_t = label1.Text;
-                    u_u = "";
-                    if (t_t.Contains("|"))
-                    {
-                        string[] tokens1 = t_t.Split('|');
-                        t_t = tokens1[0];
-                        u_u = tokens1[1];
-                    }
-                    string str21 = "";
-                    t_t = t_t.Replace("$", str21);
-                    t_t = t_t.Replace(",", str21);
-                    t_t = t_t.Replace(".", str21);
-                    t_t = t_t.Replace("(", "-");
-                    t_t = t_t.Replace(")", str21);
+                //    t_t = label1.Text;
+                //    u_u = "";
+                //    if (t_t.Contains("|"))
+                //    {
+                //        string[] tokens1 = t_t.Split('|');
+                //        t_t = tokens1[0];
+                //        u_u = tokens1[1];
+                //    }
+                //    string str21 = "";
+                //    t_t = t_t.Replace("$", str21);
+                //    t_t = t_t.Replace(",", str21);
+                //    t_t = t_t.Replace(".", str21);
+                //    t_t = t_t.Replace("(", "-");
+                //    t_t = t_t.Replace(")", str21);
 
-                    u_u = u_u.Replace("%", str21);
-                    u_u = u_u.Trim();
-                    double.TryParse(t_t, out double final_tt_val);
-                    double.TryParse(u_u, out double final_uu_val);
+                //    u_u = u_u.Replace("%", str21);
+                //    u_u = u_u.Trim();
+                //    double.TryParse(t_t, out double final_tt_val);
+                //    double.TryParse(u_u, out double final_uu_val);
 
-                    final_tt_val = dolt_tbx_val + final_tt_val;
-                    //uper_val = uu_per;
-                    final_uu_val = (uper_val*100) + final_uu_val;
-                    final_uu_val = final_uu_val / 100;
+                //    final_tt_val = dolt_tbx_val + final_tt_val;
+                //    //uper_val = uu_per;
+                //    final_uu_val = (uper_val*100) + final_uu_val;
+                //    final_uu_val = final_uu_val / 100;
 
-                    t_t= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(final_tt_val.ToString()));
-                    u_u = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(final_uu_val.ToString()));
-                    pls.label66.Text = t_t + "   |   " + u_u;
+                //    t_t= string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(final_tt_val.ToString()));
+                //    u_u = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(final_uu_val.ToString()));
+                //    pls.label66.Text = t_t + "   |   " + u_u;
 
-                    if(final_tt_val>0)
-                    {
-                        pls.label66.ForeColor = System.Drawing.Color.Black;
-                    }
-                    else
-                    {
-                        pls.label66.ForeColor = System.Drawing.Color.Red;
-                    }
+                //    if(final_tt_val>0)
+                //    {
+                //        pls.label66.ForeColor = System.Drawing.Color.Black;
+                //    }
+                //    else
+                //    {
+                //        pls.label66.ForeColor = System.Drawing.Color.Red;
+                //    }
 
-                }
+                //}
             }
             else
             {
@@ -181,75 +181,75 @@ namespace labor_data
                 //pls.label68.Text = dol_tt.ToString();
                 //pls.label66.BackColor = System.Drawing.Color.Red;
                 //pls.label68.BackColor = System.Drawing.Color.Red;
-                //pls.label66.Text = label1.Text;
-                //pls.label66.BackColor = System.Drawing.Color.Red;
+                pls.label8.Text = label1.Text;
+                pls.label8.ForeColor = System.Drawing.Color.Red;
 
-                String perr_x = pls.label63.Text;
-                if (perr_x == "Null")
-                {
-                    //label26.Text = "Null";
-                    //double.TryParse(textBox9.Text, out double new_t_val);
-                    //percent_u = new_t_val / dollar_a_val;
-                    //label57.Text = new_t_val + " $".ToString();
-                    //dollar_t = new_t_val;
-                    pls.textBox9.Text = "0";
-                    pls.label57.Text = "---";
-                    pls.label66.Text = label1.Text;
-                    pls.label66.BackColor = System.Drawing.Color.Red;
-                }
-                else
-                {
-                    double.TryParse(gs, out double dollar_a_val);
-                    double.TryParse(ncs, out double ncs_val);
-                    double.TryParse(pervs, out double pervs_val);
-                    pervs_val = pervs_val / 100;
-                    double dolt_tbx_val = ncs_val * pervs_val;
-                    pls.textBox9.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolt_tbx_val.ToString()));
-                    double uper_val = dolt_tbx_val / dollar_a_val;
-                    string uper_str = "";
-                    uper_str = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(uper_val.ToString()));
-                    pls.label57.Text = pls.textBox9.Text + "   |   " + uper_str;
+                //String perr_x = pls.label63.Text;
+                //if (perr_x == "Null")
+                //{
+                //    //label26.Text = "Null";
+                //    //double.TryParse(textBox9.Text, out double new_t_val);
+                //    //percent_u = new_t_val / dollar_a_val;
+                //    //label57.Text = new_t_val + " $".ToString();
+                //    //dollar_t = new_t_val;
+                //    pls.textBox9.Text = "0";
+                //    pls.label57.Text = "---";
+                //    pls.label66.Text = label1.Text;
+                //    pls.label66.ForeColor = System.Drawing.Color.Red;
+                //}
+                //else
+                //{
+                //    double.TryParse(gs, out double dollar_a_val);
+                //    double.TryParse(ncs, out double ncs_val);
+                //    double.TryParse(pervs, out double pervs_val);
+                //    pervs_val = pervs_val / 100;
+                //    double dolt_tbx_val = ncs_val * pervs_val;
+                //    pls.textBox9.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dolt_tbx_val.ToString()));
+                //    double uper_val = dolt_tbx_val / dollar_a_val;
+                //    string uper_str = "";
+                //    uper_str = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(uper_val.ToString()));
+                //    pls.label57.Text = pls.textBox9.Text + "   |   " + uper_str;
 
 
-                    t_t = label1.Text;
-                    u_u = "";
-                    if (t_t.Contains("|"))
-                    {
-                        string[] tokens1 = t_t.Split('|');
-                        t_t = tokens1[0];
-                        u_u = tokens1[1];
-                    }
-                    string str21 = "";
-                    t_t = t_t.Replace("$", str21);
-                    t_t = t_t.Replace(",", str21);
-                    t_t = t_t.Replace(".", str21);
-                    t_t = t_t.Replace("(", "-");
-                    t_t = t_t.Replace(")", str21);
+                //    t_t = label1.Text;
+                //    u_u = "";
+                //    if (t_t.Contains("|"))
+                //    {
+                //        string[] tokens1 = t_t.Split('|');
+                //        t_t = tokens1[0];
+                //        u_u = tokens1[1];
+                //    }
+                //    string str21 = "";
+                //    t_t = t_t.Replace("$", str21);
+                //    t_t = t_t.Replace(",", str21);
+                //    t_t = t_t.Replace(".", str21);
+                //    t_t = t_t.Replace("(", "-");
+                //    t_t = t_t.Replace(")", str21);
 
-                    u_u = u_u.Replace("%", str21);
-                    u_u = u_u.Trim();
+                //    u_u = u_u.Replace("%", str21);
+                //    u_u = u_u.Trim();
 
-                    double.TryParse(t_t, out double final_tt_val);
-                    double.TryParse(u_u, out double final_uu_val);
+                //    double.TryParse(t_t, out double final_tt_val);
+                //    double.TryParse(u_u, out double final_uu_val);
 
-                    final_tt_val = dolt_tbx_val + final_tt_val;
-                    final_uu_val = (uper_val * 100) + final_uu_val;
-                    final_uu_val = final_uu_val / 100;
+                //    final_tt_val = dolt_tbx_val + final_tt_val;
+                //    final_uu_val = (uper_val * 100) + final_uu_val;
+                //    final_uu_val = final_uu_val / 100;
 
-                    t_t = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(final_tt_val.ToString()));
-                    u_u = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(final_uu_val.ToString()));
-                    pls.label66.Text = t_t + "   |   " + u_u;
+                //    t_t = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(final_tt_val.ToString()));
+                //    u_u = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P2}", double.Parse(final_uu_val.ToString()));
+                //    pls.label66.Text = t_t + "   |   " + u_u;
 
-                    if (final_tt_val > 0)
-                    {
-                        pls.label66.ForeColor = System.Drawing.Color.Black;
-                    }
-                    else
-                    {
-                        pls.label66.ForeColor = System.Drawing.Color.Red;
-                    }
+                //    if (final_tt_val > 0)
+                //    {
+                //        pls.label66.ForeColor = System.Drawing.Color.Black;
+                //    }
+                //    else
+                //    {
+                //        pls.label66.ForeColor = System.Drawing.Color.Red;
+                //    }
 
-                }
+                //}
             }
             //profss.textBox4.Enabled = false;
 
@@ -590,7 +590,7 @@ namespace labor_data
                 panel1.Controls.Add(cbxlabel);
                 panel1.Show();
 
-                string djj = pls.label66.Text;
+                string djj = pls.label8.Text;
 
                 if (djj.Contains("|"))
                 {
