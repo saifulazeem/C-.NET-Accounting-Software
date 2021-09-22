@@ -670,7 +670,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(38, 286);
+            this.label66.Location = new System.Drawing.Point(38, 296);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(16, 13);
@@ -794,7 +794,7 @@
             this.groupBox9.Size = new System.Drawing.Size(234, 141);
             this.groupBox9.TabIndex = 63;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "$VV & WW%";
+            this.groupBox9.Text = "Owner";
             // 
             // label80
             // 
@@ -841,7 +841,7 @@
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(72, 44);
+            this.label70.Location = new System.Drawing.Point(34, 54);
             this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(38, 13);
