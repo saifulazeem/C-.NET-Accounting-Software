@@ -321,7 +321,7 @@
         <Top>0.29667in</Top>
         <Left>0.20375in</Left>
         <Height>0.5in</Height>
-        <Width>6.07766in</Width>
+        <Width>6.07767in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1531,7 +1531,7 @@
               <TextRun>
                 <Value>Total Anual Wages :</Value>
                 <Style>
-                  <FontSize>16pt</FontSize>
+                  <FontSize>18pt</FontSize>
                   <FontWeight>Bold</FontWeight>
                 </Style>
               </TextRun>
@@ -1542,8 +1542,8 @@
         <rd:DefaultName>Textbox3</rd:DefaultName>
         <Top>3.21333in</Top>
         <Left>0.20375in</Left>
-        <Height>0.375in</Height>
-        <Width>2.4031in</Width>
+        <Height>0.5in</Height>
+        <Width>2.5281in</Width>
         <ZIndex>4</ZIndex>
         <Style>
           <Border>
@@ -1576,8 +1576,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox4</rd:DefaultName>
-        <Top>3.31333in</Top>
-        <Left>2.59296in</Left>
+        <Top>3.32375in</Top>
+        <Left>2.80129in</Left>
         <Height>0.275in</Height>
         <Width>1.81302in</Width>
         <ZIndex>5</ZIndex>

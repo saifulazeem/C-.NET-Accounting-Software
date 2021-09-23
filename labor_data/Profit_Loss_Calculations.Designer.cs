@@ -85,7 +85,6 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label63 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
@@ -108,6 +107,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -444,6 +444,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.label12);
             this.groupBox5.Controls.Add(this.checkBox2);
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.label23);
@@ -715,7 +716,6 @@
             this.groupBox7.Controls.Add(this.checkBox3);
             this.groupBox7.Controls.Add(this.label56);
             this.groupBox7.Controls.Add(this.label57);
-            this.groupBox7.Controls.Add(this.label58);
             this.groupBox7.Controls.Add(this.textBox9);
             this.groupBox7.Controls.Add(this.label63);
             this.groupBox7.Location = new System.Drawing.Point(7, 87);
@@ -769,16 +769,6 @@
             this.label57.Size = new System.Drawing.Size(16, 13);
             this.label57.TabIndex = 25;
             this.label57.Text = "---";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(198, 114);
-            this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(16, 13);
-            this.label58.TabIndex = 26;
-            this.label58.Text = "---";
             // 
             // textBox9
             // 
@@ -1021,6 +1011,15 @@
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(31, 24);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(15, 13);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "%";
+            // 
             // Profit_Loss_Calculations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1137,7 +1136,6 @@
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Button button15;
         public System.Windows.Forms.Label label66;
-        public System.Windows.Forms.Label label58;
         private System.Windows.Forms.Button button16;
         public System.Windows.Forms.Label label26;
         public System.Windows.Forms.Label label38;
@@ -1152,5 +1150,6 @@
         public System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label12;
     }
 }

@@ -909,7 +909,7 @@ namespace labor_data
                             GM_Anual_Wages = 0;
 
                             cmd.Parameters.Clear();
-                            string qry = "insert into labor_data_tb (annual_gross_revenue,annual_operating_days,daily_operating_hrs,annual_operating_hrs,am_no_labor,am_daily_hrs_worked,am_annual_days_worked,am_hourly_wages,am_annual_wages,crew_no_labor,crew_daily_hrs_worked,crew_annual_days_worked,crew_hourly_wages,crew_annual_wages,gm_no_labor,gm_daily_hrs_worked,gm_annual_days_worked,gm_hourly_wages,gm_annual_wages,total_annual_wages) VALUES (@annual_gross_revenue,@annual_operating_days,@daily_operating_hrs,@annual_operating_hrs,@am_no_labor,@am_daily_hrs_worked,@am_annual_days_worked,@am_hourly_wages,@am_annual_wages,@crew_no_labor,@crew_daily_hrs_worked,@crew_annual_days_worked,@crew_hourly_wages,@crew_annual_wages,@gm_no_labor,@gm_daily_hrs_worked,@gm_annual_days_worked,@gm_hourly_wages,@gm_annual_wages,@total_annual_wages) ";
+                            string qry = "insert into labor_data_tb (annual_gross_revenue,annual_operating_days,daily_operating_hrs,annual_operating_hrs,am_no_labor,am_daily_hrs_worked,am_annual_days_worked,am_hourly_wages,am_annual_wages,crew_no_labor,crew_daily_hrs_worked,crew_annual_days_worked,crew_hourly_wages,crew_annual_wages,gm_no_labor,gm_daily_hrs_worked,gm_annual_days_worked,gm_hourly_wages,gm_annual_wages,total_annual_wages,dpdwn2) VALUES (@annual_gross_revenue,@annual_operating_days,@daily_operating_hrs,@annual_operating_hrs,@am_no_labor,@am_daily_hrs_worked,@am_annual_days_worked,@am_hourly_wages,@am_annual_wages,@crew_no_labor,@crew_daily_hrs_worked,@crew_annual_days_worked,@crew_hourly_wages,@crew_annual_wages,@gm_no_labor,@gm_daily_hrs_worked,@gm_annual_days_worked,@gm_hourly_wages,@gm_annual_wages,@total_annual_wages,@dpdwn2) ";
                             cmd.CommandText = qry;
                             cmd.Connection = db_conect;
                             cmd.Parameters.AddWithValue("@annual_gross_revenue", comboBox2.Text);
@@ -936,14 +936,15 @@ namespace labor_data
                             cmd.Parameters.AddWithValue("@gm_annual_wages", label13.Text);
 
                             cmd.Parameters.AddWithValue("@total_annual_wages", label9.Text);
+                            //cmd.Parameters.AddWithValue("@total_annual_wages", comboBox1.Text);
 
-                            //SqlCommand command = new SqlCommand(qry, db_conect);
-                            //command.Parameters.Add("@annual_gross_revenue", "");
-                            //command.Parameters.Add("@username", "abc");
-                            //command.Parameters.Add("@password", "abc");
-                            //command.Parameters.Add("@email", "abc");
+                        //SqlCommand command = new SqlCommand(qry, db_conect);
+                        //command.Parameters.Add("@annual_gross_revenue", "");
+                        //command.Parameters.Add("@username", "abc");
+                        //command.Parameters.Add("@password", "abc");
+                        //command.Parameters.Add("@email", "abc");
 
-                            int rows = cmd.ExecuteNonQuery();
+                        int rows = cmd.ExecuteNonQuery();
                             if (rows > 0)
                             {
                                 chk2 = 1;

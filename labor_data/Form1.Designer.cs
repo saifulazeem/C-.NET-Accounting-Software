@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.labor_data_tbBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.labor_dataset = new labor_data.labor_dataset();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -418,10 +418,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1210, 193);
+            this.button5.Location = new System.Drawing.Point(1197, 195);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 31);
+            this.button5.Size = new System.Drawing.Size(88, 36);
             this.button5.TabIndex = 23;
             this.button5.Text = "Reset All";
             this.button5.UseVisualStyleBackColor = true;
@@ -429,7 +429,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(791, 30);
+            this.richTextBox1.Location = new System.Drawing.Point(792, 30);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(365, 348);
@@ -438,21 +438,21 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(1210, 87);
+            this.button8.Location = new System.Drawing.Point(1197, 82);
             this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 28);
+            this.button8.Size = new System.Drawing.Size(88, 36);
             this.button8.TabIndex = 21;
-            this.button8.Text = "Tools 2";
+            this.button8.Text = "Tool 2";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(1210, 139);
+            this.button9.Location = new System.Drawing.Point(1197, 139);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 28);
+            this.button9.Size = new System.Drawing.Size(88, 36);
             this.button9.TabIndex = 22;
             this.button9.Text = "Tool 3";
             this.button9.UseVisualStyleBackColor = true;
@@ -460,12 +460,12 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(1210, 30);
+            this.button10.Location = new System.Drawing.Point(1197, 30);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 28);
+            this.button10.Size = new System.Drawing.Size(88, 36);
             this.button10.TabIndex = 47;
-            this.button10.Text = "Tools 1";
+            this.button10.Text = "Tool 1";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -482,9 +482,9 @@
             // 
             // reportViewer1
             // 
-            reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.labor_data_tbBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.labor_data_tbBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "labor_data.labor_data_report.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(18, 418);
             this.reportViewer1.Name = "reportViewer1";
@@ -498,10 +498,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1210, 347);
+            this.button2.Location = new System.Drawing.Point(1197, 357);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 48);
+            this.button2.Size = new System.Drawing.Size(88, 47);
             this.button2.TabIndex = 26;
             this.button2.Text = "Define Dropdown";
             this.button2.UseVisualStyleBackColor = true;
@@ -524,10 +524,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1210, 245);
+            this.button3.Location = new System.Drawing.Point(1197, 247);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 31);
+            this.button3.Size = new System.Drawing.Size(88, 36);
             this.button3.TabIndex = 24;
             this.button3.Text = "Open";
             this.button3.UseVisualStyleBackColor = true;
@@ -535,10 +535,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1210, 297);
+            this.button4.Location = new System.Drawing.Point(1197, 303);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 31);
+            this.button4.Size = new System.Drawing.Size(88, 35);
             this.button4.TabIndex = 25;
             this.button4.Text = "Save File";
             this.button4.UseVisualStyleBackColor = true;

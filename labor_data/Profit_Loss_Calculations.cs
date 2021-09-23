@@ -1149,34 +1149,34 @@ namespace labor_data
                 checkBox1.Checked = false;
                 checkBox2.Checked = false;
                 //label45.BackColor = System.Drawing.Color.Transparent;
-                label57.BackColor = System.Drawing.Color.Transparent;
-                label58.BackColor = System.Drawing.Color.Transparent;
-                label66.BackColor = System.Drawing.Color.Transparent;
+                label57.ForeColor = System.Drawing.Color.Black;
+                //label58.BackColor = System.Drawing.Color.Transparent;
+                label66.ForeColor = System.Drawing.Color.Black;
                 //label68.BackColor = System.Drawing.Color.Transparent;
                 //label71.BackColor = System.Drawing.Color.Transparent;
-                label70.BackColor = System.Drawing.Color.Transparent;
-                label80.BackColor = System.Drawing.Color.Transparent;
+                label70.ForeColor = System.Drawing.Color.Black;
+                label80.ForeColor = System.Drawing.Color.Black;
                 //label81.BackColor = System.Drawing.Color.Transparent;
                 //label12.BackColor = System.Drawing.Color.Transparent;
-                label21.BackColor = System.Drawing.Color.Transparent;
+                label21.ForeColor = System.Drawing.Color.Black;
                 //label11.BackColor = System.Drawing.Color.Transparent;
-                label32.BackColor = System.Drawing.Color.Transparent;
-                label23.BackColor = System.Drawing.Color.Transparent;
-                label40.BackColor = System.Drawing.Color.Transparent;
+                label32.ForeColor = System.Drawing.Color.Black;
+                label23.ForeColor = System.Drawing.Color.Black;
+                label40.ForeColor = System.Drawing.Color.Black;
                 //label41.BackColor = System.Drawing.Color.Transparent;
-                label16.BackColor = System.Drawing.Color.Transparent;
-                label17.BackColor = System.Drawing.Color.Transparent;
+                label16.ForeColor = System.Drawing.Color.Black;
+                label17.ForeColor = System.Drawing.Color.Black;
                 //label18.BackColor = System.Drawing.Color.Transparent;
                // label19.BackColor = System.Drawing.Color.Transparent;
                 //label20.BackColor = System.Drawing.Color.Transparent;
-                label5.BackColor = System.Drawing.Color.Transparent;
-                label6.BackColor = System.Drawing.Color.Transparent;
-                label7.BackColor = System.Drawing.Color.Transparent;
+                label5.ForeColor = System.Drawing.Color.Black;
+                label6.ForeColor = System.Drawing.Color.Black;
+                label7.ForeColor = System.Drawing.Color.Black;
                 //label8.BackColor = System.Drawing.Color.Transparent;
 
                 label57.Text = "---";
                 //label45.Text = "---";
-                label58.Text = "---";
+                //label58.Text = "---";
                 label66.Text = "---";
                 //label68.Text = "---";
                 //label71.Text = "---";
@@ -1359,28 +1359,28 @@ namespace labor_data
         private void button12_Click(object sender, EventArgs e)
         {
 
-            //database
-            cmd.Parameters.Clear();
-            string qry = "UPDATE reused_values_tb SET key_status='5' WHERE key_status='1'";
-            cmd.CommandText = qry;
-            cmd.Connection = db_conect;
-            int rows = cmd.ExecuteNonQuery();
+            ////database
+            //cmd.Parameters.Clear();
+            //string qry = "UPDATE reused_values_tb SET key_status='5' WHERE key_status='1'";
+            //cmd.CommandText = qry;
+            //cmd.Connection = db_conect;
+            //int rows = cmd.ExecuteNonQuery();
 
-            //database
-            cmd.Parameters.Clear();
-            string qrsy = "UPDATE reused_values_jk SET key_status='5' WHERE key_status='1'";
-            cmd.CommandText = qrsy;
-            cmd.Connection = db_conect;
-            int rowse = cmd.ExecuteNonQuery();
+            ////database
+            //cmd.Parameters.Clear();
+            //string qrsy = "UPDATE reused_values_jk SET key_status='5' WHERE key_status='1'";
+            //cmd.CommandText = qrsy;
+            //cmd.Connection = db_conect;
+            //int rowse = cmd.ExecuteNonQuery();
 
-            //Update
-            //database
-            cmd.Parameters.Clear();
-            string qryy = "UPDATE reused_values_tu SET status_key='5' WHERE status_key='1'";
-            cmd.CommandText = qryy;
-            cmd.Connection = db_conect;
-            int rrows = cmd.ExecuteNonQuery();
-            //Update
+            ////Update
+            ////database
+            //cmd.Parameters.Clear();
+            //string qryy = "UPDATE reused_values_tu SET status_key='5' WHERE status_key='1'";
+            //cmd.CommandText = qryy;
+            //cmd.Connection = db_conect;
+            //int rrows = cmd.ExecuteNonQuery();
+            ////Update
 
             Form9 f9 = new Form9(this);
             f9.ShowDialog();
@@ -1537,6 +1537,13 @@ namespace labor_data
                 }
 
             }
+            if(textBox1.Text=="")
+            {
+                string message = "Gross Sale Value is Missing From Sales Revenue";
+                string title = "Alert Missing Value";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+            }
             else
             {
                 dollar_f_vals dfval = new dollar_f_vals(this);
@@ -1593,6 +1600,13 @@ namespace labor_data
                 }
              
             }
+            if (textBox1.Text == "")
+            {
+                string message = "Gross Sale Value is Missing From Sales Revenue";
+                string title = "Alert Missing Value";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+            }
             else
             {
                 dollar_j_vals djval = new dollar_j_vals(this);
@@ -1631,6 +1645,13 @@ namespace labor_data
                     tvals.ShowDialog();
                 }
 
+            }
+            if (textBox1.Text == "")
+            {
+                string message = "Gross Sale Value is Missing From Sales Revenue";
+                string title = "Alert Missing Value";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
             }
             else
             {
@@ -1685,7 +1706,7 @@ namespace labor_data
             else
             {
                 //label16.BackColor = System.Drawing.Color.Transparent;
-                label17.BackColor = System.Drawing.Color.Transparent;
+                label17.ForeColor = System.Drawing.Color.Black;
                 //label20.BackColor = System.Drawing.Color.Transparent;
 
                 if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
@@ -1799,7 +1820,7 @@ namespace labor_data
 
                         if (h_dollar_negative == true)
                         {
-                            label17.BackColor = System.Drawing.Color.Red;
+                            label17.ForeColor = System.Drawing.Color.Red;
                             //label17.Text = "$H :" + h_dollar + "$";
                         }
                         //if (i_percent_negative == true)
@@ -1835,7 +1856,7 @@ namespace labor_data
             {
                 //label45.BackColor = System.Drawing.Color.Transparent;
                 label57.ForeColor = System.Drawing.Color.Black;
-                label58.ForeColor = System.Drawing.Color.Black;
+                //label58.ForeColor = System.Drawing.Color.Black;
                 //label66.BackColor = System.Drawing.Color.Transparent;
                 //label68.BackColor = System.Drawing.Color.Transparent;
                 //label71.BackColor = System.Drawing.Color.Transparent;
@@ -2159,9 +2180,9 @@ namespace labor_data
             else
             {
 
-                label32.BackColor = System.Drawing.Color.Transparent;
-                label23.BackColor = System.Drawing.Color.Transparent;
-                label40.BackColor = System.Drawing.Color.Transparent;
+                label32.ForeColor = System.Drawing.Color.Black;
+                label23.ForeColor = System.Drawing.Color.Black;
+                label40.ForeColor = System.Drawing.Color.Black;
                 //label41.BackColor = System.Drawing.Color.Transparent;
 
                 String per_xs = label26.Text;
@@ -2392,7 +2413,7 @@ namespace labor_data
                         {
                             //label41.Text = percent_s.ToString();
                             //label41.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label41.Text));
-                            label40.BackColor = System.Drawing.Color.Red;
+                            label40.ForeColor = System.Drawing.Color.Red;
                         }
                         if (dollar_r_negative == true)
 
@@ -2400,19 +2421,19 @@ namespace labor_data
                             //label40.Text = dollar_r.ToString();
                             //label40.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(label40.Text));
 
-                            label40.BackColor = System.Drawing.Color.Red;
+                            label40.ForeColor = System.Drawing.Color.Red;
                         }
                         if (percent_q_negative == true)
                         {
                             //label23.Text = percent_q .ToString();
                             //label23.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label23.Text));
-                            label23.BackColor = System.Drawing.Color.Red;
+                            label23.ForeColor = System.Drawing.Color.Red;
                         }
                         if (percent_o_negative == true)
                         {
                             //label32.Text = percent_o.ToString();
                             //label32.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P1}", double.Parse(label32.Text));
-                            label32.BackColor = System.Drawing.Color.Red;
+                            label32.ForeColor = System.Drawing.Color.Red;
                         }
                         //if (k_percent_negative == true)
                         //{
@@ -2436,29 +2457,29 @@ namespace labor_data
         private void button16_Click(object sender, EventArgs e)
         {
 
-            //database
-            cmd.Parameters.Clear();
-            string qry = "UPDATE reused_values_tb SET key_status='5' WHERE key_status='1'";
-            cmd.CommandText = qry;
-            cmd.Connection = db_conect;
-            int rows = cmd.ExecuteNonQuery();
+            ////database
+            //cmd.Parameters.Clear();
+            //string qry = "UPDATE reused_values_tb SET key_status='5' WHERE key_status='1'";
+            //cmd.CommandText = qry;
+            //cmd.Connection = db_conect;
+            //int rows = cmd.ExecuteNonQuery();
 
 
-            //database
-            cmd.Parameters.Clear();
-            string qrsy = "UPDATE reused_values_jk SET key_status='5' WHERE key_status='1'";
-            cmd.CommandText = qrsy;
-            cmd.Connection = db_conect;
-            int rowse = cmd.ExecuteNonQuery();
+            ////database
+            //cmd.Parameters.Clear();
+            //string qrsy = "UPDATE reused_values_jk SET key_status='5' WHERE key_status='1'";
+            //cmd.CommandText = qrsy;
+            //cmd.Connection = db_conect;
+            //int rowse = cmd.ExecuteNonQuery();
 
-            //Update
-            //database
-            cmd.Parameters.Clear();
-            string qryy = "UPDATE reused_values_tu SET status_key='5' WHERE status_key='1'";
-            cmd.CommandText = qryy;
-            cmd.Connection = db_conect;
-            int rrows = cmd.ExecuteNonQuery();
-            //Update
+            ////Update
+            ////database
+            //cmd.Parameters.Clear();
+            //string qryy = "UPDATE reused_values_tu SET status_key='5' WHERE status_key='1'";
+            //cmd.CommandText = qryy;
+            //cmd.Connection = db_conect;
+            //int rrows = cmd.ExecuteNonQuery();
+            ////Update
 
             DropDown_menu dpm = new DropDown_menu(this);
             dpm.ShowDialog();
@@ -2881,9 +2902,9 @@ namespace labor_data
             label6.Text = "---";
             label7.Text = "---";
             //label8.Text = "---";
-            label5.BackColor = System.Drawing.Color.Transparent;
-            label6.BackColor = System.Drawing.Color.Transparent;
-            label7.BackColor = System.Drawing.Color.Transparent;
+            label5.ForeColor = System.Drawing.Color.Black;
+            label6.ForeColor = System.Drawing.Color.Black;
+            label7.ForeColor = System.Drawing.Color.Black;
             //label8.BackColor = System.Drawing.Color.Transparent;
 
 
@@ -2967,7 +2988,7 @@ namespace labor_data
                     if (csh_sale_negative == true)
                     {
                         label5.Text = csh_sale.ToString();
-                        label5.BackColor = System.Drawing.Color.Red;
+                        label5.ForeColor = System.Drawing.Color.Red;
                         label6.Text = n_csh_sale.ToString();
                         string dds = grs_sale.ToString();
                         string eps = eper.ToString();
@@ -2984,7 +3005,7 @@ namespace labor_data
 
                         label5.Text = csh_sale.ToString();
                         label6.Text = n_csh_sale.ToString();
-                        label6.BackColor = System.Drawing.Color.Red;
+                        label6.ForeColor = System.Drawing.Color.Red;
                         string dds = grs_sale.ToString();
                         string eps = eper.ToString();
                         label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
@@ -3008,7 +3029,7 @@ namespace labor_data
                         dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                         eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
                         label7.Text = dds + "   |   " + eps;
-                        label7.BackColor = System.Drawing.Color.Red;
+                        label7.ForeColor = System.Drawing.Color.Red;
 
                     }
                     if (e_negative == true)
@@ -3028,7 +3049,7 @@ namespace labor_data
                             dds = dds.Replace(")", "");
                         }
                         label7.Text = dds + "   |   " + eps;
-                        label7.BackColor = System.Drawing.Color.Red;
+                        label7.ForeColor = System.Drawing.Color.Red;
                     }
                 }
 
