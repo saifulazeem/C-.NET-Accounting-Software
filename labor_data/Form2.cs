@@ -323,6 +323,7 @@ namespace labor_data
             if (dialogResult == DialogResult.Yes)
             {
                 //do something
+                db_conect.Close();
                 Form1 f1 = new Form1();
                 f1.Show();
                 this.Hide();
@@ -367,6 +368,7 @@ namespace labor_data
             if (dialogResult == DialogResult.Yes)
             {
                 //do something
+                db_conect.Close();
                 Profit_Loss_Calculations f7 = new Profit_Loss_Calculations();
                 f7.Show();
                 this.Hide();
@@ -427,7 +429,7 @@ namespace labor_data
             if (dialogResult == DialogResult.Yes)
             {
                 //do something
-             
+                db_conect.Close();
                 System.Environment.Exit(1);
 
             }

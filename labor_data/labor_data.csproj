@@ -254,7 +254,9 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="labor_data_report.rdlc" />
+    <EmbeddedResource Include="labor_data_report.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profit_loss_data_Report.rdlc" />
     <EmbeddedResource Include="profit_loss_Report.resx">
       <DependentUpon>profit_loss_Report.cs</DependentUpon>

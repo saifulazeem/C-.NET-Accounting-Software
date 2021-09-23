@@ -890,3 +890,4 @@ F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\labor_data.exe
 F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\labor_data.pdb
 F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\RdlCompile.cache
 F:\FiverrProject\C-.NET-Accounting-Software\labor_data\obj\Debug\RdlCompile.compiled
+F:\FiverrProject\C-.NET-Accounting-Software\labor_data\bin\Debug\labor_data_report.rdlc

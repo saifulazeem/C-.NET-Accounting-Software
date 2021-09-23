@@ -99,7 +99,7 @@ namespace labor_data
                 cmd.Connection = db_conect;
                 int rrows = cmd.ExecuteNonQuery();
                 //Update
-
+                db_conect.Close();
                 Form1 f1 = new Form1();
                 f1.Show();
                 this.Hide();
@@ -137,7 +137,7 @@ namespace labor_data
                 cmd.Connection = db_conect;
                 int rrows = cmd.ExecuteNonQuery();
                 //Update
-
+                db_conect.Close();
                 Form2 f2 = new Form2();
                 f2.Show();
                 this.Hide();
@@ -2803,6 +2803,7 @@ namespace labor_data
                 cmd.Connection = db_conect;
                 int rrows = cmd.ExecuteNonQuery();
 
+                db_conect.Close();
                 System.Environment.Exit(1);
 
             }
@@ -2966,6 +2967,10 @@ namespace labor_data
                 double grs_sale = c_sale + n_c_sale;
                 double eper = n_csh_sale + csh_sale;
 
+                if(grs_sale<g_sale)
+                {
+                    MessageBox.Show("Sum of Cash Sale + Non Cash Sale is Less then Total Gross Sale", "Alert Sum Not Equal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 bool csh_sale_negative = csh_sale < 0;
                 bool n_csh_sale_negative = n_csh_sale < 0;
                 bool grs_csh_sale_negative = grs_sale < 0;
