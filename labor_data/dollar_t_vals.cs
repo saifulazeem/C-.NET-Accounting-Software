@@ -296,7 +296,7 @@ namespace labor_data
                 //panel1.Controls.Clear();
                 for (int i = 0; i < 1; i++)
                 {
-                    TextBox a = new TextBox();
+                    //TextBox a = new TextBox();
                     Label alab = new Label();
                     Label mylab = new Label();
                     Label cbxlabel = new Label();

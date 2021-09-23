@@ -74,6 +74,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.label66 = new System.Windows.Forms.Label();
@@ -105,7 +106,10 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -377,6 +381,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.label50);
             this.groupBox3.Controls.Add(this.button14);
             this.groupBox3.Controls.Add(this.label40);
@@ -520,6 +525,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.checkBox1);
             this.groupBox4.Controls.Add(this.label33);
             this.groupBox4.Controls.Add(this.label32);
@@ -645,6 +651,15 @@
             this.groupBox6.Text = "Operating Expenses";
             this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(133, 33);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(16, 13);
+            this.label8.TabIndex = 63;
+            this.label8.Text = "---";
+            // 
             // label53
             // 
             this.label53.AutoSize = true;
@@ -690,6 +705,7 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.label18);
             this.groupBox7.Controls.Add(this.checkBox3);
             this.groupBox7.Controls.Add(this.label56);
             this.groupBox7.Controls.Add(this.label57);
@@ -784,6 +800,7 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.label19);
             this.groupBox9.Controls.Add(this.label80);
             this.groupBox9.Controls.Add(this.label72);
             this.groupBox9.Controls.Add(this.label79);
@@ -989,14 +1006,41 @@
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
-            // label8
+            // label11
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(133, 33);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(16, 13);
-            this.label8.TabIndex = 63;
-            this.label8.Text = "---";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(36, 24);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(15, 13);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "%";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(491, 91);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(41, 13);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "label12";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(32, 20);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(15, 13);
+            this.label18.TabIndex = 28;
+            this.label18.Text = "%";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(30, 24);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(15, 13);
+            this.label19.TabIndex = 43;
+            this.label19.Text = "%";
             // 
             // Profit_Loss_Calculations
             // 
@@ -1020,7 +1064,7 @@
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Profit_Loss_Calculations";
-            this.Text = " ";
+            this.Text = " Profit Loss Calculation";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Profit_Loss_Calculations_FormClosing);
             this.Load += new System.EventHandler(this.Form7_Load);
@@ -1127,5 +1171,9 @@
         public System.Windows.Forms.TextBox textBox2;
         public System.Windows.Forms.Label label57;
         public System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
     }
 }
