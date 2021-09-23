@@ -78,20 +78,20 @@ namespace labor_data
             //int rows = cmd.ExecuteNonQuery();
 
             //Update
-            dol_ff = Math.Round(dol_ff, 0, MidpointRounding.AwayFromZero);
+            sum_d = Math.Round(sum_d, 0, MidpointRounding.AwayFromZero);
             bool dol_f_negative = dol_ff < 0;
             if (dol_f_negative == false)
             {
                
                 profss.label16.Text = label5.Text;
-                profss.label16.BackColor = System.Drawing.Color.Transparent;
+                profss.label16.ForeColor = System.Drawing.Color.Black;
 
             }
             else
             {
        
                 profss.label16.Text = label5.Text;
-                profss.label16.BackColor = System.Drawing.Color.Red;
+                profss.label16.ForeColor = System.Drawing.Color.Red;
   
             }
           
@@ -187,7 +187,7 @@ namespace labor_data
                 //panel1.Controls.Clear();
                 for (int i = 0; i < 1; i++)
                 {
-                    TextBox a = new TextBox();
+                    //TextBox a = new TextBox();
                     Label alab = new Label();
                     Label mylab = new Label();
                     Label cbxlabel = new Label();
