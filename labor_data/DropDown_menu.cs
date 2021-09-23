@@ -47,131 +47,290 @@ namespace labor_data
             {
                 if (textBox1.Text != "")
                 {
-                    
                     cmd.Parameters.Clear();
-                    string qry = "insert into dropdowns_tb (dropdown1) VALUES (@dp1) ";
-                    cmd.CommandText = qry;
+                    string qrrys = "select * From dropdowns_tb WHERE dropdown1=@newtxt ";
+                    cmd.CommandText = qrrys;
                     cmd.Connection = db_conect;
-                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                    cmd.Parameters.AddWithValue("@dp1", textBox1.Text);
-                  
-
-                    int rows = cmd.ExecuteNonQuery();
-                    if (rows > 0)
+                    cmd.Parameters.AddWithValue("@newtxt", textBox1.Text);
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    cmd.Dispose();
+                    if (rdr.HasRows)
                     {
-                        textBox1.Text = null;
-                        dt_dropdown.Clear();
+                        //when in read mode ask for data
+                        while (rdr.Read())
+                        {
+                            string uname = rdr["dropdown1"].ToString();
+                            string ntxt = textBox1.Text;
+                            uname = uname.ToLower();
+                            ntxt = ntxt.ToLower();
 
-                        fill_listbox();
-                        listBox1.DataSource = dt_dropdown;
-                        listBox1.DisplayMember = "dropdown1";
-                        listBox1.ClearSelected();
+                            if (ntxt == uname)
+                            {
+                                textBox1.Text = null;
+                                MessageBox.Show("For Sales Revenue Value Already Exist in Database", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
+                            }
+                        }
+                        rdr.Close();
                     }
+
                     else
                     {
-                        MessageBox.Show("Failed to Save Data");
+                        rdr.Close();
+                        cmd.Parameters.Clear();
+                        string qry = "insert into dropdowns_tb (dropdown1) VALUES (@dp1) ";
+                        cmd.CommandText = qry;
+                        cmd.Connection = db_conect;
+                        //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                        cmd.Parameters.AddWithValue("@dp1", textBox1.Text);
+
+
+                        int rows = cmd.ExecuteNonQuery();
+                        if (rows > 0)
+                        {
+                            textBox1.Text = null;
+                            dt_dropdown.Clear();
+
+                            fill_listbox();
+                            listBox1.DataSource = dt_dropdown;
+                            listBox1.DisplayMember = "dropdown1";
+                            listBox1.ClearSelected();
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to Save Data");
+                        }
                     }
+ 
                 }
                 if (textBox2.Text != "")
                 {
                     cmd.Parameters.Clear();
-                    string qry = "insert into dropdowns_tb (dropdown2) VALUES (@dp2) ";
-                    cmd.CommandText = qry;
+                    string qrrys = "select * From dropdowns_tb WHERE dropdown2=@newtxt ";
+                    cmd.CommandText = qrrys;
                     cmd.Connection = db_conect;
-                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                    cmd.Parameters.AddWithValue("@dp2", textBox2.Text);
-
-
-                    int rows = cmd.ExecuteNonQuery();
-                    if (rows > 0)
+                    cmd.Parameters.AddWithValue("@newtxt", textBox2.Text);
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    cmd.Dispose();
+                    if (rdr.HasRows)
                     {
-                        textBox2.Text = null;
-                        dt_dropdown2.Clear();
+                        //when in read mode ask for data
+                        while (rdr.Read())
+                        {
+                            string uname = rdr["dropdown2"].ToString();
+                            string ntxt = textBox2.Text;
+                            uname = uname.ToLower();
+                            ntxt = ntxt.ToLower();
 
-                        fill_listbox2();
-                        listBox2.DataSource = dt_dropdown2;
-                        listBox2.DisplayMember = "dropdown2";
-                        listBox2.ClearSelected();
+                            if (ntxt == uname)
+                            {
+                                textBox2.Text = null;
+                                MessageBox.Show("For Cost of Good Sold Value Already Exist in Database", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                        }
+                        rdr.Close();
                     }
+
                     else
                     {
-                        MessageBox.Show("Failed to Save Data");
+                        rdr.Close();
+                        cmd.Parameters.Clear();
+                        string qry = "insert into dropdowns_tb (dropdown2) VALUES (@dp2) ";
+                        cmd.CommandText = qry;
+                        cmd.Connection = db_conect;
+                        //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                        cmd.Parameters.AddWithValue("@dp2", textBox2.Text);
+
+
+                        int rows = cmd.ExecuteNonQuery();
+                        if (rows > 0)
+                        {
+                            textBox2.Text = null;
+                            dt_dropdown2.Clear();
+
+                            fill_listbox2();
+                            listBox2.DataSource = dt_dropdown2;
+                            listBox2.DisplayMember = "dropdown2";
+                            listBox2.ClearSelected();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to Save Data");
+                        }
                     }
+                    
                 }
                 if (textBox3.Text != "")
                 {
                     cmd.Parameters.Clear();
-                    string qry = "insert into dropdowns_tb (dropdown3) VALUES (@dp3) ";
-                    cmd.CommandText = qry;
+                    string qrrys = "select * From dropdowns_tb WHERE dropdown3=@newtxt ";
+                    cmd.CommandText = qrrys;
                     cmd.Connection = db_conect;
-                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                    cmd.Parameters.AddWithValue("@dp3", textBox3.Text);
-                    int rows = cmd.ExecuteNonQuery();
-                    if (rows > 0)
+                    cmd.Parameters.AddWithValue("@newtxt", textBox3.Text);
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    cmd.Dispose();
+                    if (rdr.HasRows)
                     {
-                        textBox3.Text = null;
-                        dt_dropdown3.Clear();
+                        //when in read mode ask for data
+                        while (rdr.Read())
+                        {
+                            string uname = rdr["dropdown3"].ToString();
+                            string ntxt = textBox3.Text;
+                            uname = uname.ToLower();
+                            ntxt = ntxt.ToLower();
 
-                        fill_listbox3();
-                        listBox3.DataSource = dt_dropdown3;
-                        listBox3.DisplayMember = "dropdown3";
-                        listBox3.ClearSelected();
+                            if (ntxt == uname)
+                            {
+                                textBox3.Text = null;
+                                MessageBox.Show("For Labor Model Type Value Already Exist in Database", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                        }
+                        rdr.Close();
                     }
+
                     else
                     {
-                        MessageBox.Show("Failed to Save Data");
+                        rdr.Close();
+                        cmd.Parameters.Clear();
+                        string qry = "insert into dropdowns_tb (dropdown3) VALUES (@dp3) ";
+                        cmd.CommandText = qry;
+                        cmd.Connection = db_conect;
+                        //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                        cmd.Parameters.AddWithValue("@dp3", textBox3.Text);
+                        int rows = cmd.ExecuteNonQuery();
+                        if (rows > 0)
+                        {
+                            textBox3.Text = null;
+                            dt_dropdown3.Clear();
+
+                            fill_listbox3();
+                            listBox3.DataSource = dt_dropdown3;
+                            listBox3.DisplayMember = "dropdown3";
+                            listBox3.ClearSelected();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to Save Data");
+                        }
                     }
+ 
                 }
                 if (textBox4.Text != "")
                 {
                     cmd.Parameters.Clear();
-                    string qry = "insert into dropdowns_tb (dropdown4) VALUES (@dp4) ";
-                    cmd.CommandText = qry;
+                    string qrrys = "select * From dropdowns_tb WHERE dropdown4=@newtxt ";
+                    cmd.CommandText = qrrys;
                     cmd.Connection = db_conect;
-                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                    cmd.Parameters.AddWithValue("@dp4", textBox4.Text);
-
-
-                    int rows = cmd.ExecuteNonQuery();
-                    if (rows > 0)
+                    cmd.Parameters.AddWithValue("@newtxt", textBox4.Text);
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    cmd.Dispose();
+                    if (rdr.HasRows)
                     {
-                        dt_dropdown4.Clear();
-                        textBox4.Text = null;
-                        fill_listbox4();
-                        listBox4.DataSource = dt_dropdown4;
-                        listBox4.DisplayMember = "dropdown4";
-                        listBox4.ClearSelected();
+                        //when in read mode ask for data
+                        while (rdr.Read())
+                        {
+                            string uname = rdr["dropdown4"].ToString();
+                            string ntxt = textBox4.Text;
+                            uname = uname.ToLower();
+                            ntxt = ntxt.ToLower();
+
+                            if (ntxt == uname)
+                            {
+                                textBox4.Text = null;
+                                MessageBox.Show("For Labor Type Value Already Exist in Database", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                        }
+                        rdr.Close();
                     }
+
                     else
                     {
-                        MessageBox.Show("Failed to Save Data");
+                        rdr.Close();
+                        cmd.Parameters.Clear();
+                        string qry = "insert into dropdowns_tb (dropdown4) VALUES (@dp4) ";
+                        cmd.CommandText = qry;
+                        cmd.Connection = db_conect;
+                        //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                        cmd.Parameters.AddWithValue("@dp4", textBox4.Text);
+
+
+                        int rows = cmd.ExecuteNonQuery();
+                        if (rows > 0)
+                        {
+                            dt_dropdown4.Clear();
+                            textBox4.Text = null;
+                            fill_listbox4();
+                            listBox4.DataSource = dt_dropdown4;
+                            listBox4.DisplayMember = "dropdown4";
+                            listBox4.ClearSelected();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to Save Data");
+                        }
                     }
+   
                 }
                 if (textBox5.Text != "")
                 {
                     cmd.Parameters.Clear();
-                    string qry = "insert into dropdowns_tb (dropdown5) VALUES (@dp5) ";
-                    cmd.CommandText = qry;
+                    string qrrys = "select * From dropdowns_tb WHERE dropdown5=@newtxt ";
+                    cmd.CommandText = qrrys;
                     cmd.Connection = db_conect;
-                    //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
-                    cmd.Parameters.AddWithValue("@dp5", textBox5.Text);
-
-                    int rows = cmd.ExecuteNonQuery();
-                    if (rows > 0)
+                    cmd.Parameters.AddWithValue("@newtxt", textBox5.Text);
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    cmd.Dispose();
+                    if (rdr.HasRows)
                     {
-                        textBox5.Text = null;
-                        dt_dropdown5.Clear();
+                        //when in read mode ask for data
+                        while (rdr.Read())
+                        {
+                            string uname = rdr["dropdown5"].ToString();
+                            string ntxt = textBox5.Text;
+                            uname = uname.ToLower();
+                            ntxt = ntxt.ToLower();
 
-                        fill_listbox5();
-                        listBox5.DataSource = dt_dropdown5;
-                        listBox5.DisplayMember = "dropdown5";
-                        listBox5.ClearSelected();
+                            if (ntxt == uname)
+                            {
+                                textBox5.Text = null;
+                                MessageBox.Show("For Operating Expense Value Already Exist in Database", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                        }
+                        rdr.Close();
                     }
+
                     else
                     {
-                        MessageBox.Show("Failed to Save Data");
+                        rdr.Close();
+                        cmd.Parameters.Clear();
+                        string qry = "insert into dropdowns_tb (dropdown5) VALUES (@dp5) ";
+                        cmd.CommandText = qry;
+                        cmd.Connection = db_conect;
+                        //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
+                        cmd.Parameters.AddWithValue("@dp5", textBox5.Text);
+
+                        int rows = cmd.ExecuteNonQuery();
+                        if (rows > 0)
+                        {
+                            textBox5.Text = null;
+                            dt_dropdown5.Clear();
+
+                            fill_listbox5();
+                            listBox5.DataSource = dt_dropdown5;
+                            listBox5.DisplayMember = "dropdown5";
+                            listBox5.ClearSelected();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to Save Data");
+                        }
                     }
+ 
                 }
             }
         }

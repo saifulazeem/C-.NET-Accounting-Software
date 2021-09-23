@@ -476,9 +476,9 @@
             this.label10.Location = new System.Drawing.Point(4, 80);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(176, 26);
+            this.label10.Size = new System.Drawing.Size(196, 26);
             this.label10.TabIndex = 25;
-            this.label10.Text = "*Note Enter $P if %XX is Null or You\r\nwant to Override %XX value";
+            this.label10.Text = "*Note Enter payroll tax if % is Null or You\r\nwant to Override payroll tax$ value";
             // 
             // label23
             // 
@@ -564,9 +564,9 @@
             this.label33.Location = new System.Drawing.Point(4, 80);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(170, 26);
+            this.label33.Size = new System.Drawing.Size(195, 26);
             this.label33.TabIndex = 25;
-            this.label33.Text = "*Note Enter $N if %X is Null or You\r\nwant to Override %X value";
+            this.label33.Text = "*Note Enter insurance if % is Null or You\r\nwant to Override insurance $ value";
             // 
             // label32
             // 
@@ -725,7 +725,7 @@
             this.groupBox7.Size = new System.Drawing.Size(240, 161);
             this.groupBox7.TabIndex = 21;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "U%";
+            this.groupBox7.Text = "Card Processing Fee";
             // 
             // label18
             // 
@@ -755,9 +755,10 @@
             this.label56.Location = new System.Drawing.Point(4, 80);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(169, 26);
+            this.label56.Size = new System.Drawing.Size(218, 26);
             this.label56.TabIndex = 25;
-            this.label56.Text = "*Note Enter $T if %V is Null or You\r\nwant to Override %V value";
+            this.label56.Text = "*Note Enter processing fee if % is Null or You\r\nwant to Override processing fee v" +
+    "alue";
             // 
             // label57
             // 
@@ -833,9 +834,9 @@
             this.label80.Location = new System.Drawing.Point(30, 89);
             this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(45, 13);
+            this.label80.Size = new System.Drawing.Size(16, 13);
             this.label80.TabIndex = 42;
-            this.label80.Text = "$VV : ---";
+            this.label80.Text = "---";
             // 
             // label72
             // 
@@ -875,9 +876,9 @@
             this.label70.Location = new System.Drawing.Point(34, 54);
             this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(38, 13);
+            this.label70.Size = new System.Drawing.Size(16, 13);
             this.label70.TabIndex = 41;
-            this.label70.Text = "$V : ---";
+            this.label70.Text = "---";
             // 
             // label69
             // 
@@ -1005,7 +1006,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(118, 46);
             this.button12.TabIndex = 31;
-            this.button12.Text = "Defined Values (%X,%XX,%V,$Z)";
+            this.button12.Text = "Defined Values ";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
