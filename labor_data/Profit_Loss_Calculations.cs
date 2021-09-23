@@ -1253,11 +1253,12 @@ namespace labor_data
                 {
                     //save to database
                     cmd.Parameters.Clear();
-                    string qry = "insert into profit_loss_tb (sale_rev_gross_sale,sale_rev_cash_sale,sale_rev_non_cash_sale,cash_sale_b_percent,non_cash_sale_c_percent,gross_sale_dollar_d,cog_dollar_ff,cog_dollar_h,dollar_l,x_percent,o_percent,xx_percent,q_percent,dollar_r,v_percent,new_dollar_t,dollar_tt,dollar_v,dollar_z,dollar_vv) VALUES (@sale_rev_gross_sale,@sale_rev_cash_sale,@sale_rev_non_cash_sale,@cash_sale_b_percent,@non_cash_sale_c_percent,@gross_sale_dollar_d,@cog_dollar_ff,@cog_dollar_h,@dollar_l,@x_percent,@o_percent,@xx_percent,@q_percent,@dollar_r,@v_percent,@new_dollar_t,@dollar_tt,@dollar_v,@dollar_z,@dollar_vv) ";
+                    string qry = "insert into profit_loss_tb (sale_rev_gross_sale,dpdw1,sale_rev_cash_sale,sale_rev_non_cash_sale,cash_sale_b_percent,non_cash_sale_c_percent,gross_sale_dollar_d,cog_dollar_ff,cog_dollar_h,dollar_l,dpdw3,x_percent,o_percent,xx_percent,q_percent,dollar_r,v_percent,new_dollar_t,dollar_tt,dollar_v,dollar_z,dollar_vv) VALUES (@sale_rev_gross_sale,@dpdw1,@sale_rev_cash_sale,@sale_rev_non_cash_sale,@cash_sale_b_percent,@non_cash_sale_c_percent,@gross_sale_dollar_d,@cog_dollar_ff,@cog_dollar_h,@dollar_l,@dpdw3,@x_percent,@o_percent,@xx_percent,@q_percent,@dollar_r,@v_percent,@new_dollar_t,@dollar_tt,@dollar_v,@dollar_z,@dollar_vv) ";
                     cmd.CommandText = qry;
                     cmd.Connection = db_conect;
                     //@anum_gross_rev,@anum_op_days,@daily_op_hrs,@avg_sale_recpt,@daily_gross_rev,@hourly_gross_rev,@hourly_sale_ord,@daily_sale_ord,@anum_sale_ord
                     cmd.Parameters.AddWithValue("@sale_rev_gross_sale", textBox1.Text);
+                    cmd.Parameters.AddWithValue("@dpdw1", comboBox1.Text);
                     cmd.Parameters.AddWithValue("@sale_rev_cash_sale", textBox2.Text);
                     cmd.Parameters.AddWithValue("@sale_rev_non_cash_sale", textBox3.Text);
                     cmd.Parameters.AddWithValue("@cash_sale_b_percent", label5.Text);
@@ -1276,6 +1277,7 @@ namespace labor_data
 
                     //cmd.Parameters.AddWithValue("@labor_k_percent", label12.Text);
                     cmd.Parameters.AddWithValue("@dollar_l", label21.Text);
+                    cmd.Parameters.AddWithValue("@dpdw3", comboBox3.Text);
                     //cmd.Parameters.AddWithValue("@percent_m", label11.Text);
                     cmd.Parameters.AddWithValue("@x_percent", label26.Text);
                     //cmd.Parameters.AddWithValue("@dollar_n", textBox6.Text);

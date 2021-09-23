@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.labor_data_tbBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.labor_dataset = new labor_data.labor_dataset();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -105,7 +105,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(99, 21);
             this.comboBox1.TabIndex = 2;
-            this.comboBox1.Text = "B";
+            this.comboBox1.Text = "Labor Model";
             // 
             // textBox21
             // 
@@ -482,9 +482,9 @@
             // 
             // reportViewer1
             // 
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.labor_data_tbBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            reportDataSource2.Name = "DataSet1";
+            reportDataSource2.Value = this.labor_data_tbBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "labor_data.labor_data_report.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(18, 418);
             this.reportViewer1.Name = "reportViewer1";

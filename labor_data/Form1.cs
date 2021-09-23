@@ -413,10 +413,11 @@ namespace labor_data
             fill_listbox();
             comboBox1.DataSource = dt_drop;
             comboBox1.DisplayMember = "dropdown6";
-            comboBox1.Text = "Please Select...";
+            //comboBox1.Text = "Please Select...";
+            comboBox1.Text = "Labor Model";
             //this.reportViewer1.RefreshReport();
 
-       
+
             comboBox2.DataSource = dt_drop_7;
             comboBox2.DisplayMember = "dropdown7";
             comboBox2.Text = "Please Select Range...";
@@ -447,6 +448,7 @@ namespace labor_data
                 validate = 0;
                 //textBox1.Text = null;
                 textBox2.Text = null;
+                comboBox1.Text = "Labor Model";
                 textBox3.Text = null;
                 textBox4.Text = null;
                 textBox21.Text = null;
@@ -909,7 +911,7 @@ namespace labor_data
                             GM_Anual_Wages = 0;
 
                             cmd.Parameters.Clear();
-                            string qry = "insert into labor_data_tb (annual_gross_revenue,annual_operating_days,daily_operating_hrs,annual_operating_hrs,am_no_labor,am_daily_hrs_worked,am_annual_days_worked,am_hourly_wages,am_annual_wages,crew_no_labor,crew_daily_hrs_worked,crew_annual_days_worked,crew_hourly_wages,crew_annual_wages,gm_no_labor,gm_daily_hrs_worked,gm_annual_days_worked,gm_hourly_wages,gm_annual_wages,total_annual_wages,dpdwn2) VALUES (@annual_gross_revenue,@annual_operating_days,@daily_operating_hrs,@annual_operating_hrs,@am_no_labor,@am_daily_hrs_worked,@am_annual_days_worked,@am_hourly_wages,@am_annual_wages,@crew_no_labor,@crew_daily_hrs_worked,@crew_annual_days_worked,@crew_hourly_wages,@crew_annual_wages,@gm_no_labor,@gm_daily_hrs_worked,@gm_annual_days_worked,@gm_hourly_wages,@gm_annual_wages,@total_annual_wages,@dpdwn2) ";
+                            string qry = "insert into labor_data_tb (annual_gross_revenue,annual_operating_days,daily_operating_hrs,annual_operating_hrs,am_no_labor,am_daily_hrs_worked,am_annual_days_worked,am_hourly_wages,am_annual_wages,crew_no_labor,crew_daily_hrs_worked,crew_annual_days_worked,crew_hourly_wages,crew_annual_wages,gm_no_labor,gm_daily_hrs_worked,gm_annual_days_worked,gm_hourly_wages,gm_annual_wages,total_annual_wages,dpdw2) VALUES (@annual_gross_revenue,@annual_operating_days,@daily_operating_hrs,@annual_operating_hrs,@am_no_labor,@am_daily_hrs_worked,@am_annual_days_worked,@am_hourly_wages,@am_annual_wages,@crew_no_labor,@crew_daily_hrs_worked,@crew_annual_days_worked,@crew_hourly_wages,@crew_annual_wages,@gm_no_labor,@gm_daily_hrs_worked,@gm_annual_days_worked,@gm_hourly_wages,@gm_annual_wages,@total_annual_wages,@dpdw2) ";
                             cmd.CommandText = qry;
                             cmd.Connection = db_conect;
                             cmd.Parameters.AddWithValue("@annual_gross_revenue", comboBox2.Text);
@@ -936,7 +938,7 @@ namespace labor_data
                             cmd.Parameters.AddWithValue("@gm_annual_wages", label13.Text);
 
                             cmd.Parameters.AddWithValue("@total_annual_wages", label9.Text);
-                            //cmd.Parameters.AddWithValue("@total_annual_wages", comboBox1.Text);
+                            cmd.Parameters.AddWithValue("@dpdw2", comboBox1.Text);
 
                         //SqlCommand command = new SqlCommand(qry, db_conect);
                         //command.Parameters.Add("@annual_gross_revenue", "");
