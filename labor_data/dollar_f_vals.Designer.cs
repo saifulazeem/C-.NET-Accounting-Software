@@ -36,6 +36,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,13 +47,13 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 28);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Calculate";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txt1
             // 
-            this.txt1.Location = new System.Drawing.Point(288, 27);
+            this.txt1.Location = new System.Drawing.Point(349, 30);
             this.txt1.Margin = new System.Windows.Forms.Padding(2);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(110, 20);
@@ -66,9 +67,9 @@
             this.label6.Location = new System.Drawing.Point(111, 569);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 13);
+            this.label6.Size = new System.Drawing.Size(69, 13);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Total Cost :";
+            this.label6.Text = "Total Cost:";
             // 
             // label5
             // 
@@ -83,12 +84,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(227, 30);
+            this.label4.Location = new System.Drawing.Point(291, 35);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 13);
+            this.label4.Size = new System.Drawing.Size(54, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Item Cost :";
+            this.label4.Text = "Item Cost:";
             // 
             // button2
             // 
@@ -104,12 +105,11 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(86, 27);
+            this.comboBox2.Location = new System.Drawing.Point(151, 30);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(124, 21);
             this.comboBox2.TabIndex = 1;
-            this.comboBox2.Text = "Item name";
             // 
             // dataGridView1
             // 
@@ -119,11 +119,23 @@
             this.dataGridView1.Size = new System.Drawing.Size(443, 470);
             this.dataGridView1.TabIndex = 19;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(86, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Item Name:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // dollar_f_vals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(643, 657);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView1);
@@ -153,5 +165,6 @@
         public System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
     }
 }

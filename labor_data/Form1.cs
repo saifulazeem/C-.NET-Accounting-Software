@@ -421,7 +421,7 @@ namespace labor_data
 
             comboBox2.DataSource = dt_drop_7;
             comboBox2.DisplayMember = "dropdown7";
-            comboBox2.Text = "Please Select Range...";
+            comboBox2.Text = "Please Select";
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
@@ -463,7 +463,7 @@ namespace labor_data
                 textBox16.Text = null;
                 textBox14.Text = null;
                 textBox15.Text = null;
-                comboBox2.Text = "Please Select Range...";
+                comboBox2.Text = "Please Select";
                 chk2 = -1;
                 chk = -1;
 
@@ -601,7 +601,7 @@ namespace labor_data
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (comboBox2.Text == "" || comboBox2.Text == "Please Select Range..." || textBox2.Text == "" || textBox3.Text == "")
+            if (comboBox2.Text == "" || comboBox2.Text == "Please Select" || textBox2.Text == "" || textBox3.Text == "")
             {
                 MessageBox.Show("Some Required Feilds Are Missing", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

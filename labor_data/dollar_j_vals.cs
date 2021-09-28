@@ -655,6 +655,7 @@ namespace labor_data
         private void dollar_j_vals_Load(object sender, EventArgs e)
         {
             //form load
+            
             cbx_data_jk.Clear();
             jk_data_dt.Clear();
             contest();

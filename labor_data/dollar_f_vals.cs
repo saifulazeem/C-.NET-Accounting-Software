@@ -28,6 +28,12 @@ namespace labor_data
         public static SqlDataAdapter adopt = new SqlDataAdapter();
         public static DataTable cbx_data = new DataTable();
         public static DataTable fg_data_dt = new DataTable();
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public static DataTable dgv_dt = new DataTable();
         public static DataTable dgv_dt1 = new DataTable();
 
@@ -198,9 +204,9 @@ namespace labor_data
 
                     //gs = textBox1.Text;
                     cbxitem = comboBox2.Text;
-                    if(gs =="" || cbxitem== "Item name" || cbxitem == "" || gs == null || txt1.Text == "")
+                    if(gs =="" || cbxitem== null || cbxitem == "" || gs == null || txt1.Text == "")
                     {
-                        MessageBox.Show("Missing Item Name OR Gross Sale Value From Sales Revenue ","Alert",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                        MessageBox.Show("Missing Item Name or Item Cost ", "Alert",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                         //mylab.Text = "G% : ----";
                     }
                     else
@@ -266,7 +272,7 @@ namespace labor_data
                             adopt.Fill(dgv_dt);
                             dataGridView1.DataSource = dgv_dt;
                             dataGridView1.Columns["ids"].Visible = false;
-                            dataGridView1.Columns[1].HeaderText = "Item name";
+                            dataGridView1.Columns[1].HeaderText = "Item Name";
                             dataGridView1.Columns[2].HeaderText = "Cost of Item";
                             dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -489,7 +495,7 @@ namespace labor_data
             }
             catch (Exception)
             {
-                MessageBox.Show("$A or $F Values Missing OR "+e.ToString());
+                MessageBox.Show("Missing Item Name or Item Cost " + e.ToString());
             }
             
 
@@ -575,7 +581,7 @@ namespace labor_data
                     adopt.Fill(dgv_dt);
                     dataGridView1.DataSource = dgv_dt;
                     dataGridView1.Columns["ids"].Visible = false;
-                    dataGridView1.Columns[1].HeaderText = "Item name";
+                    dataGridView1.Columns[1].HeaderText = "Item Name";
                     dataGridView1.Columns[2].HeaderText = "Cost of Item";
                     dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -660,7 +666,7 @@ namespace labor_data
             adopt.Fill(dgv_dt);
             dataGridView1.DataSource = dgv_dt;
             dataGridView1.Columns["ids"].Visible = false;
-            dataGridView1.Columns[1].HeaderText = "Item name";
+            dataGridView1.Columns[1].HeaderText = "Item Name";
             dataGridView1.Columns[2].HeaderText = "Cost of Item";
             dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -681,7 +687,7 @@ namespace labor_data
             fill_combox2();
             comboBox2.DataSource = cbx_data;
             comboBox2.DisplayMember = "dropdown2";
-            comboBox2.Text = "Item name";
+            comboBox2.Text = "";
 
 
             //pointX = 60;

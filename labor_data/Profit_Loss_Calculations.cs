@@ -1139,39 +1139,39 @@ namespace labor_data
 
         private void button11_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are You sure you want to reset all fields? ", "Reset", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to reset all fields? ", "Reset", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.Yes)
             {
                 ctk = -1;
                 ctk2 = -1;
-                comboBox1.Text = "Please Select...";
-                comboBox3.Text = "Select Labor Type...";
+                comboBox1.Text = "Please Select";
+                comboBox3.Text = "Select Labor Type";
                 checkBox1.Checked = false;
                 checkBox2.Checked = false;
                 //label45.BackColor = System.Drawing.Color.Transparent;
-                label57.ForeColor = System.Drawing.Color.Black;
-                //label58.BackColor = System.Drawing.Color.Transparent;
-                label66.ForeColor = System.Drawing.Color.Black;
+                label57.ForeColor = System.Drawing.Color.Transparent;
+                label8.BackColor = System.Drawing.Color.Transparent;
+                label66.ForeColor = System.Drawing.Color.Transparent;
                 //label68.BackColor = System.Drawing.Color.Transparent;
                 //label71.BackColor = System.Drawing.Color.Transparent;
-                label70.ForeColor = System.Drawing.Color.Black;
-                label80.ForeColor = System.Drawing.Color.Black;
+                label70.ForeColor = System.Drawing.Color.Transparent;
+                label80.ForeColor = System.Drawing.Color.Transparent;
                 //label81.BackColor = System.Drawing.Color.Transparent;
                 //label12.BackColor = System.Drawing.Color.Transparent;
-                label21.ForeColor = System.Drawing.Color.Black;
+                label21.ForeColor = System.Drawing.Color.Transparent;
                 //label11.BackColor = System.Drawing.Color.Transparent;
-                label32.ForeColor = System.Drawing.Color.Black;
-                label23.ForeColor = System.Drawing.Color.Black;
-                label40.ForeColor = System.Drawing.Color.Black;
+                label32.ForeColor = System.Drawing.Color.Transparent;
+                label23.ForeColor = System.Drawing.Color.Transparent;
+                label40.ForeColor = System.Drawing.Color.Transparent;
                 //label41.BackColor = System.Drawing.Color.Transparent;
-                label16.ForeColor = System.Drawing.Color.Black;
-                label17.ForeColor = System.Drawing.Color.Black;
+                label16.ForeColor = System.Drawing.Color.Transparent;
+                label17.ForeColor = System.Drawing.Color.Transparent;
                 //label18.BackColor = System.Drawing.Color.Transparent;
                // label19.BackColor = System.Drawing.Color.Transparent;
                 //label20.BackColor = System.Drawing.Color.Transparent;
-                label5.ForeColor = System.Drawing.Color.Black;
-                label6.ForeColor = System.Drawing.Color.Black;
-                label7.ForeColor = System.Drawing.Color.Black;
+                label5.ForeColor = System.Drawing.Color.Transparent;
+                label6.ForeColor = System.Drawing.Color.Transparent;
+                label7.ForeColor = System.Drawing.Color.Transparent;
                 //label8.BackColor = System.Drawing.Color.Transparent;
 
                 label57.Text = "---";
@@ -1702,7 +1702,7 @@ namespace labor_data
             //modify
             if (label16.Text == "---" && label17.Text == "---")
             {
-                MessageBox.Show("Please Click on + Button to Calculate $FF and %GG", "$FF and %% Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please click on + button to add COGS values", "COSG Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             //CASE222222
             else
@@ -1713,9 +1713,9 @@ namespace labor_data
 
                 if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
                 {
-                    string message = "Numeric Values is Missing";
+                    string message = "Some numeric values are missing";
                     string title = "Alert";
-                    MessageBox.Show(message, title);
+                    MessageBox.Show(message, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
@@ -1850,7 +1850,7 @@ namespace labor_data
             if (label8.Text == "---" )
             {
 
-                MessageBox.Show("Please Click on + Button to Calculate Total OpEx", "Total OpEx Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please click on + button to add Operating Expense values", "Total OpEx Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             }
             //case2...........
@@ -1859,7 +1859,7 @@ namespace labor_data
                 //label45.BackColor = System.Drawing.Color.Transparent;
                 label57.ForeColor = System.Drawing.Color.Black;
                 //label58.ForeColor = System.Drawing.Color.Black;
-                //label66.BackColor = System.Drawing.Color.Transparent;
+                label66.ForeColor = System.Drawing.Color.Black;
                 //label68.BackColor = System.Drawing.Color.Transparent;
                 //label71.BackColor = System.Drawing.Color.Transparent;
                 label70.ForeColor = System.Drawing.Color.Black;
@@ -1872,9 +1872,9 @@ namespace labor_data
                 String perr_xs = label63.Text;
                 if (textBox1.Text == "" || perr_xs == "Null" && textBox7.Text == "" || textBox7.Text == null)
                 {
-                    string message = "Numeric Values is Missing For Gross Sale ($A)";
+                    string message = "Values is Missing For Gross Sale OR $Card processing fee not Availble";
                     string title = "Alert";
-                    MessageBox.Show(message, title);
+                    MessageBox.Show(message, title,MessageBoxButtons.OK,MessageBoxIcon.Error);
                 }
                 else
                 {
@@ -2191,9 +2191,9 @@ namespace labor_data
                 String perr_xs = label38.Text;
                 if (textBox1.Text == "" || per_xs == "Null" && textBox6.Text == "" || textBox6.Text == null || perr_xs == "Null" && textBox7.Text == "" || textBox7.Text == null)
                 {
-                    string message = "Values is Missing For Gross Sale OR $P,$N not Availble ";
+                    string message = "Values is Missing For Gross Sale OR $insurance,$PayRoll tax not Availble ";
                     string title = "Alert";
-                    MessageBox.Show(message, title);
+                    MessageBox.Show(message, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
@@ -2834,6 +2834,34 @@ namespace labor_data
 
         private void Form7_Load(object sender, EventArgs e)
         {
+            //label45.BackColor = System.Drawing.Color.Transparent;
+            label57.ForeColor = System.Drawing.Color.Transparent;
+            label8.BackColor = System.Drawing.Color.Transparent;
+            label66.ForeColor = System.Drawing.Color.Transparent;
+            //label68.BackColor = System.Drawing.Color.Transparent;
+            //label71.BackColor = System.Drawing.Color.Transparent;
+            label70.ForeColor = System.Drawing.Color.Transparent;
+            label80.ForeColor = System.Drawing.Color.Transparent;
+            //label81.BackColor = System.Drawing.Color.Transparent;
+            //label12.BackColor = System.Drawing.Color.Transparent;
+            label21.ForeColor = System.Drawing.Color.Transparent;
+            //label11.BackColor = System.Drawing.Color.Transparent;
+            label32.ForeColor = System.Drawing.Color.Transparent;
+            label23.ForeColor = System.Drawing.Color.Transparent;
+            label40.ForeColor = System.Drawing.Color.Transparent;
+            //label41.BackColor = System.Drawing.Color.Transparent;
+            label16.ForeColor = System.Drawing.Color.Transparent;
+            label17.ForeColor = System.Drawing.Color.Transparent;
+            //label18.BackColor = System.Drawing.Color.Transparent;
+            // label19.BackColor = System.Drawing.Color.Transparent;
+            //label20.BackColor = System.Drawing.Color.Transparent;
+            label5.ForeColor = System.Drawing.Color.Transparent;
+            label6.ForeColor = System.Drawing.Color.Transparent;
+            label7.ForeColor = System.Drawing.Color.Transparent;
+            //label8.BackColor = System.Drawing.Color.Transparent;
+
+
+
             textBox9.Enabled = false;
             //db_conect.ConnectionString = con_str;
             //db_conect.Open();
@@ -2852,7 +2880,7 @@ namespace labor_data
             //fill_combox5();
             comboBox1.DataSource = combox_dt;
             comboBox1.DisplayMember = "dropdown1";
-            comboBox1.Text ="Please Select...";
+            comboBox1.Text ="Please Select";
 
             //comboBox2.DataSource = combox_2_dt;
             //comboBox2.DisplayMember = "dropdown2";
@@ -2862,7 +2890,7 @@ namespace labor_data
 
             comboBox3.DataSource = combox_3_dt;
             comboBox3.DisplayMember = "dropdown3";
-            comboBox3.Text = "Select Labor Type...";
+            comboBox3.Text = "Select Labor Type";
 
 
             string qry = "select * From free_values WHERE v_id=1";
@@ -2913,9 +2941,9 @@ namespace labor_data
 
             if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
             {
-                string message = "Some Numeric Values is Missing";
-                string title = "Alert";
-                MessageBox.Show(message, title);
+                string message = "Some numeric values are missing";
+                string title = "Alert Sales Revenue Value Missing";
+                MessageBox.Show(message, title,MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             else
             {
@@ -2969,64 +2997,21 @@ namespace labor_data
 
                 if(grs_sale<g_sale)
                 {
-                    MessageBox.Show("Sum of Cash Sale + Non Cash Sale is Less then Total Gross Sale", "Alert Sum Not Equal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Sum of Cash Sales + Non-Cash Sales is less than total Gross Sales", "Alert Sum Not Equal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                bool csh_sale_negative = csh_sale < 0;
-                bool n_csh_sale_negative = n_csh_sale < 0;
-                bool grs_csh_sale_negative = grs_sale < 0;
-                bool e_negative = eper < 0;
-
-                if (csh_sale_negative == false && n_csh_sale_negative == false && grs_csh_sale_negative == false && e_negative == false)
+                if(grs_sale > g_sale)
                 {
-                    label5.Text = csh_sale.ToString();
-                    label6.Text = n_csh_sale.ToString();
-                    string dds = grs_sale.ToString();
-                    string eps = eper.ToString();
-                    label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
-                    label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
-                    dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
-                    eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                    label7.Text = dds + "   |   " + eps;
-
+                    MessageBox.Show("Sum of Cash Sales + Non-Cash Sales is greater than total Gross Sales", "Alert Sum Not Equal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
-                else
+                else if(grs_sale == g_sale)
                 {
-                    if (csh_sale_negative == true)
+                    bool csh_sale_negative = csh_sale < 0;
+                    bool n_csh_sale_negative = n_csh_sale < 0;
+                    bool grs_csh_sale_negative = grs_sale < 0;
+                    bool e_negative = eper < 0;
+
+                    if (csh_sale_negative == false && n_csh_sale_negative == false && grs_csh_sale_negative == false && e_negative == false)
                     {
-                        label5.Text = csh_sale.ToString();
-                        label5.ForeColor = System.Drawing.Color.Red;
-                        label6.Text = n_csh_sale.ToString();
-                        string dds = grs_sale.ToString();
-                        string eps = eper.ToString();
-                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
-                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
-                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
-                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-
-                        label7.Text = dds + "   |   " + eps;
-
-                    }
-                    if (n_csh_sale_negative == true)
-                    {
-
-                        label5.Text = csh_sale.ToString();
-                        label6.Text = n_csh_sale.ToString();
-                        label6.ForeColor = System.Drawing.Color.Red;
-                        string dds = grs_sale.ToString();
-                        string eps = eper.ToString();
-                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
-                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
-                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
-                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                        label7.Text = dds + "   |   " + eps;
-
-
-
-                    }
-                    if (grs_csh_sale_negative == true)
-                    {
-
                         label5.Text = csh_sale.ToString();
                         label6.Text = n_csh_sale.ToString();
                         string dds = grs_sale.ToString();
@@ -3036,31 +3021,82 @@ namespace labor_data
                         dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
                         eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
                         label7.Text = dds + "   |   " + eps;
-                        label7.ForeColor = System.Drawing.Color.Red;
 
                     }
-                    if (e_negative == true)
-                    {
 
-                        label5.Text = csh_sale.ToString();
-                        label6.Text = n_csh_sale.ToString();
-                        string dds = grs_sale.ToString();
-                        string eps = eper.ToString();
-                        label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
-                        label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
-                        dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
-                        eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
-                        if (dds.Contains("("))
+                    else
+                    {
+                        if (csh_sale_negative == true)
                         {
-                            dds = dds.Replace("(", "-");
-                            dds = dds.Replace(")", "");
-                        }
-                        label7.Text = dds + "   |   " + eps;
-                        label7.ForeColor = System.Drawing.Color.Red;
-                    }
-                }
+                            label5.Text = csh_sale.ToString();
+                            label5.ForeColor = System.Drawing.Color.Red;
+                            label6.Text = n_csh_sale.ToString();
+                            string dds = grs_sale.ToString();
+                            string eps = eper.ToString();
+                            label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                            label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                            dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                            eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
 
+                            label7.Text = dds + "   |   " + eps;
+
+                        }
+                        if (n_csh_sale_negative == true)
+                        {
+
+                            label5.Text = csh_sale.ToString();
+                            label6.Text = n_csh_sale.ToString();
+                            label6.ForeColor = System.Drawing.Color.Red;
+                            string dds = grs_sale.ToString();
+                            string eps = eper.ToString();
+                            label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                            label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                            dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                            eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                            label7.Text = dds + "   |   " + eps;
+
+
+
+                        }
+                        if (grs_csh_sale_negative == true)
+                        {
+
+                            label5.Text = csh_sale.ToString();
+                            label6.Text = n_csh_sale.ToString();
+                            string dds = grs_sale.ToString();
+                            string eps = eper.ToString();
+                            label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                            label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                            dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                            eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                            label7.Text = dds + "   |   " + eps;
+                            label7.ForeColor = System.Drawing.Color.Red;
+
+                        }
+                        if (e_negative == true)
+                        {
+
+                            label5.Text = csh_sale.ToString();
+                            label6.Text = n_csh_sale.ToString();
+                            string dds = grs_sale.ToString();
+                            string eps = eper.ToString();
+                            label5.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label5.Text));
+                            label6.Text = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(label6.Text));
+                            dds = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:C0}", double.Parse(dds));
+                            eps = string.Format(CultureInfo.CreateSpecificCulture("en-US"), "{0:P0}", double.Parse(eps));
+                            if (dds.Contains("("))
+                            {
+                                dds = dds.Replace("(", "-");
+                                dds = dds.Replace(")", "");
+                            }
+                            label7.Text = dds + "   |   " + eps;
+                            label7.ForeColor = System.Drawing.Color.Red;
+                        }
+                    }
+
+                }
             }
+               
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

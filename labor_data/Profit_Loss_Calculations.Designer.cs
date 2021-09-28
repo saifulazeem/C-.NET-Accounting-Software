@@ -57,6 +57,7 @@
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -107,7 +108,6 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -299,9 +299,9 @@
             this.label47.Location = new System.Drawing.Point(9, 65);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(253, 13);
+            this.label47.Size = new System.Drawing.Size(214, 13);
             this.label47.TabIndex = 24;
-            this.label47.Text = "Note * Click + Button to Add Multiple (COGS) Values";
+            this.label47.Text = "Click + Button to Add Multiple COGS Values";
             // 
             // button13
             // 
@@ -406,9 +406,9 @@
             this.label50.Location = new System.Drawing.Point(4, 65);
             this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(245, 13);
+            this.label50.Size = new System.Drawing.Size(212, 13);
             this.label50.TabIndex = 27;
-            this.label50.Text = "Note * Click + Button to Add Multiple COLE Values";
+            this.label50.Text = "Click + Button to Add Multiple COLE Values";
             // 
             // button14
             // 
@@ -459,6 +459,15 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "PayRoll Tax";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(31, 24);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(15, 13);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "%";
+            // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
@@ -477,9 +486,9 @@
             this.label10.Location = new System.Drawing.Point(4, 80);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(196, 26);
+            this.label10.Size = new System.Drawing.Size(170, 26);
             this.label10.TabIndex = 25;
-            this.label10.Text = "*Note Enter payroll tax if % is Null or You\r\nwant to Override payroll tax$ value";
+            this.label10.Text = "Enter payroll tax if % is Null or You\r\nwant to Override payroll tax$ value";
             // 
             // label23
             // 
@@ -565,9 +574,9 @@
             this.label33.Location = new System.Drawing.Point(4, 80);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(195, 26);
+            this.label33.Size = new System.Drawing.Size(172, 26);
             this.label33.TabIndex = 25;
-            this.label33.Text = "*Note Enter insurance if % is Null or You\r\nwant to Override insurance $ value";
+            this.label33.Text = "Enter insurance if % is Null or You\r\nwant to Override insurance $ value";
             // 
             // label32
             // 
@@ -674,9 +683,9 @@
             this.label53.Location = new System.Drawing.Point(4, 65);
             this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(243, 13);
+            this.label53.Size = new System.Drawing.Size(210, 13);
             this.label53.TabIndex = 32;
-            this.label53.Text = "Note * Click + Button to Add Multiple OpEx Values";
+            this.label53.Text = "Click + Button to Add Multiple OpEx Values";
             // 
             // button15
             // 
@@ -722,7 +731,7 @@
             this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox7.Size = new System.Drawing.Size(240, 161);
+            this.groupBox7.Size = new System.Drawing.Size(260, 161);
             this.groupBox7.TabIndex = 21;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Card Processing Fee";
@@ -739,12 +748,12 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(100, 49);
+            this.checkBox3.Location = new System.Drawing.Point(104, 49);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(66, 17);
+            this.checkBox3.Size = new System.Drawing.Size(69, 17);
             this.checkBox3.TabIndex = 22;
-            this.checkBox3.Text = "Override";
+            this.checkBox3.Text = "Overrride";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
@@ -755,10 +764,9 @@
             this.label56.Location = new System.Drawing.Point(4, 80);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(218, 26);
+            this.label56.Size = new System.Drawing.Size(197, 26);
             this.label56.TabIndex = 25;
-            this.label56.Text = "*Note Enter processing fee if % is Null or You\r\nwant to Override processing fee v" +
-    "alue";
+            this.label56.Text = "Check box if you would like to override\r\nCard Processing Fee with a new amount";
             // 
             // label57
             // 
@@ -904,12 +912,12 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1202, 43);
+            this.button5.Location = new System.Drawing.Point(1202, 119);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(118, 46);
             this.button5.TabIndex = 26;
-            this.button5.Text = "Tool 1";
+            this.button5.Text = "Labor Data";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -926,23 +934,23 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1202, 118);
+            this.button6.Location = new System.Drawing.Point(1202, 194);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(118, 46);
             this.button6.TabIndex = 27;
-            this.button6.Text = "Tool 2";
+            this.button6.Text = "Sales Volume";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1202, 194);
+            this.button7.Location = new System.Drawing.Point(1202, 44);
             this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(118, 46);
             this.button7.TabIndex = 28;
-            this.button7.Text = "Tool 3";
+            this.button7.Text = "Profit & Loss ";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -1010,15 +1018,6 @@
             this.button16.Text = "Defined Dropdown Values";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(31, 24);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(15, 13);
-            this.label12.TabIndex = 31;
-            this.label12.Text = "%";
             // 
             // Profit_Loss_Calculations
             // 

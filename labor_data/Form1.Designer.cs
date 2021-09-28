@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.labor_data_tbBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.labor_dataset = new labor_data.labor_dataset();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -438,34 +438,34 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(1197, 82);
+            this.button8.Location = new System.Drawing.Point(1197, 139);
             this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(88, 36);
             this.button8.TabIndex = 21;
-            this.button8.Text = "Tool 2";
+            this.button8.Text = "Sales Volume";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(1197, 139);
+            this.button9.Location = new System.Drawing.Point(1197, 28);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(88, 36);
             this.button9.TabIndex = 22;
-            this.button9.Text = "Tool 3";
+            this.button9.Text = "Profit & Loss";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(1197, 30);
+            this.button10.Location = new System.Drawing.Point(1197, 82);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(88, 36);
             this.button10.TabIndex = 47;
-            this.button10.Text = "Tool 1";
+            this.button10.Text = "Labor Data";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -482,9 +482,9 @@
             // 
             // reportViewer1
             // 
-            reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.labor_data_tbBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.labor_data_tbBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "labor_data.labor_data_report.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(18, 418);
             this.reportViewer1.Name = "reportViewer1";

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.sales_volume_tbBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sales_vol_data = new labor_data.sales_vol_data();
             this.label1 = new System.Windows.Forms.Label();
@@ -262,7 +262,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1191, 304);
+            this.button2.Location = new System.Drawing.Point(1191, 298);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 34);
@@ -273,41 +273,41 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1191, 146);
+            this.button5.Location = new System.Drawing.Point(1191, 34);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(83, 34);
             this.button5.TabIndex = 7;
-            this.button5.Text = "Tool 3";
+            this.button5.Text = "Profit & Loss";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1191, 42);
+            this.button6.Location = new System.Drawing.Point(1191, 88);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(83, 34);
             this.button6.TabIndex = 6;
-            this.button6.Text = "Tool 1";
+            this.button6.Text = "Labor Data";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1191, 97);
+            this.button7.Location = new System.Drawing.Point(1191, 140);
             this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(83, 34);
             this.button7.TabIndex = 24;
-            this.button7.Text = "Tool 2";
+            this.button7.Text = "Sales Volume";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // reportViewer1
             // 
-            reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.sales_volume_tbBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.sales_volume_tbBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "labor_data.Sales_Vol_Report.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(45, 364);
             this.reportViewer1.Name = "reportViewer1";
@@ -340,7 +340,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1191, 201);
+            this.button3.Location = new System.Drawing.Point(1191, 193);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(83, 34);
@@ -351,7 +351,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1191, 251);
+            this.button4.Location = new System.Drawing.Point(1191, 247);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(83, 34);

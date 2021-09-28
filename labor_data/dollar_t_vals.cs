@@ -302,7 +302,7 @@ namespace labor_data
                     Label cbxlabel = new Label();
 
                     //gs = textBox1.Text;
-                    if (gs == "" || cbxitem == "Item name" || cbxitem == "" || gs == null || textBox2.Text == null || textBox2.Text =="")
+                    if (gs == "" || comboBox5.Text == null || comboBox5.Text == "" || gs == null || textBox2.Text == null || textBox2.Text =="")
                     {
                         MessageBox.Show("Gross Sale Value $A is Missing OR Choose Item Name Missig","Alert",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         //mylab.Text = "U% : ----";
@@ -367,7 +367,7 @@ namespace labor_data
                             adopt.Fill(dgv_dt);
                             dataGridView1.DataSource = dgv_dt;
                             dataGridView1.Columns["tu_id"].Visible = false;
-                            dataGridView1.Columns[1].HeaderText = "Item name";
+                            dataGridView1.Columns[1].HeaderText = "Item Name";
                             dataGridView1.Columns[2].HeaderText = "Operating Cost";
                             dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -634,7 +634,7 @@ namespace labor_data
                     adopt.Fill(dgv_dt);
                     dataGridView1.DataSource = dgv_dt;
                     dataGridView1.Columns["tu_id"].Visible = false;
-                    dataGridView1.Columns[1].HeaderText = "Item name";
+                    dataGridView1.Columns[1].HeaderText = "Item Name";
                     dataGridView1.Columns[2].HeaderText = "Operating Cost";
                     dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -710,7 +710,7 @@ namespace labor_data
             adopt.Fill(dgv_dt);
             dataGridView1.DataSource = dgv_dt;
             dataGridView1.Columns["tu_id"].Visible = false;
-            dataGridView1.Columns[1].HeaderText = "Item name";
+            dataGridView1.Columns[1].HeaderText = "Item Name";
             dataGridView1.Columns[2].HeaderText = "Operating Cost";
             dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -735,7 +735,7 @@ namespace labor_data
             fill_combox5();
             comboBox5.DataSource = cbx_data_tu;
             comboBox5.DisplayMember = "dropdown5";
-            comboBox5.Text = "Item name";
+            comboBox5.Text = "";
 
             //////pointX = 65;
             //////pointY = 48;
