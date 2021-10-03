@@ -71,7 +71,7 @@ namespace labor_data
 
         private void button5_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Do You Wnat to Switch to Tool 1 ?", "Close Tool 3", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Do you want to switch to Tool 1?", "Close Tool 3", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.Yes)
             {
                 //do something
@@ -1139,7 +1139,7 @@ namespace labor_data
 
         private void button11_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to reset all fields? ", "Reset", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to reset all fields?", "Reset", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.Yes)
             {
                 ctk = -1;
@@ -2176,7 +2176,7 @@ namespace labor_data
             if (label21.Text == "---" )
             {
 
-                MessageBox.Show("Please Click on + Button to Calculate $L and %M", "$L and %M Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please click on + button to add LC values", "LC Not Calculated", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             //case2================
             else
@@ -2777,7 +2777,7 @@ namespace labor_data
         private void Profit_Loss_Calculations_FormClosing(object sender, FormClosingEventArgs e)
         {
             //form closing...
-            DialogResult dialogResult = MessageBox.Show("Do You want to Exit ?", "You are About to Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Do you want to exit?", "You are about to exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.Yes)
             {
                 //do something

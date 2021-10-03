@@ -457,7 +457,7 @@
             this.groupBox5.Size = new System.Drawing.Size(307, 170);
             this.groupBox5.TabIndex = 14;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "PayRoll Tax";
+            this.groupBox5.Text = "Payroll Tax";
             // 
             // label12
             // 
@@ -486,9 +486,9 @@
             this.label10.Location = new System.Drawing.Point(4, 80);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(170, 26);
+            this.label10.Size = new System.Drawing.Size(189, 26);
             this.label10.TabIndex = 25;
-            this.label10.Text = "Enter payroll tax if % is Null or You\r\nwant to Override payroll tax$ value";
+            this.label10.Text = "Check box if you would like to override\r\nPayroll Tax value with a new amount";
             // 
             // label23
             // 
@@ -574,9 +574,9 @@
             this.label33.Location = new System.Drawing.Point(4, 80);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(172, 26);
+            this.label33.Size = new System.Drawing.Size(189, 26);
             this.label33.TabIndex = 25;
-            this.label33.Text = "Enter insurance if % is Null or You\r\nwant to Override insurance $ value";
+            this.label33.Text = "Check box if you would like to override\r\n Insurance value with a new amount";
             // 
             // label32
             // 
@@ -634,9 +634,9 @@
             this.label25.Location = new System.Drawing.Point(192, 29);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(41, 13);
+            this.label25.Size = new System.Drawing.Size(26, 13);
             this.label25.TabIndex = 17;
-            this.label25.Text = "COLE :";
+            this.label25.Text = "LC :";
             // 
             // comboBox3
             // 
@@ -979,12 +979,12 @@
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(963, 9);
+            this.label46.Location = new System.Drawing.Point(997, 9);
             this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(131, 26);
+            this.label46.Size = new System.Drawing.Size(74, 26);
             this.label46.TabIndex = 42;
-            this.label46.Text = "Notes Area";
+            this.label46.Text = "Notes";
             // 
             // button11
             // 
@@ -993,7 +993,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(118, 47);
             this.button11.TabIndex = 33;
-            this.button11.Text = "Rest All";
+            this.button11.Text = "Reset All";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -1004,7 +1004,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(118, 46);
             this.button12.TabIndex = 31;
-            this.button12.Text = "Defined Values ";
+            this.button12.Text = "Define Values";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
@@ -1015,7 +1015,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(118, 46);
             this.button16.TabIndex = 32;
-            this.button16.Text = "Defined Dropdown Values";
+            this.button16.Text = "Define Dropdown values";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 

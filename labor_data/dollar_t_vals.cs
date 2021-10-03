@@ -394,7 +394,7 @@ namespace labor_data
 
                             }
                            textBox2.Text = null;
-                           comboBox5.Text = "Item name";
+                           comboBox5.Text = "";
                             sum_p = sum_p / 100;
                             if (sum_d<0)
                             {

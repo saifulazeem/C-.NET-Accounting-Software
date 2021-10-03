@@ -299,7 +299,7 @@ namespace labor_data
 
                             }
                             txt1.Text = null;
-                            comboBox2.Text = "Item name";
+                            comboBox2.Text = "";
                             sum_p = sum_p / 100;
                             if (sum_d < 0)
                             {

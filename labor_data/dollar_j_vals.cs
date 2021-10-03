@@ -210,7 +210,7 @@ namespace labor_data
                     //gs = textBox1.Text;
                     if (gs == "" || cbxitem == "Labor Type" || cbxitem == "" || gs == null || textBox2.Text =="")
                     {
-                        MessageBox.Show("Labor type OR Gross sale value from Sales Revenue is Missing","Alert",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                        MessageBox.Show("Missing Labor Type or Labor Cost", "Alert",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                         //mylab.Text = "K% : ----";
                     }
                     else
@@ -277,7 +277,7 @@ namespace labor_data
                             adopt.Fill(dgv_dt);
                             dataGridView1.DataSource = dgv_dt;
                             dataGridView1.Columns["ts_id"].Visible = false;
-                            dataGridView1.Columns[1].HeaderText = "Item name";
+                            dataGridView1.Columns[1].HeaderText = "Labor Type";
                             dataGridView1.Columns[2].HeaderText = "Cost of Labor";
                             dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -304,7 +304,7 @@ namespace labor_data
 
                             }
                             textBox2.Text = null;
-                            comboBox2.Text = "Labor Type";
+                            comboBox2.Text = "";
                             sum_p = sum_p / 100;
                             if (sum_d < 0)
                             {
@@ -639,7 +639,7 @@ namespace labor_data
             adopt.Fill(dgv_dt);
             dataGridView1.DataSource = dgv_dt;
             dataGridView1.Columns["ts_id"].Visible = false;
-            dataGridView1.Columns[1].HeaderText = "Item name";
+            dataGridView1.Columns[1].HeaderText = "Labor Type";
             dataGridView1.Columns[2].HeaderText = "Cost of Item";
             dataGridView1.Columns[3].HeaderText = "Percentage%";
 
@@ -663,7 +663,7 @@ namespace labor_data
             fill_combox4();
             comboBox2.DataSource = cbx_data_jk;
             comboBox2.DisplayMember = "dropdown4";
-            comboBox2.Text = "Labor Type";
+            comboBox2.Text = "";
 
             //pointX = 70;
             //pointY = 47;
@@ -701,7 +701,7 @@ namespace labor_data
 
             }
             textBox2.Text = null;
-            comboBox2.Text = "Labor Type";
+            comboBox2.Text = "";
             sum_p = sum_p / 100;
             if (sum_d < 0)
             {
