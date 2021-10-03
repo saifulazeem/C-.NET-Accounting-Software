@@ -115,7 +115,7 @@ namespace labor_data
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
-                    MessageBox.Show(" X% Value is SET to 'null'");
+                    MessageBox.Show(" Value set to $0");
                 }
                 else
                 {
@@ -144,7 +144,7 @@ namespace labor_data
                 }
                 else
                 {
-                    MessageBox.Show("Percentage Can not Be greater than 100%", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Percentage cannot be greater than 100%", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                    
             }
@@ -167,7 +167,7 @@ namespace labor_data
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
-                    MessageBox.Show("XX% value is SET to 'null'");
+                    MessageBox.Show("Value set to $0");
                 }
                 else
                 {
@@ -218,7 +218,7 @@ namespace labor_data
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
-                    MessageBox.Show("V% Value Set to 'Null' ");
+                    MessageBox.Show("Value set to $0 ");
                 }
                 else
                 {
@@ -269,7 +269,7 @@ namespace labor_data
                 int rows = cmd2.ExecuteNonQuery();
                 if (rows > 0)
                 {
-                    MessageBox.Show(" $Z value SET to 'Null'");
+                    MessageBox.Show(" Value set to $0");
                 }
                 else
                 {

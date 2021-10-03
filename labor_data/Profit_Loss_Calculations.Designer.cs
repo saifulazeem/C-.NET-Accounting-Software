@@ -108,6 +108,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -117,6 +118,7 @@
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -229,9 +231,9 @@
             this.label4.Location = new System.Drawing.Point(5, 166);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 13);
+            this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Gross Sales :";
+            this.label4.Text = "Gross Sales:";
             // 
             // label3
             // 
@@ -239,9 +241,9 @@
             this.label3.Location = new System.Drawing.Point(2, 123);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
+            this.label3.Size = new System.Drawing.Size(86, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Non-Cash Sales :";
+            this.label3.Text = "Non-Cash Sales:";
             // 
             // label2
             // 
@@ -249,9 +251,9 @@
             this.label2.Location = new System.Drawing.Point(5, 89);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Cash Sales :";
+            this.label2.Text = "Cash Sales:";
             // 
             // label1
             // 
@@ -259,9 +261,9 @@
             this.label1.Location = new System.Drawing.Point(5, 59);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Gross Sales :";
+            this.label1.Text = "Gross Sales:";
             // 
             // comboBox1
             // 
@@ -352,9 +354,9 @@
             this.label15.Location = new System.Drawing.Point(4, 176);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(81, 13);
+            this.label15.Size = new System.Drawing.Size(77, 13);
             this.label15.TabIndex = 19;
-            this.label15.Text = "Gross Profit :";
+            this.label15.Text = "Gross Profit:";
             // 
             // label14
             // 
@@ -363,9 +365,9 @@
             this.label14.Location = new System.Drawing.Point(1, 107);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(73, 13);
+            this.label14.Size = new System.Drawing.Size(69, 13);
             this.label14.TabIndex = 18;
-            this.label14.Text = "Total Cost :";
+            this.label14.Text = "Total Cost:";
             // 
             // label13
             // 
@@ -373,9 +375,9 @@
             this.label13.Location = new System.Drawing.Point(4, 34);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(43, 13);
+            this.label13.Size = new System.Drawing.Size(40, 13);
             this.label13.TabIndex = 17;
-            this.label13.Text = "COGS :";
+            this.label13.Text = "COGS:";
             // 
             // groupBox3
             // 
@@ -438,9 +440,9 @@
             this.label39.Location = new System.Drawing.Point(275, 91);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(80, 13);
+            this.label39.Size = new System.Drawing.Size(76, 13);
             this.label39.TabIndex = 29;
-            this.label39.Text = "Labor Total :";
+            this.label39.Text = "Labor Total:";
             // 
             // groupBox5
             // 
@@ -624,9 +626,9 @@
             this.label24.Location = new System.Drawing.Point(4, 91);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(76, 13);
+            this.label24.Size = new System.Drawing.Size(72, 13);
             this.label24.TabIndex = 18;
-            this.label24.Text = "Labor Cost :";
+            this.label24.Text = "Labor Cost:";
             // 
             // label25
             // 
@@ -634,9 +636,9 @@
             this.label25.Location = new System.Drawing.Point(192, 29);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(26, 13);
+            this.label25.Size = new System.Drawing.Size(23, 13);
             this.label25.TabIndex = 17;
-            this.label25.Text = "LC :";
+            this.label25.Text = "LC:";
             // 
             // comboBox3
             // 
@@ -649,11 +651,10 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.groupBox10);
             this.groupBox6.Controls.Add(this.label8);
             this.groupBox6.Controls.Add(this.label53);
             this.groupBox6.Controls.Add(this.button15);
-            this.groupBox6.Controls.Add(this.label66);
-            this.groupBox6.Controls.Add(this.label64);
             this.groupBox6.Controls.Add(this.groupBox7);
             this.groupBox6.Controls.Add(this.groupBox8);
             this.groupBox6.Controls.Add(this.label44);
@@ -701,7 +702,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(38, 296);
+            this.label66.Location = new System.Drawing.Point(24, 43);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(16, 13);
@@ -712,12 +713,12 @@
             // 
             this.label64.AutoSize = true;
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(4, 260);
+            this.label64.Location = new System.Drawing.Point(5, 16);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(78, 13);
+            this.label64.Size = new System.Drawing.Size(74, 13);
             this.label64.TabIndex = 36;
-            this.label64.Text = "Total OpEx :";
+            this.label64.Text = "Total OpEx:";
             // 
             // groupBox7
             // 
@@ -810,7 +811,7 @@
             this.groupBox8.Size = new System.Drawing.Size(255, 296);
             this.groupBox8.TabIndex = 62;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "CashFlow (EBITDA)";
+            this.groupBox8.Text = "Cash Flow (EBITDA)";
             // 
             // groupBox9
             // 
@@ -843,9 +844,9 @@
             this.label72.Location = new System.Drawing.Point(4, 58);
             this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(51, 13);
+            this.label72.Size = new System.Drawing.Size(60, 13);
             this.label72.TabIndex = 42;
-            this.label72.Text = "Owner :";
+            this.label72.Text = "Operator:";
             // 
             // label79
             // 
@@ -885,9 +886,9 @@
             this.label69.Location = new System.Drawing.Point(8, 31);
             this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(67, 13);
+            this.label69.Size = new System.Drawing.Size(63, 13);
             this.label69.TabIndex = 41;
-            this.label69.Text = "Managed :";
+            this.label69.Text = "Managed:";
             // 
             // label44
             // 
@@ -895,9 +896,9 @@
             this.label44.Location = new System.Drawing.Point(12, 32);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(39, 13);
+            this.label44.Size = new System.Drawing.Size(36, 13);
             this.label44.TabIndex = 32;
-            this.label44.Text = "OpEx :";
+            this.label44.Text = "OpEx:";
             // 
             // richTextBox1
             // 
@@ -1019,6 +1020,16 @@
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label64);
+            this.groupBox10.Controls.Add(this.label66);
+            this.groupBox10.Location = new System.Drawing.Point(0, 253);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(271, 76);
+            this.groupBox10.TabIndex = 64;
+            this.groupBox10.TabStop = false;
+            // 
             // Profit_Loss_Calculations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1063,6 +1074,8 @@
             this.groupBox8.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1150,5 +1163,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.GroupBox groupBox10;
     }
 }

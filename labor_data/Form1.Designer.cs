@@ -216,9 +216,9 @@
             this.label4.Location = new System.Drawing.Point(33, 28);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 13);
+            this.label4.Size = new System.Drawing.Size(123, 13);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Annual Gross Revenue ";
+            this.label4.Text = "Annual Gross Revenue: ";
             // 
             // textBox14
             // 
@@ -354,9 +354,9 @@
             this.label15.Location = new System.Drawing.Point(33, 139);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(129, 13);
+            this.label15.Size = new System.Drawing.Size(126, 13);
             this.label15.TabIndex = 32;
-            this.label15.Text = "Annual Operating Hours  :";
+            this.label15.Text = "Annual Operating Hours :";
             // 
             // label17
             // 
@@ -402,9 +402,9 @@
             this.label18.Location = new System.Drawing.Point(33, 64);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(122, 13);
+            this.label18.Size = new System.Drawing.Size(119, 13);
             this.label18.TabIndex = 38;
-            this.label18.Text = "Annual Operating Days :";
+            this.label18.Text = "Annual Operating Days:";
             // 
             // label19
             // 
@@ -412,9 +412,9 @@
             this.label19.Location = new System.Drawing.Point(33, 102);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(116, 13);
+            this.label19.Size = new System.Drawing.Size(113, 13);
             this.label19.TabIndex = 39;
-            this.label19.Text = "Daily Operating Hours :";
+            this.label19.Text = "Daily Operating Hours:";
             // 
             // button5
             // 
@@ -473,12 +473,12 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(924, 9);
+            this.label20.Location = new System.Drawing.Point(949, 9);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(89, 17);
+            this.label20.Size = new System.Drawing.Size(55, 17);
             this.label20.TabIndex = 48;
-            this.label20.Text = "Notes Area";
+            this.label20.Text = "Notes ";
             // 
             // reportViewer1
             // 

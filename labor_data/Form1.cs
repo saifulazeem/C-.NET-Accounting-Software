@@ -182,7 +182,7 @@ namespace labor_data
 
         private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Do You want to Exit ?", "You are About to Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Do you want to exit?", "You are about to exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.Yes)
             {
                 //do something

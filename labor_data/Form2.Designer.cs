@@ -81,9 +81,9 @@
             this.label1.Location = new System.Drawing.Point(35, 57);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 13);
+            this.label1.Size = new System.Drawing.Size(120, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Annual Gross Revenue :";
+            this.label1.Text = "Annual Gross Revenue:";
             // 
             // textBox1
             // 
@@ -125,9 +125,9 @@
             this.label2.Location = new System.Drawing.Point(34, 108);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 13);
+            this.label2.Size = new System.Drawing.Size(119, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Annual Operating Days :";
+            this.label2.Text = "Annual Operating Days:";
             // 
             // label3
             // 
@@ -135,9 +135,9 @@
             this.label3.Location = new System.Drawing.Point(42, 157);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 13);
+            this.label3.Size = new System.Drawing.Size(113, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Daily Operating Hours :";
+            this.label3.Text = "Daily Operating Hours:";
             // 
             // label4
             // 
@@ -145,9 +145,9 @@
             this.label4.Location = new System.Drawing.Point(41, 204);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 13);
+            this.label4.Size = new System.Drawing.Size(114, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Average Sale Receipt :";
+            this.label4.Text = "Average Sale Receipt:";
             // 
             // label5
             // 
@@ -155,9 +155,9 @@
             this.label5.Location = new System.Drawing.Point(407, 53);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 13);
+            this.label5.Size = new System.Drawing.Size(110, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Daily Gross Revenue :";
+            this.label5.Text = "Daily Gross Revenue:";
             // 
             // label6
             // 
@@ -165,9 +165,9 @@
             this.label6.Location = new System.Drawing.Point(400, 88);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(120, 13);
+            this.label6.Size = new System.Drawing.Size(117, 13);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Hourly Gross Revenue :";
+            this.label6.Text = "Hourly Gross Revenue:";
             // 
             // label7
             // 
@@ -175,9 +175,9 @@
             this.label7.Location = new System.Drawing.Point(424, 126);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 13);
+            this.label7.Size = new System.Drawing.Size(98, 13);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Hourly Sale Order :";
+            this.label7.Text = "Hourly Sales Order:";
             // 
             // label8
             // 
@@ -185,9 +185,9 @@
             this.label8.Location = new System.Drawing.Point(431, 167);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 13);
+            this.label8.Size = new System.Drawing.Size(91, 13);
             this.label8.TabIndex = 11;
-            this.label8.Text = "Daily Sale Order :";
+            this.label8.Text = "Daily Sales Order:";
             // 
             // label9
             // 
@@ -195,9 +195,9 @@
             this.label9.Location = new System.Drawing.Point(421, 204);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 13);
+            this.label9.Size = new System.Drawing.Size(101, 13);
             this.label9.TabIndex = 12;
-            this.label9.Text = "Annual Sale Order :";
+            this.label9.Text = "Annual Sales Order:";
             // 
             // label10
             // 
@@ -334,9 +334,9 @@
             this.label20.Location = new System.Drawing.Point(892, 9);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(89, 17);
+            this.label20.Size = new System.Drawing.Size(50, 17);
             this.label20.TabIndex = 49;
-            this.label20.Text = "Notes Area";
+            this.label20.Text = "Notes";
             // 
             // button3
             // 

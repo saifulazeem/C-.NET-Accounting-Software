@@ -1996,7 +1996,7 @@ namespace labor_data
                         percent_w = 0;
                         dollar_vv = 0;
                         ww_percent = 0;
-                        string message = "$ V, W%, $VV and WW%  Can not be Calculated /n Please Calculate $H, $R and $TT First";
+                        string message = "Unable to calculate. Check missing values";
                         string title = "Alert";
                         MessageBox.Show(message, title);
 
